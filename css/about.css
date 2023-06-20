@@ -1,0 +1,148 @@
+.nav-item{
+    padding-top: 20px;
+    padding-right: 50px;
+    padding-bottom: 20px;
+    padding-left: 50px;
+    font-family: 'Playfair Display SC', serif;
+    font-style: italic;
+    
+    font-size: 20px;
+}
+
+#navbarmain{
+    
+    padding-right: 150px;
+    padding-left: 80px;
+}
+
+.about {
+    padding-top: 80px;
+    padding-left: 350px;
+}
+
+.about .card-title{
+    font-size: 70px;
+    font-family: 'Playfair Display SC', serif;
+    padding-left: 30px;
+    padding-right: 10px;
+}
+
+.about h3{
+    font-family: 'Krub', sans-serif;
+    padding-bottom: 50px;
+}
+
+
+.aboutfirst .card-text{
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 20px;
+}
+
+
+.aboutfirst {
+    border: none;
+}
+
+.aboutfirst img:hover{
+    filter: grayscale(100%);
+} 
+
+.companyteam{
+    padding-left: 370px;
+    padding-right: 360px;
+    font-family: 'Raleway', sans-serif;
+    
+}
+
+
+.companyteam .card-body h4{
+    font-weight: 900;
+}
+
+
+.companyservices .card-title{
+    font-size: 70px;
+    font-family: 'Playfair Display SC', serif;
+    padding-left: 350px;
+    padding-right: 30px;
+}
+
+.companyservices .card-text{
+    font-family: 'Krub', sans-serif;
+    padding-left: 350px;
+    padding-right: 350px;
+}
+
+.subservices{
+    padding-left: 350px;
+    padding-right: 350px;
+    padding-bottom: 100px;
+    
+}
+
+.subservices .card-text{
+    font-family: 'Krub', sans-serif;
+}
+
+.subservices .col img{
+    width: 250px;
+    height: 400px;
+}
+
+.subservices .card{
+    border: none;
+}
+
+.subservices .card-footer1 h4,
+.subservices .card-footer2 h4,
+.subservices .card-footer3 h4,
+.subservices .card-footer4 h4
+{
+    text-align: center;
+    padding-top: 20px;
+}
+
+
+
+
+
+.subservices .card .card-body {
+    position: relative;
+    padding: 0;
+    display: block;
+    cursor: pointer;
+    overflow: hidden;
+  }
+  .subservices .card .content1 {
+    opacity: 0;
+    font-size: 60px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: #000000;
+    background-color: rgba(200, 200, 200, 0.5);
+    width: 250px;
+    height: 400px;
+    -webkit-transition: all 400ms ease-out;
+    -moz-transition: all 400ms ease-out;
+    -o-transition: all 400ms ease-out;
+    -ms-transition: all 400ms ease-out;
+    transition: all 400ms ease-out;
+    text-align: center;
+  }
+  .subservices .card .card-body .content1:hover {
+    opacity: 1;
+  }
+  .subservices .card .card-body .content1 .text {
+    color: #000000 !important;
+    height: 0;
+    opacity: 1;
+    transition-delay: 0s;
+    transition-duration: 0.4s;
+    font-family: 'Playfair Display SC', serif;
+  }
+  .subservices .card .card-body .content1:hover .text {
+    opacity: 1;
+    transform: translateY(150px);
+    -webkit-transform: translateY(150px);
+  }

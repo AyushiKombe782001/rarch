@@ -1,0 +1,500 @@
+.nav-item{
+  padding-top: 20px;
+  padding-right: 50px;
+  padding-bottom: 20px;
+  padding-left: 50px;
+  font-family: 'Playfair Display SC', serif;
+  font-style: italic;
+  
+  font-size: 20px;
+}
+
+.nav-item a:link{
+  color: #000;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+#navbarmain{
+  
+  padding-right: 150px;
+  padding-left: 80px;
+}
+
+.navbarlogo img{
+  width: 170px;
+  height: 80px;
+}
+
+.portfolio-title {
+    padding-top: 20px;
+    padding-bottom: 40px;
+    padding-left: 500px;
+    font-size: 70px;
+    font-family: 'Playfair Display SC', serif;
+}
+
+.projectscards .card {
+    width: 60rem;
+    border: none;
+    
+}
+
+.projectscards .image-grid-container {
+    display: grid;
+    /* For 3 columns */
+    grid-template-columns: auto auto auto;
+    border: none;
+}
+
+.projectscards img {
+    width: 100%;
+    padding: 13px;
+}
+
+.projectscards .container {
+    padding-left: 210px;
+    padding-bottom: 100px;
+}
+
+
+
+
+
+
+.projectscards .container .example1 {
+    position: relative;
+    padding: 0;
+    display: block;
+    cursor: pointer;
+    overflow: hidden;
+  }
+  .projectscards .container .content1 {
+    opacity: 0;
+    font-size: 60px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: #000000;
+    background-color: rgba(200, 200, 200, 0.3);
+    width: 320px;
+    height: 320px;
+    -webkit-transition: all 400ms ease-out;
+    -moz-transition: all 400ms ease-out;
+    -o-transition: all 400ms ease-out;
+    -ms-transition: all 400ms ease-out;
+    transition: all 400ms ease-out;
+    text-align: center;
+
+  }
+  .projectscards .container .example1 .content1:hover {
+    opacity: 1;
+  }
+  .projectscards .container .example1 .content1 .text {
+    height: 0;
+    opacity: 1;
+    transition-delay: 0s;
+    transition-duration: 0.4s;
+    font-family: 'Playfair Display SC', serif;
+  }
+  .projectscards .container .example1 .content1:hover .text {
+    opacity: 1;
+    transform: translateY(100px);
+    -webkit-transform: translateY(100px);
+  }
+
+
+
+
+
+
+
+  .projectscards .container .example2 {
+    position: relative;
+    padding: 0;
+    display: block;
+    cursor: pointer;
+    overflow: hidden;
+  }
+  .projectscards .container .content2 {
+    opacity: 0;
+    font-size: 60px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: #000000;
+    background-color: rgba(200, 200, 200, 0.3);
+    width: 320px;
+    height: 320px;
+    -webkit-transition: all 400ms ease-out;
+    -moz-transition: all 400ms ease-out;
+    -o-transition: all 400ms ease-out;
+    -ms-transition: all 400ms ease-out;
+    transition: all 400ms ease-out;
+    text-align: center;
+  }
+  .projectscards .container .example2 .content2:hover {
+    opacity: 1;
+  }
+  .projectscards .container .example2 .content2 .text {
+    height: 0;
+    opacity: 1;
+    transition-delay: 0s;
+    transition-duration: 0.4s;
+    font-family: 'Playfair Display SC', serif;
+  }
+  .projectscards .container .example2 .content2:hover .text {
+    opacity: 1;
+    transform: translateY(100px);
+    -webkit-transform: translateY(100px);
+  }
+
+
+
+
+
+  .projectscards .container .example3 {
+    position: relative;
+    padding: 0;
+    display: block;
+    cursor: pointer;
+    overflow: hidden;
+  }
+  .projectscards .container .content3 {
+    opacity: 0;
+    font-size: 60px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: #000000;
+    background-color: rgba(200, 200, 200, 0.3);
+    width: 320px;
+    height: 320px;
+    -webkit-transition: all 400ms ease-out;
+    -moz-transition: all 400ms ease-out;
+    -o-transition: all 400ms ease-out;
+    -ms-transition: all 400ms ease-out;
+    transition: all 400ms ease-out;
+    text-align: center;
+  }
+  .projectscards .container .example3 .content3:hover {
+    opacity: 1;
+  }
+  .projectscards .container .example3 .content3 .text {
+    height: 0;
+    opacity: 1;
+    transition-delay: 0s;
+    transition-duration: 0.4s;
+    font-family: 'Playfair Display SC', serif;
+  }
+  .projectscards .container .example3 .content3:hover .text {
+    opacity: 1;
+    transform: translateY(100px);
+    -webkit-transform: translateY(100px);
+  }
+
+
+
+
+
+  .projectscards .container .example4 {
+    position: relative;
+    padding: 0;
+    display: block;
+    cursor: pointer;
+    overflow: hidden;
+  }
+  .projectscards .container .content4 {
+    opacity: 0;
+    font-size: 60px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: #000000;
+    background-color: rgba(200, 200, 200, 0.3);
+    width: 320px;
+    height: 320px;
+    -webkit-transition: all 400ms ease-out;
+    -moz-transition: all 400ms ease-out;
+    -o-transition: all 400ms ease-out;
+    -ms-transition: all 400ms ease-out;
+    transition: all 400ms ease-out;
+    text-align: center;
+  }
+  .projectscards .container .example4 .content4:hover {
+    opacity: 1;
+  }
+  .projectscards .container .example4 .content4 .text {
+    height: 0;
+    opacity: 1;
+    transition-delay: 0s;
+    transition-duration: 0.4s;
+    font-family: 'Playfair Display SC', serif;
+  }
+  .projectscards .container .example4 .content4:hover .text {
+    opacity: 1;
+    transform: translateY(100px);
+    -webkit-transform: translateY(100px);
+  }
+
+
+
+
+
+
+  .projectscards .container .example5 {
+    position: relative;
+    padding: 0;
+    display: block;
+    cursor: pointer;
+    overflow: hidden;
+  }
+  .projectscards .container .content5 {
+    opacity: 0;
+    font-size: 60px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: #000000;
+    background-color: rgba(200, 200, 200, 0.3);
+    width: 320px;
+    height: 320px;
+    -webkit-transition: all 400ms ease-out;
+    -moz-transition: all 400ms ease-out;
+    -o-transition: all 400ms ease-out;
+    -ms-transition: all 400ms ease-out;
+    transition: all 400ms ease-out;
+    text-align: center;
+  }
+  .projectscards .container .example5 .content5:hover {
+    opacity: 1;
+  }
+  .projectscards .container .example5 .content5 .text {
+    height: 0;
+    opacity: 1;
+    transition-delay: 0s;
+    transition-duration: 0.4s;
+    font-family: 'Playfair Display SC', serif;
+  }
+  .projectscards .container .example5 .content5:hover .text {
+    opacity: 1;
+    transform: translateY(100px);
+    -webkit-transform: translateY(100px);
+  }
+
+
+
+
+
+
+
+
+  .projectscards .container .example6 {
+    position: relative;
+    padding: 0;
+    display: block;
+    cursor: pointer;
+    overflow: hidden;
+  }
+  .projectscards .container .content6 {
+    opacity: 0;
+    font-size: 60px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: #000000;
+    background-color: rgba(200, 200, 200, 0.3);
+    width: 320px;
+    height: 320px;
+    -webkit-transition: all 400ms ease-out;
+    -moz-transition: all 400ms ease-out;
+    -o-transition: all 400ms ease-out;
+    -ms-transition: all 400ms ease-out;
+    transition: all 400ms ease-out;
+    text-align: center;
+  }
+  .projectscards .container .example6 .content6:hover {
+    opacity: 1;
+  }
+  .projectscards .container .example6 .content6 .text {
+    height: 0;
+    opacity: 1;
+    transition-delay: 0s;
+    transition-duration: 0.4s;
+    font-family: 'Playfair Display SC', serif;
+  }
+  .projectscards .container .example6 .content6:hover .text {
+    opacity: 1;
+    transform: translateY(100px);
+    -webkit-transform: translateY(100px);
+  }
+
+
+
+
+
+
+  .projectscards .container .example7 {
+    position: relative;
+    padding: 0;
+    display: block;
+    cursor: pointer;
+    overflow: hidden;
+  }
+  .projectscards .container .content7 {
+    opacity: 0;
+    font-size: 60px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: #000000;
+    background-color: rgba(200, 200, 200, 0.3);
+    width: 320px;
+    height: 320px;
+    -webkit-transition: all 400ms ease-out;
+    -moz-transition: all 400ms ease-out;
+    -o-transition: all 400ms ease-out;
+    -ms-transition: all 400ms ease-out;
+    transition: all 400ms ease-out;
+    text-align: center;
+  }
+  .projectscards .container .example7 .content7:hover {
+    opacity: 1;
+  }
+  .projectscards .container .example7 .content7 .text {
+    height: 0;
+    opacity: 1;
+    transition-delay: 0s;
+    transition-duration: 0.4s;
+    font-family: 'Playfair Display SC', serif;
+  }
+  .projectscards .container .example7 .content7:hover .text {
+    opacity: 1;
+    transform: translateY(100px);
+    -webkit-transform: translateY(100px);
+  }
+
+
+
+
+
+
+
+  .projectscards .container .example8 {
+    position: relative;
+    padding: 0;
+    display: block;
+    cursor: pointer;
+    overflow: hidden;
+  }
+  .projectscards .container .content8 {
+    opacity: 0;
+    font-size: 60px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: #000000;
+    background-color: rgba(200, 200, 200, 0.3);
+    width: 320px;
+    height: 320px;
+    -webkit-transition: all 400ms ease-out;
+    -moz-transition: all 400ms ease-out;
+    -o-transition: all 400ms ease-out;
+    -ms-transition: all 400ms ease-out;
+    transition: all 400ms ease-out;
+    text-align: center;
+  }
+  .projectscards .container .example8 .content8:hover {
+    opacity: 1;
+  }
+  .projectscards .container .example8 .content8 .text {
+    height: 0;
+    opacity: 1;
+    transition-delay: 0s;
+    transition-duration: 0.4s;
+    font-family: 'Playfair Display SC', serif;
+  }
+  .projectscards .container .example8 .content8:hover .text {
+    opacity: 1;
+    transform: translateY(100px);
+    -webkit-transform: translateY(100px);
+  }
+
+
+
+
+
+
+  .projectscards .container .example9 {
+    position: relative;
+    padding: 0;
+    display: block;
+    cursor: pointer;
+    overflow: hidden;
+  }
+  .projectscards .container .content9 {
+    opacity: 0;
+    font-size: 60px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: #000000;
+    background-color: rgba(200, 200, 200, 0.3);
+    width: 320px;
+    height: 320px;
+    -webkit-transition: all 400ms ease-out;
+    -moz-transition: all 400ms ease-out;
+    -o-transition: all 400ms ease-out;
+    -ms-transition: all 400ms ease-out;
+    transition: all 400ms ease-out;
+    text-align: center;
+  }
+  .projectscards .container .example9 .content9:hover {
+    opacity: 1;
+  }
+  .projectscards .container .example9 .content9 .text {
+    height: 0;
+    opacity: 1;
+    transition-delay: 0s;
+    transition-duration: 0.4s;
+    font-family: 'Playfair Display SC', serif;
+  }
+  .projectscards .container .example9 .content9:hover .text {
+    opacity: 1;
+    transform: translateY(100px);
+    -webkit-transform: translateY(100px);
+  }
+
+
+.icons i{
+  padding: 20px;
+}
+
+footer h1{
+font-family: 'Playfair Display SC', serif;
+}
+
+
+
+footer .companyname p{
+font-size: 22px;
+text-align: center;
+font-family: 'Playfair Display SC', serif;
+}
+
+footer .companyaddress p{
+text-align: center;
+}
+
+footer .footerheading h1 i{
+font-size: 45px;
+}
+
+footer .companyicons i{
+padding-left: 40px;
+}
+
+footer .companyicons{
+padding-top: 50px;
+padding-left: 200px;
+}

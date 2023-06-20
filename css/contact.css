@@ -1,0 +1,106 @@
+.nav-item{
+    padding-top: 20px;
+    padding-right: 50px;
+    padding-bottom: 20px;
+    padding-left: 50px;
+    font-family: 'Playfair Display SC', serif;
+    font-style: italic;
+    
+    font-size: 20px;
+}
+
+#navbarmain{
+    
+    padding-right: 150px;
+    padding-left: 80px;
+}
+
+
+
+
+.companycontact .card-title{
+    font-size: 70px;
+    font-family: 'Playfair Display SC', serif;
+    padding-left: 350px;
+    padding-right: 30px;
+}
+
+/* .companycontact .row{
+    padding-left: 40px;
+    padding-right: 40px;
+} */
+
+.companycontact .row img{
+    width: 40px;
+    height: 40px;
+}
+
+.companycontact .info{
+    padding-left: 250px;
+}
+
+.companycontact .outlinecard{
+    border: none;
+}
+
+.companycontact .card-text{
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.companycontact label{
+    font-size: 20px;
+    font-weight: 600;
+}
+
+
+.map{
+    /* filter: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg"><filter id="g"><feColorMatrix type="matrix" values="0.3 0.3 0.3 0 0 0.3 0.3 0.3 0 0 0.3 0.3 0.3 0 0 0 0 0 1 0"/></filter></svg>#g');
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);    
+    filter: progid:DXImageTransform.Microsoft.BasicImage(grayScale=1); */
+    position: relative;
+    padding-bottom: 40%; /* 4:3 ratio*/
+    height: 0;
+    overflow: hidden;
+    
+}
+
+.map .container iframe{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100% !important;
+    height: 100% !important;
+}
+
+footer h1{
+    font-family: 'Playfair Display SC', serif;
+}
+
+
+
+footer .companyname p{
+    font-size: 22px;
+    text-align: center;
+    font-family: 'Playfair Display SC', serif;
+}
+
+footer .companyaddress p{
+    text-align: center;
+}
+
+footer .footerheading h1 i{
+    font-size: 45px;
+}
+
+footer .companyicons i{
+    padding-left: 40px;
+}
+
+footer .companyicons{
+    padding-top: 50px;
+    padding-left: 200px;
+}
+
+

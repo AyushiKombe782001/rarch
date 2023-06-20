@@ -1,0 +1,69 @@
+.nav-item{
+    padding-top: 20px;
+    padding-right: 50px;
+    padding-bottom: 20px;
+    padding-left: 50px;
+    font-family: 'Sriracha', cursive;
+    font-size: 20px;
+}
+
+#navbarmain{
+    
+    padding-right: 150px;
+    padding-left: 80px;
+}
+
+.carousel .carousel-indicators button {
+    width: 10px;
+   height: 10px;
+   border-radius: 100%;
+   border: solid black;
+   
+}
+
+.carousel-control-prev-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23f8f8f8' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E");
+    }
+    .carousel-control-next-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23f8f8f8' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
+    }
+    .carousel-control-next-icon, .carousel-control-prev-icon {
+    width: 40px;
+    height: 40px;
+    }
+
+/* .carousel-item{
+    height: 595px;
+} */
+
+.project {
+    padding-top: 80px;
+    padding-left: 250px;
+}
+
+.project .card-title{
+    font-size: 70px;
+    font-family: 'Playfair Display SC', serif;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.project h3{
+    font-family: 'Krub', sans-serif;
+    padding-bottom: 50px;
+}
+
+
+.projectfirst .card-text{
+    font-family: 'Krub', sans-serif;
+    padding-right: 30px;
+}
+
+
+.projectfirst {
+    border: none;
+}
+
+.projectfirst img:hover{
+    filter: grayscale(100%);
+}
