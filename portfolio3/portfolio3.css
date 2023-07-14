@@ -60,7 +60,7 @@
 .project {
     padding-top: 40px;
     padding-left: 400px;
-    padding-right: 400px;
+    padding-right: 340px;
 }
 
 /*.project .card-title{
@@ -123,28 +123,28 @@
 
 .project .projecttitle{
     font-family: 'Playfair Display SC', serif;
-    font-size: 54px;
+    font-size: 50px;
 }
 
 .project .projectdetails{
     font-family: 'Cormorant Garamond', serif;
-    font-size: 18px;
+    font-size: 19px;
     line-height: 28px;
 }
 
 .project .whatproject p{
-    font-family: 'Cormorant Garamond', serif;
-    font-size: 18px;
+    font-family: 'Lora', serif;
+    font-size: 17px;
 }
 
 .project .whereproject p{
-    font-family: 'Cormorant Garamond', serif;
-    font-size: 18px;
+    font-family: 'Lora', serif;
+    font-size: 17px;
 }
 
 .project .whenproject p{
-    font-family: 'Cormorant Garamond', serif;
-    font-size: 18px;
+    font-family: 'Lora', serif;
+    font-size: 17px;
 }
 
 .project .boldtext{
