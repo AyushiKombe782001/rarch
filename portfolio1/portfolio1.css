@@ -3,14 +3,27 @@
     padding-right: 50px;
     padding-bottom: 20px;
     padding-left: 50px;
-    font-family: 'Sriracha', cursive;
+    font-family: 'Playfair Display SC', serif;
+    font-style: italic;
+    
     font-size: 20px;
+}
+
+.nav-item a:link{
+    color: #000;
+    background-color: transparent;
+    text-decoration: none;
 }
 
 #navbarmain{
     
     padding-right: 150px;
     padding-left: 80px;
+}
+
+.navbarlogo img{
+    width: 180px;
+    height: 80px;
 }
 
 .carousel .carousel-indicators button {
@@ -38,8 +51,8 @@
 
 .project {
     padding-top: 80px;
-    padding-left: 300px;
-    padding-right: 300px;
+    padding-left: 400px;
+    padding-right: 400px;
 }
 
 /*.project .card-title{
@@ -72,5 +85,80 @@
 
 .carouselcard .card{
     border: none;
+}
+
+.project .projecttitle{
+    font-family: 'Playfair Display SC', serif;
+    font-size: 54px;
+}
+
+.project .projectdetails{
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 18px;
+    line-height: 28px;
+}
+
+.project .whatproject p{
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 18px;
+}
+
+.project .whereproject p{
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 18px;
+}
+
+.project .whenproject p{
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 18px;
+}
+
+.project .boldtext{
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 25px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.icons i{
+    padding: 20px;
+}
+
+footer h1{
+font-family: 'Playfair Display SC', serif;
+}
+
+
+
+footer .companyname p{
+font-size: 22px;
+text-align: center;
+font-family: 'Playfair Display SC', serif;
+}
+
+footer .companyaddress p{
+text-align: center;
+}
+
+footer .footerheading h1 i{
+font-size: 45px;
+}
+
+footer .companyicons i{
+padding-left: 40px;
+}
+
+footer .companyicons{
+padding-top: 50px;
+padding-left: 200px;
 }
 

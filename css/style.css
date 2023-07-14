@@ -1896,6 +1896,173 @@ footer .companyicons{
 
 
     .companyimage{
+        background-size: 900px 850px;
+    }
+    
+        .icons i{
+            padding: 20px;
+        }
+    
+    
+    
+    
+    footer .companyname p{
+        font-size: 20px;
+        text-align: center;
+    }
+    
+    
+    footer .companyname .companynameend{
+        font-size: 12px;
+        text-align: center;
+    }
+
+    footer .companyaddress p{
+        font-size: 11px;
+        text-align: center;
+    }
+    
+    
+    footer .footerheading h1 i{
+        font-size: 15px;
+        text-align: left;
+        display: none;
+    }
+    
+    footer .companyicons i{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    
+    footer .companyicons{
+        padding-top: 0px;
+        padding-right: 0px;
+        text-align: left;
+        padding-left: 250px;
+        
+    }
+
+    footer .copyright{
+        font-size: 10px;
+    }
+    
+    
+}
+
+@media only screen and (max-width: 767px) and (min-width: 600px)  {
+    .nav-item{
+        padding-top: 10px;
+        padding-right: 10px;
+        padding-bottom: 10px;
+        padding-left: 10px;
+        
+        font-size: 13px;
+    }
+    
+    #navbarmain{
+        
+        padding-right: 25px;
+        padding-left: 25px;
+    }
+    
+    .navbarlogo img{
+        width: 120px;
+        height: 50px;
+    }
+    
+    
+    .project {
+        padding-top: 50px;
+        padding-left: 50px;
+    }
+    
+    .project .card-title{
+        font-size: 28px;
+        padding-left: 22px;
+        padding-right: 22px;
+    }
+    
+    .project h3{
+        padding-bottom: 40px;
+        font-size: 18px;
+    }
+    
+    
+    
+    
+    .projectfirst .projectwidth{
+        max-width: 500px;
+    }
+    
+    .projectfirst h4 .card-text{
+        padding-right: 10px;
+        font-size: 12px;
+        line-height: 20px;
+    }
+
+    .projectfirst .firstprojectimg{
+        padding: 10px 100px 100px 100px;
+    }
+    
+    
+    
+    
+    
+    
+    .projectsecond .projectwidth{
+        max-width: 500px;
+    }
+    .projectsecond h4 .card-text{
+        padding-right: 20px;
+        font-size: 12px;
+        line-height: 20px;
+        order: 2;
+    }
+
+    .projectsecond{
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    .projectsecond .card-title{
+        order: 1;
+    }
+
+    .projectsecond img{
+        order: 3;
+    }
+    
+    
+    
+    
+    
+    
+    .projectthird .projectwidth{
+        max-width: 500px;
+    }
+    .projectthird h4 .card-text{
+        padding-right: 15px;
+        font-size: 12px;
+        line-height: 20px;
+    }
+    
+    
+    
+    
+    
+    .project .viewallpro{
+        padding-top: 45px;
+        padding-left: 18px;
+    }
+    
+    .project .viewallpro a{
+        font-size: 12px;
+    }
+    
+
+
+
+    .companyimage{
         background-size: 900px 950px;
     }
     

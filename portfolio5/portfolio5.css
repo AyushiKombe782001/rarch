@@ -1,0 +1,172 @@
+.nav-item{
+    padding-top: 20px;
+    padding-right: 50px;
+    padding-bottom: 20px;
+    padding-left: 50px;
+    font-family: 'Playfair Display SC', serif;
+    font-style: italic;
+    
+    font-size: 20px;
+}
+
+.nav-item a:link{
+    color: #000;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+#navbarmain{
+    
+    padding-right: 150px;
+    padding-left: 80px;
+}
+
+.navbarlogo img{
+    width: 180px;
+    height: 80px;
+}
+
+.carousel .carousel-indicators button {
+    width: 10px;
+   height: 10px;
+   border-radius: 100%;
+   border: none;
+   
+}
+
+.carousel-control-prev-icon {
+    /* background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23f8f8f8' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E"); */
+    /* background-image: url(../Images/caret-left-fill.svg); */
+    
+    }
+    .carousel-control-next-icon {
+    /* background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23f8f8f8' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E"); */
+    /* background-image: url(../Images/caret-right-fill.svg); */
+    /* background-color: #ffffff; */
+    
+    }
+    .carousel-control-next-icon, .carousel-control-prev-icon {
+    width: 100px;
+    height: 60px;
+    border: none;
+
+    /* box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.2); */
+    }
+
+/* .carousel-item{
+    height: 595px;
+} */
+
+.project {
+    padding-top: 40px;
+    padding-left: 400px;
+    padding-right: 400px;
+}
+
+/*.project .card-title{
+    font-size: 70px;
+    font-family: 'Playfair Display SC', serif;
+}
+
+.project h3{
+    font-family: 'Krub', sans-serif;
+    padding-bottom: 50px;
+}
+
+
+.projectdetail .card-text{
+    font-family: 'Krub', sans-serif;
+    padding-right: 30px;
+}
+
+
+.projectdetail {
+    border: none;
+} */
+
+
+.carouselcard{
+    padding-left: 470px;
+    padding-right: 470px;
+    
+}
+
+.carouselcard .card{
+    border: none;
+}
+
+.project .projecttitle{
+    font-family: 'Playfair Display SC', serif;
+    font-size: 54px;
+}
+
+.project .projectdetails{
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 18px;
+    line-height: 28px;
+}
+
+.project .whatproject p{
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 18px;
+}
+
+.project .whereproject p{
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 18px;
+}
+
+.project .whenproject p{
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 18px;
+}
+
+.project .boldtext{
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 25px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.icons i{
+    padding: 20px;
+}
+
+footer h1{
+font-family: 'Playfair Display SC', serif;
+}
+
+
+
+footer .companyname p{
+font-size: 22px;
+text-align: center;
+font-family: 'Playfair Display SC', serif;
+}
+
+footer .companyaddress p{
+text-align: center;
+}
+
+footer .footerheading h1 i{
+font-size: 45px;
+}
+
+footer .companyicons i{
+padding-left: 40px;
+}
+
+footer .companyicons{
+padding-top: 50px;
+padding-left: 200px;
+}
+
