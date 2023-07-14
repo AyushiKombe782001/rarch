@@ -47,7 +47,7 @@
     filter: grayscale(100%);
 } 
 
-.companyteam{
+/* .companyteam{
     padding-left: 370px;
     padding-right: 360px;
     font-family: 'Raleway', sans-serif;
@@ -57,7 +57,32 @@
 
 .companyteam .card-body h4{
     font-weight: 900;
+} */
+
+.companyteam img{
+    width: 45%;
+    display: inline;
 }
+
+.companyteam{
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.companyteam .card{
+    width: 800px;
+    border: none;
+}
+
+.companyteam .firstteammember{
+    padding-left: 80px;
+}
+
+.companyteam .secondteammember{
+    padding-right: 80px;
+}
+
+
 
 
 .companyservices .card-title{
@@ -89,4 +114,42 @@
 
 .subservices .servicestitle{
     font-family: 'Playfair Display SC', serif;
+}
+
+footer h1{
+    font-family: 'Playfair Display SC', serif;
+}
+
+
+
+footer .companyname p{
+    font-size: 22px;
+    text-align: center;
+    font-family: 'Playfair Display SC', serif;
+}
+
+
+footer .companyname .companynameend{
+    font-size: 13px;
+    text-align: center;
+    font-family: 'Playfair Display SC', serif;
+}
+
+footer .companyaddress p{
+    text-align: center;
+}
+
+
+
+footer .footerheading h1 i{
+    font-size: 45px;
+}
+
+footer .companyicons i{
+    padding-left: 40px;
+}
+
+footer .companyicons{
+    padding-top: 50px;
+    padding-left: 200px;
 }

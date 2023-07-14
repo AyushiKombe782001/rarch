@@ -21,7 +21,7 @@
 .companycontact .card-title{
     font-size: 70px;
     font-family: 'Playfair Display SC', serif;
-    padding-left: 350px;
+    padding-left: 280px;
     padding-right: 30px;
 }
 
@@ -41,17 +41,68 @@
 
 .companycontact .outlinecard{
     border: none;
+    width: 900px;
 }
 
 .companycontact .card-text{
-    font-size: 20px;
-    font-weight: 600;
+    font-size: 19px;
+    font-weight: 500;
+    font-family: 'Lora', serif;
 }
 
 .companycontact label{
     font-size: 20px;
     font-weight: 600;
 }
+
+#inputFirstName{
+    border: none;
+    border-bottom: 1px solid rgb(0, 0, 0);
+}
+
+#inputFirstName:hover{
+    border-top: 1px solid rgb(0, 0, 0);
+    border-bottom: 1px solid rgb(0, 0, 0);
+    border-left: 1px solid rgb(0, 0, 0);
+    border-right: 1px solid rgb(0, 0, 0);
+}
+
+#inputLastName{
+    border: none;
+    border-bottom: 1px solid rgb(0, 0, 0);
+}
+
+#inputLastName:hover{
+    border-top: 1px solid rgb(0, 0, 0);
+    border-bottom: 1px solid rgb(0, 0, 0);
+    border-left: 1px solid rgb(0, 0, 0);
+    border-right: 1px solid rgb(0, 0, 0);
+}
+
+#FormControlInput1{
+    border: none;
+    border-bottom: 1px solid rgb(0, 0, 0);
+}
+
+#FormControlInput1:hover{
+    border-top: 1px solid rgb(0, 0, 0);
+    border-bottom: 1px solid rgb(0, 0, 0);
+    border-left: 1px solid rgb(0, 0, 0);
+    border-right: 1px solid rgb(0, 0, 0);
+}
+
+#FormControlTextarea1{
+    border: none;
+    border-bottom: 1px solid rgb(0, 0, 0);
+}
+
+#FormControlTextarea1:hover{
+    border-top: 1px solid rgb(0, 0, 0);
+    border-bottom: 1px solid rgb(0, 0, 0);
+    border-left: 1px solid rgb(0, 0, 0);
+    border-right: 1px solid rgb(0, 0, 0);
+}
+
 
 
 .map{
