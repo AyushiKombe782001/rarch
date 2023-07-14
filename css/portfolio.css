@@ -53,7 +53,7 @@
 }
 
 .projectscards .container {
-    padding-left: 210px;
+    padding-left: 0;
     padding-bottom: 100px;
 }
 
@@ -500,10 +500,85 @@ padding-left: 200px;
 }
 
 
+
+
+
+
+
+
+/* media queries */
+
+@media only screen and (max-width: 2560px) and (min-width: 1400px) {
+  .projectscards .container {
+      padding-left: 15vw;
+      padding-bottom: 100px;
+  }
+
+  .portfolio-title {
+    /* padding-left: 500px; */
+    font-size: 55px;
+    font-family: 'Playfair Display SC', serif;
+  }
+
+  .nav-item{
+    padding-top: 20px;
+    padding-right: 30px;
+    padding-bottom: 20px;
+    padding-left: 30px;
+    
+    font-size: 20px;
+  }
+  
+  #navbarmain{
+    
+    padding-right: 130px;
+    padding-left: 60px;
+  }
+
+  footer .companyicons i{
+    padding-left: 20px;
+    }
+
+}
+
 @media only screen and (max-width: 1399px) and (min-width: 1200px) {
   .projectscards .container {
       padding-left: 100px;
       padding-bottom: 100px;
+  }
+
+  .portfolio-title {
+    /* padding-left: 500px; */
+    font-size: 55px;
+    font-family: 'Playfair Display SC', serif;
+  }
+
+  .nav-item{
+    padding-top: 20px;
+    padding-right: 30px;
+    padding-bottom: 20px;
+    padding-left: 30px;
+    
+    font-size: 20px;
+  }
+  
+  #navbarmain{
+    
+    padding-right: 130px;
+    padding-left: 60px;
+  }
+
+  footer .companyicons i{
+    padding-left: 20px;
+    }
+
+}
+
+@media only screen and (max-width: 1000px) and (min-width: 1199px) {
+  .projectscards .container {
+    width: fit-content;
+      padding-bottom: 100px;
+      padding-left: 100px;
   }
 
   .portfolio-title {
