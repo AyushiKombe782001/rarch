@@ -85,6 +85,24 @@
 } */
 
 
+.pagedirection .previousdirection{
+    text-align: center;
+}
+
+.pagedirection .previousdirection a{
+    color: #000;
+    font-family: 'Playfair Display SC', serif;
+}
+
+.pagedirection .nextdirection{
+    text-align: center;
+}
+
+.pagedirection .nextdirection a{
+    color: #000;
+    font-family: 'Playfair Display SC', serif;
+}
+
 .carouselcard{
     padding-left: 340px;
     padding-right: 340px;
