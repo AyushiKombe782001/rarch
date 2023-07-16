@@ -231,7 +231,7 @@ footer .companyicons{
 
 @media only screen and (max-width: 2400px) and (min-width: 2201px) {
     .navbar-nav{
-        padding-left: 42vw;
+        padding-left: 39vw;
     }
 
     .nav-item{
@@ -300,7 +300,7 @@ footer .companyicons{
     .about {
         padding-top: 80px;
         padding-left: 200px;
-        padding-right: 200px;
+        padding-right: 320px;
     }
     
     .about .card-title{
@@ -321,7 +321,7 @@ footer .companyicons{
     }
     
     .companyteam{
-        padding-left: 250px;
+        padding-left: 180px;
         padding-right: 100px;
     }
     
@@ -334,5 +334,296 @@ footer .companyicons{
     .subservices .thirdservice, .subservices .fourthservice{
         height: 180px;
         width: 180px;
+    }
+}
+
+@media only screen and (max-width: 2000px) and (min-width: 1901px) {
+    .navbar-nav{
+        padding-left: 25vw;
+    }
+
+    .nav-item{
+        padding-top: 20px;
+        padding-right: 50px;
+        padding-bottom: 20px;
+        padding-left: 50px;
+        
+        font-size: 30px;
+    }
+
+    .about {
+        padding-top: 80px;
+        padding-left: 200px;
+        padding-right: 320px;
+    }
+    
+    .about .card-title{
+        font-size: 90px;
+        padding-left: 30px;
+        padding-right: 10px;
+    }
+    
+    .about h3{
+        font-family: 'Krub', sans-serif;
+        padding-bottom: 50px;
+    }
+    
+    
+    .aboutfirst .card-text{
+        font-family: 'Cormorant Garamond', serif;
+        font-size: 30px;
+    }
+    
+    .companyteam{
+        padding-left: 180px;
+        padding-right: 100px;
+    }
+    
+    .companyteam .card{
+        width: 800px;
+        border: none;
+    }
+
+    .subservices .firstservice, .subservices .secondservice, 
+    .subservices .thirdservice, .subservices .fourthservice{
+        height: 180px;
+        width: 180px;
+    }
+}
+
+@media only screen and (max-width: 1900px) and (min-width: 1801px) {
+    .navbar-nav{
+        padding-left: 25vw;
+    }
+
+    .nav-item{
+        padding-top: 20px;
+        padding-right: 50px;
+        padding-bottom: 20px;
+        padding-left: 50px;
+        
+        font-size: 30px;
+    }
+
+    .about {
+        padding-top: 80px;
+        padding-left: 200px;
+        padding-right: 320px;
+    }
+    
+    .about .card-title{
+        font-size: 90px;
+        padding-left: 30px;
+        padding-right: 10px;
+    }
+    
+    .about h3{
+        font-family: 'Krub', sans-serif;
+        padding-bottom: 50px;
+    }
+    
+    
+    .aboutfirst .card-text{
+        font-family: 'Cormorant Garamond', serif;
+        font-size: 25px;
+    }
+    
+    .companyteam{
+        padding-left: 100px;
+        padding-right: 100px;
+    }
+    
+    .companyteam .card{
+        width: 800px;
+        border: none;
+    }
+
+    .subservices .firstservice, .subservices .secondservice, 
+    .subservices .thirdservice, .subservices .fourthservice{
+        height: 180px;
+        width: 180px;
+    }
+}
+
+@media only screen and (max-width: 1800px) and (min-width: 1701px) {
+    .navbar-nav{
+        padding-left: 22vw;
+    }
+
+    .nav-item{
+        padding-top: 20px;
+        padding-right: 50px;
+        padding-bottom: 20px;
+        padding-left: 50px;
+        
+        font-size: 27px;
+    }
+
+    .about {
+        padding-top: 80px;
+        padding-left: 200px;
+        padding-right: 250px;
+    }
+    
+    .about .card-title{
+        font-size: 90px;
+        padding-left: 30px;
+        padding-right: 10px;
+    }
+    
+    .about h3{
+        font-family: 'Krub', sans-serif;
+        padding-bottom: 50px;
+    }
+    
+    
+    .aboutfirst .card-text{
+        font-family: 'Cormorant Garamond', serif;
+        font-size: 25px;
+    }
+    
+    .companyteam{
+        padding-left: 80px;
+        padding-right: 100px;
+    }
+    
+    .companyteam .card{
+        width: 800px;
+        border: none;
+    }
+
+    .subservices .firstservice, .subservices .secondservice, 
+    .subservices .thirdservice, .subservices .fourthservice{
+        height: 180px;
+        width: 180px;
+    }
+}
+
+@media only screen and (max-width: 1700px) and (min-width: 1600px) {
+    .navbar-nav{
+        padding-left: 22vw;
+    }
+
+    .nav-item{
+        padding-top: 20px;
+        padding-right: 50px;
+        padding-bottom: 20px;
+        padding-left: 50px;
+        
+        font-size: 27px;
+    }
+
+    .about {
+        padding-top: 80px;
+        padding-left: 200px;
+        padding-right: 220px;
+    }
+    
+    .about .card-title{
+        font-size: 90px;
+        padding-left: 30px;
+        padding-right: 10px;
+    }
+    
+    .about h3{
+        font-family: 'Krub', sans-serif;
+        padding-bottom: 50px;
+    }
+    
+    
+    .aboutfirst .card-text{
+        font-family: 'Cormorant Garamond', serif;
+        font-size: 25px;
+    }
+    
+    .companyteam{
+        padding-left: 80px;
+        padding-right: 100px;
+    }
+    
+    .companyteam .card{
+        width: 800px;
+        border: none;
+    }
+
+    .subservices .firstservice, .subservices .secondservice, 
+    .subservices .thirdservice, .subservices .fourthservice{
+        height: 180px;
+        width: 180px;
+    }
+}
+
+@media only screen and (max-width: 1599px) and (min-width: 1500px) {
+    .navbar-nav{
+        padding-left: 22vw;
+    }
+
+    .nav-item{
+        padding-top: 20px;
+        padding-right: 40px;
+        padding-bottom: 20px;
+        padding-left: 40px;
+        
+        font-size: 27px;
+    }
+
+    .about {
+        padding-top: 80px;
+        padding-left: 200px;
+        padding-right: 170px;
+    }
+    
+    .about .card-title{
+        font-size: 70px;
+        padding-left: 30px;
+        padding-right: 50px;
+    }
+    
+    .about h3{
+        font-family: 'Krub', sans-serif;
+        padding-bottom: 50px;
+    }
+    
+    
+    .aboutfirst .card-text{
+        font-family: 'Cormorant Garamond', serif;
+        font-size: 25px;
+    }
+    
+    .companyteam{
+        padding-left: 70px;
+        padding-right: 100px;
+    }
+    
+    .companyteam .card{
+        width: 800px;
+        border: none;
+    }
+
+    .subservices .firstservice, .subservices .secondservice, 
+    .subservices .thirdservice, .subservices .fourthservice{
+        height: 180px;
+        width: 180px;
+    }
+
+    .companyservices .card-title{
+        font-size: 70px;
+        font-family: 'Playfair Display SC', serif;
+        padding-left: 350px;
+        padding-right: 30px;
+    }
+    
+    .companyservices .card-text{
+        font-family: 'Krub', sans-serif;
+        padding-left: 350px;
+        padding-right: 350px;
+    }
+    
+    .subservices{
+        padding-left: 350px;
+        padding-right: 350px;
+        padding-bottom: 100px;
+        text-align: center;
+        
     }
 }
