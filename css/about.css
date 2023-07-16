@@ -7,13 +7,24 @@
     font-style: italic;
     
     font-size: 20px;
-}
+  }
 
-#navbarmain{
+  .nav-item a:link{
+    color: #000;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+  #navbarmain{
     
     padding-right: 150px;
     padding-left: 80px;
-}
+  }
+  
+  .navbarlogo img{
+    width: 170px;
+    height: 80px;
+  }
 
 .about {
     padding-top: 80px;
@@ -152,4 +163,176 @@ footer .companyicons i{
 footer .companyicons{
     padding-top: 50px;
     padding-left: 200px;
+}
+
+
+@media only screen and (max-width: 2560px) and (min-width: 2401px) {
+    .navbar-nav{
+        padding-left: 42vw;
+    }
+
+    .nav-item{
+        padding-top: 20px;
+        padding-right: 50px;
+        padding-bottom: 20px;
+        padding-left: 50px;
+        
+        font-size: 30px;
+    }
+
+    .about {
+        padding-top: 80px;
+        padding-left: 350px;
+        padding-right: 350px;
+    }
+    
+    .about .card-title{
+        font-size: 90px;
+        padding-left: 30px;
+        padding-right: 10px;
+    }
+    
+    .about h3{
+        font-family: 'Krub', sans-serif;
+        padding-bottom: 50px;
+    }
+    
+    
+    .aboutfirst .card-text{
+        font-family: 'Cormorant Garamond', serif;
+        font-size: 30px;
+    }
+    
+    .companyteam{
+        padding-left: 300px;
+        padding-right: 100px;
+    }
+    
+    .companyteam .card{
+        width: 800px;
+        border: none;
+    }
+    
+    .companyteam .firstteammember{
+        padding-left: 80px;
+    }
+    
+    .companyteam .secondteammember{
+        padding-right: 80px;
+    }
+
+    .subservices .firstservice, .subservices .secondservice, 
+    .subservices .thirdservice, .subservices .fourthservice{
+        height: 180px;
+        width: 180px;
+    }
+    
+}
+
+@media only screen and (max-width: 2400px) and (min-width: 2201px) {
+    .navbar-nav{
+        padding-left: 42vw;
+    }
+
+    .nav-item{
+        padding-top: 20px;
+        padding-right: 50px;
+        padding-bottom: 20px;
+        padding-left: 50px;
+        
+        font-size: 30px;
+    }
+
+    .about {
+        padding-top: 80px;
+        padding-left: 300px;
+        padding-right: 300px;
+    }
+    
+    .about .card-title{
+        font-size: 90px;
+        padding-left: 30px;
+        padding-right: 10px;
+    }
+    
+    .about h3{
+        font-family: 'Krub', sans-serif;
+        padding-bottom: 50px;
+    }
+    
+    
+    .aboutfirst .card-text{
+        font-family: 'Cormorant Garamond', serif;
+        font-size: 30px;
+    }
+    
+    .companyteam{
+        padding-left: 250px;
+        padding-right: 100px;
+    }
+    
+    .companyteam .card{
+        width: 800px;
+        border: none;
+    }
+
+    .subservices .firstservice, .subservices .secondservice, 
+    .subservices .thirdservice, .subservices .fourthservice{
+        height: 180px;
+        width: 180px;
+    }
+}
+
+@media only screen and (max-width: 2200px) and (min-width: 2001px) {
+    .navbar-nav{
+        padding-left: 35vw;
+    }
+
+    .nav-item{
+        padding-top: 20px;
+        padding-right: 50px;
+        padding-bottom: 20px;
+        padding-left: 50px;
+        
+        font-size: 30px;
+    }
+
+    .about {
+        padding-top: 80px;
+        padding-left: 200px;
+        padding-right: 200px;
+    }
+    
+    .about .card-title{
+        font-size: 90px;
+        padding-left: 30px;
+        padding-right: 10px;
+    }
+    
+    .about h3{
+        font-family: 'Krub', sans-serif;
+        padding-bottom: 50px;
+    }
+    
+    
+    .aboutfirst .card-text{
+        font-family: 'Cormorant Garamond', serif;
+        font-size: 30px;
+    }
+    
+    .companyteam{
+        padding-left: 250px;
+        padding-right: 100px;
+    }
+    
+    .companyteam .card{
+        width: 800px;
+        border: none;
+    }
+
+    .subservices .firstservice, .subservices .secondservice, 
+    .subservices .thirdservice, .subservices .fourthservice{
+        height: 180px;
+        width: 180px;
+    }
 }

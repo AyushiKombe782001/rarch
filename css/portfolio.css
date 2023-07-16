@@ -34,27 +34,30 @@
     font-family: 'Playfair Display SC', serif;
 }
 
-.projectscards .card {
+/* .projectscards .card {
     width: 60rem;
     border: none;
     
-}
+} */
 
-.projectscards .image-grid-container {
+/* .projectscards .image-grid-container {
     display: grid;
-    /* For 3 columns */
+
     grid-template-columns: auto auto auto;
     border: none;
-}
+} */
 
 .projectscards img {
     width: 100%;
-    padding: 13px;
 }
 
-.projectscards .container {
+/* .projectscards .container {
     padding-left: 0;
     padding-bottom: 100px;
+} */
+
+.projectscards .container .row{
+  padding-bottom: 23px;
 }
 
 
@@ -75,10 +78,10 @@
     position: absolute;
     top: 0;
     left: 0;
-    color: #000000;
+    
     background-color: rgba(200, 200, 200, 0.3);
-    width: 320px;
-    height: 320px;
+    width: 355px;
+    height: 355px;
     -webkit-transition: all 400ms ease-out;
     -moz-transition: all 400ms ease-out;
     -o-transition: all 400ms ease-out;
@@ -122,10 +125,9 @@
     position: absolute;
     top: 0;
     left: 0;
-    color: #000000;
     background-color: rgba(200, 200, 200, 0.3);
-    width: 320px;
-    height: 320px;
+    width: 355px;
+    height: 355px;
     -webkit-transition: all 400ms ease-out;
     -moz-transition: all 400ms ease-out;
     -o-transition: all 400ms ease-out;
@@ -166,10 +168,9 @@
     position: absolute;
     top: 0;
     left: 0;
-    color: #000000;
     background-color: rgba(200, 200, 200, 0.3);
-    width: 320px;
-    height: 320px;
+    width: 355px;
+    height: 355px;
     -webkit-transition: all 400ms ease-out;
     -moz-transition: all 400ms ease-out;
     -o-transition: all 400ms ease-out;
@@ -210,10 +211,9 @@
     position: absolute;
     top: 0;
     left: 0;
-    color: #000000;
     background-color: rgba(200, 200, 200, 0.3);
-    width: 320px;
-    height: 320px;
+    width: 355px;
+    height: 355px;
     -webkit-transition: all 400ms ease-out;
     -moz-transition: all 400ms ease-out;
     -o-transition: all 400ms ease-out;
@@ -255,10 +255,9 @@
     position: absolute;
     top: 0;
     left: 0;
-    color: #000000;
     background-color: rgba(200, 200, 200, 0.3);
-    width: 320px;
-    height: 320px;
+    width: 355px;
+    height: 355px;
     -webkit-transition: all 400ms ease-out;
     -moz-transition: all 400ms ease-out;
     -o-transition: all 400ms ease-out;
@@ -302,10 +301,9 @@
     position: absolute;
     top: 0;
     left: 0;
-    color: #000000;
     background-color: rgba(200, 200, 200, 0.3);
-    width: 320px;
-    height: 320px;
+    width: 355px;
+    height: 355px;
     -webkit-transition: all 400ms ease-out;
     -moz-transition: all 400ms ease-out;
     -o-transition: all 400ms ease-out;
@@ -347,10 +345,9 @@
     position: absolute;
     top: 0;
     left: 0;
-    color: #000000;
     background-color: rgba(200, 200, 200, 0.3);
-    width: 320px;
-    height: 320px;
+    width: 355px;
+    height: 355px;
     -webkit-transition: all 400ms ease-out;
     -moz-transition: all 400ms ease-out;
     -o-transition: all 400ms ease-out;
@@ -393,10 +390,9 @@
     position: absolute;
     top: 0;
     left: 0;
-    color: #000000;
     background-color: rgba(200, 200, 200, 0.3);
-    width: 320px;
-    height: 320px;
+    width: 355px;
+    height: 355px;
     -webkit-transition: all 400ms ease-out;
     -moz-transition: all 400ms ease-out;
     -o-transition: all 400ms ease-out;
@@ -438,10 +434,9 @@
     position: absolute;
     top: 0;
     left: 0;
-    color: #000000;
     background-color: rgba(200, 200, 200, 0.3);
-    width: 320px;
-    height: 320px;
+    width: 355px;
+    height: 355px;
     -webkit-transition: all 400ms ease-out;
     -moz-transition: all 400ms ease-out;
     -o-transition: all 400ms ease-out;
@@ -508,9 +503,48 @@ padding-left: 200px;
 
 /* media queries */
 
-@media only screen and (max-width: 2560px) and (min-width: 1400px) {
+@media only screen and (max-width: 2560px) and (min-width: 2000px) {
   .projectscards .container {
-      padding-left: 15vw;
+      padding-left: 9vw;
+      padding-bottom: 100px;
+      padding-right: 9vw;
+  }
+
+  .portfolio-title {
+    /* padding-left: 500px; */
+    font-size: 55px;
+    font-family: 'Playfair Display SC', serif;
+  }
+
+  .nav-item{
+    padding-top: 20px;
+    padding-right: 30px;
+    padding-bottom: 20px;
+    padding-left: 30px;
+    
+    font-size: 20px;
+  }
+  
+  #navbarmain{
+    
+    padding-right: 130px;
+    padding-left: 60px;
+  }
+
+  .navbar-nav{
+    padding-left: 60vw;
+  }
+
+
+  footer .companyicons i{
+    padding-left: 20px;
+    }
+
+}
+
+@media only screen and (max-width: 1999px) and (min-width: 1800px) {
+  .projectscards .container {
+      padding-left: 2vw;
       padding-bottom: 100px;
   }
 
@@ -533,6 +567,48 @@ padding-left: 200px;
     
     padding-right: 130px;
     padding-left: 60px;
+  }
+
+  .navbar-nav{
+    padding-left: 50vw;
+  }
+
+  footer .companyicons i{
+    padding-left: 20px;
+    }
+
+}
+
+@media only screen and (max-width: 1799px) and (min-width: 1400px) {
+  .projectscards .container {
+    width: fit-content;
+      padding-bottom: 100px;
+      padding-left: 3vw;
+  }
+
+  .portfolio-title {
+    /* padding-left: 500px; */
+    font-size: 55px;
+    font-family: 'Playfair Display SC', serif;
+  }
+
+  .nav-item{
+    padding-top: 20px;
+    padding-right: 30px;
+    padding-bottom: 20px;
+    padding-left: 30px;
+    
+    font-size: 20px;
+  }
+  
+  #navbarmain{
+    
+    padding-right: 130px;
+    padding-left: 60px;
+  }
+
+  .navbar-nav{
+    padding-left: 40vw;
   }
 
   footer .companyicons i{
@@ -543,13 +619,14 @@ padding-left: 200px;
 
 @media only screen and (max-width: 1399px) and (min-width: 1200px) {
   .projectscards .container {
-      padding-left: 100px;
+    width: fit-content;
       padding-bottom: 100px;
+      padding-left: 3vw;
   }
 
   .portfolio-title {
     /* padding-left: 500px; */
-    font-size: 55px;
+    font-size: 45px;
     font-family: 'Playfair Display SC', serif;
   }
 
@@ -566,6 +643,11 @@ padding-left: 200px;
     
     padding-right: 130px;
     padding-left: 60px;
+  }
+
+
+  .navbar-nav{
+    padding-left: 30vw;
   }
 
   footer .companyicons i{
@@ -574,36 +656,586 @@ padding-left: 200px;
 
 }
 
-@media only screen and (max-width: 1000px) and (min-width: 1199px) {
-  .projectscards .container {
-    width: fit-content;
-      padding-bottom: 100px;
-      padding-left: 100px;
-  }
+@media only screen and (max-width: 1199px) and (min-width: 1050px) {
+  
 
   .portfolio-title {
     /* padding-left: 500px; */
-    font-size: 55px;
+    font-size: 50px;
     font-family: 'Playfair Display SC', serif;
   }
 
   .nav-item{
     padding-top: 20px;
-    padding-right: 30px;
+    padding-right: 20px;
     padding-bottom: 20px;
-    padding-left: 30px;
+    padding-left: 20px;
     
     font-size: 20px;
   }
   
   #navbarmain{
     
-    padding-right: 130px;
-    padding-left: 60px;
+    padding-right: 100px;
+    padding-left: 40px;
+  }
+
+  .navbar-nav{
+    padding-left: 20vw;
   }
 
   footer .companyicons i{
-    padding-left: 20px;
+    padding-left: 10px;
     }
+
+}
+
+@media only screen and (max-width: 1049px) and (min-width: 992px) {
+  
+
+  .portfolio-title {
+    /* padding-left: 500px; */
+    font-size: 45px;
+    font-family: 'Playfair Display SC', serif;
+  }
+
+  .projectscards .container {
+      padding-left: 12vw;
+      padding-bottom: 100px;
+      padding-right: 12vw;
+  }
+
+
+  .nav-item{
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    
+    font-size: 20px;
+  }
+  
+  #navbarmain{
+    
+    padding-right: 100px;
+    padding-left: 40px;
+  }
+
+  .navbar-nav{
+    padding-left: 15vw;
+  }
+
+  footer .companyicons i{
+    padding-left: 10px;
+    }
+
+}
+
+@media only screen and (max-width: 991px) and (min-width: 800px) {
+  
+
+  .portfolio-title {
+    /* padding-left: 500px; */
+    font-size: 45px;
+    font-family: 'Playfair Display SC', serif;
+  }
+
+  .projectscards .container {
+      padding-left: 5vw;
+      padding-bottom: 100px;
+      padding-right: 5vw;
+  }
+
+
+  .nav-item{
+    padding-top: 20px;
+    padding-right: 10px;
+    padding-bottom: 20px;
+    padding-left: 10px;
+    
+    font-size: 20px;
+  }
+  
+  #navbarmain{
+    
+    padding-right: 80px;
+    padding-left: 40px;
+  }
+
+  footer .footerheading h1 i{
+    font-size: 15px;
+    text-align: left;
+    display: none;
+  }
+
+  footer .companyicons i{
+      padding-left: 20px;
+      padding-right: 20px;
+  }
+
+  footer .companyicons{
+      padding-top: 0px;
+      padding-right: 0px;
+      text-align: left;
+      padding-left: 250px;
+      
+  }
+
+}
+
+@media only screen and (max-width: 799px) and (min-width: 768px) {
+  
+
+  .portfolio-title {
+    /* padding-left: 500px; */
+    font-size: 45px;
+    font-family: 'Playfair Display SC', serif;
+  }
+
+  .projectscards .container {
+      padding-left: 7vw;
+      padding-bottom: 100px;
+      padding-right: 7vw;
+  }
+
+
+  .nav-item{
+    padding-top: 20px;
+    padding-right: 10px;
+    padding-bottom: 20px;
+    padding-left: 10px;
+    
+    font-size: 17px;
+  }
+  
+  #navbarmain{
+    
+    padding-right: 50px;
+    padding-left: 30px;
+  }
+
+  footer .footerheading h1 i{
+    font-size: 15px;
+    text-align: left;
+    display: none;
+  }
+
+  footer .companyicons i{
+      padding-left: 20px;
+      padding-right: 20px;
+  }
+
+  footer .companyicons{
+      padding-top: 0px;
+      padding-right: 0px;
+      text-align: left;
+      padding-left: 250px;
+      
+  }
+
+}
+
+@media only screen and (max-width: 767px) and (min-width: 700px) {
+  
+
+  .navbarlogo img{
+    width: 120px;
+    height: 60px;
+  }
+
+
+  .portfolio-title {
+    /* padding-left: 500px; */
+    font-size: 45px;
+    font-family: 'Playfair Display SC', serif;
+  }
+
+  .projectscards .container {
+      padding-left: 2vw;
+      padding-bottom: 100px;
+      padding-right: 2vw;
+  }
+
+
+  .nav-item{
+    padding-top: 20px;
+    padding-right: 10px;
+    padding-bottom: 20px;
+    padding-left: 10px;
+    
+    font-size: 17px;
+  }
+  
+  #navbarmain{
+    
+    padding-right: 50px;
+    padding-left: 30px;
+  }
+
+  footer .footerheading h1 i{
+    font-size: 15px;
+    text-align: left;
+    display: none;
+  }
+
+  footer .companyicons i{
+      padding-left: 20px;
+      padding-right: 20px;
+  }
+
+  footer .companyicons{
+      padding-top: 0px;
+      padding-right: 0px;
+      text-align: left;
+      padding-left: 160px;
+      
+  }
+
+}
+
+
+@media only screen and (max-width: 699px) and (min-width: 575px) {
+  
+
+  .navbarlogo img{
+    width: 120px;
+    height: 60px;
+  }
+
+
+  .portfolio-title {
+    /* padding-left: 500px; */
+    font-size: 45px;
+  }
+
+  .projectscards .container {
+      padding-left: 2vw;
+      padding-bottom: 100px;
+      padding-right: 2vw;
+  }
+
+
+  .nav-item{
+    padding-top: 20px;
+    padding-right: 5px;
+    padding-bottom: 20px;
+    padding-left: 5px;
+    
+    font-size: 17px;
+  }
+  
+  #navbarmain{
+    
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+
+  footer .footerheading h1 i{
+    font-size: 15px;
+    text-align: left;
+    display: none;
+  }
+
+  footer .companyicons i{
+      padding-left: 20px;
+      padding-right: 20px;
+  }
+
+  footer .companyicons{
+      padding-top: 0px;
+      padding-right: 0px;
+      text-align: left;
+      padding-left: 160px;
+      
+  }
+
+}
+
+@media only screen and (max-width: 574px) and (min-width: 525px) {
+  
+
+  .navbarlogo img{
+    width: 120px;
+    height: 60px;
+  }
+
+
+  .portfolio-title {
+    /* padding-left: 500px; */
+    font-size: 40px;
+  }
+
+  .projectscards .container {
+      padding-left: 7vw;
+      padding-bottom: 100px;
+      padding-right: 7vw;
+  }
+
+
+  .nav-item{
+    padding-top: 20px;
+    padding-right: 5px;
+    padding-bottom: 20px;
+    padding-left: 5px;
+    
+    font-size: 17px;
+  }
+  
+  #navbarmain{
+    
+    padding-right: 20px;
+    padding-left: 10px;
+  }
+
+  .projectscards .container .row{
+    padding-bottom: 0px;
+  }
+
+  .projectscards .container .row .example1, 
+  .projectscards .container .row .example2, 
+  .projectscards .container .row .example3, 
+  .projectscards .container .row .example4, 
+  .projectscards .container .row .example5,
+  .projectscards .container .row .example6, 
+  .projectscards .container .row .example7, 
+  .projectscards .container .row .example8{
+    padding-bottom: 30px;
+  }
+
+  footer .footerheading h1 i{
+    font-size: 15px;
+    text-align: left;
+    display: none;
+  }
+
+  footer .companyicons i{
+      padding-left: 20px;
+      padding-right: 20px;
+  }
+
+  footer .companyicons{
+      padding-top: 0px;
+      padding-right: 0px;
+      text-align: left;
+      padding-left: 150px;
+      
+  }
+
+}
+
+
+@media only screen and (max-width: 524px) and (min-width: 425px) {
+  
+
+  .navbarlogo img{
+    width: 100px;
+    height: 50px;
+  }
+
+
+  .portfolio-title {
+    /* padding-left: 500px; */
+    font-size: 35px;
+  }
+
+  .projectscards .container {
+      padding-left: 7vw;
+      padding-bottom: 100px;
+      padding-right: 7vw;
+  }
+
+
+  .nav-item{
+    padding-top: 20px;
+    padding-right: 5px;
+    padding-bottom: 20px;
+    padding-left: 5px;
+    
+    font-size: 17px;
+  }
+  
+  #navbarmain{
+    
+    padding-right: 20px;
+    padding-left: 10px;
+  }
+
+  .projectscards .container .row{
+    padding-bottom: 0px;
+  }
+
+  .projectscards .container .row .example1, 
+  .projectscards .container .row .example2, 
+  .projectscards .container .row .example3, 
+  .projectscards .container .row .example4, 
+  .projectscards .container .row .example5,
+  .projectscards .container .row .example6, 
+  .projectscards .container .row .example7, 
+  .projectscards .container .row .example8{
+    padding-bottom: 30px;
+  }
+
+  footer .footerheading h1 i{
+    font-size: 15px;
+    text-align: left;
+    display: none;
+  }
+
+  footer .companyicons i{
+      padding-left: 20px;
+      padding-right: 20px;
+  }
+
+  footer .companyicons{
+      padding-top: 0px;
+      padding-right: 0px;
+      text-align: left;
+      padding-left: 100px;
+      
+  }
+
+}
+
+@media only screen and (max-width: 424px) and (min-width: 375px) {
+  
+
+  .navbarlogo img{
+    width: 100px;
+    height: 50px;
+  }
+
+
+  .portfolio-title {
+    /* padding-left: 500px; */
+    font-size: 35px;
+  }
+
+  .projectscards .container {
+      padding-left: 7vw;
+      padding-bottom: 100px;
+      padding-right: 7vw;
+  }
+
+
+  .nav-item{
+    padding-top: 20px;
+    padding-right: 5px;
+    padding-bottom: 20px;
+    padding-left: 5px;
+    
+    font-size: 17px;
+  }
+  
+  #navbarmain{
+    
+    padding-right: 20px;
+    padding-left: 10px;
+  }
+
+  .projectscards .container .row{
+    padding-bottom: 0px;
+  }
+
+  .projectscards .container .row .example1, 
+  .projectscards .container .row .example2, 
+  .projectscards .container .row .example3, 
+  .projectscards .container .row .example4, 
+  .projectscards .container .row .example5,
+  .projectscards .container .row .example6, 
+  .projectscards .container .row .example7, 
+  .projectscards .container .row .example8{
+    padding-bottom: 30px;
+  }
+
+  footer .footerheading h1 i{
+    font-size: 13px;
+    text-align: left;
+    display: none;
+  }
+
+  footer .companyicons i{
+      padding-left: 20px;
+      padding-right: 20px;
+  }
+
+  footer .companyicons{
+      padding-top: 0px;
+      padding-right: 0px;
+      text-align: left;
+      padding-left: 80px;
+      
+  }
+
+}
+
+@media only screen and (max-width: 374px) and (min-width: 320px) {
+  
+
+  .navbarlogo img{
+    width: 100px;
+    height: 50px;
+  }
+
+
+  .portfolio-title {
+    /* padding-left: 500px; */
+    font-size: 35px;
+  }
+
+  .projectscards .container {
+      padding-left: 7vw;
+      padding-bottom: 100px;
+      padding-right: 7vw;
+  }
+
+
+  .nav-item{
+    padding-top: 20px;
+    padding-right: 5px;
+    padding-bottom: 20px;
+    padding-left: 5px;
+    
+    font-size: 17px;
+  }
+  
+  #navbarmain{
+    
+    padding-right: 20px;
+    padding-left: 10px;
+  }
+
+  .projectscards .container .row{
+    padding-bottom: 0px;
+  }
+
+  .projectscards .container .row .example1, 
+  .projectscards .container .row .example2, 
+  .projectscards .container .row .example3, 
+  .projectscards .container .row .example4, 
+  .projectscards .container .row .example5,
+  .projectscards .container .row .example6, 
+  .projectscards .container .row .example7, 
+  .projectscards .container .row .example8{
+    padding-bottom: 30px;
+  }
+
+  footer .footerheading h1 i{
+    font-size: 13px;
+    text-align: left;
+    display: none;
+  }
+
+  footer .companyicons i{
+      padding-left: 20px;
+      padding-right: 20px;
+  }
+
+  footer .companyicons{
+      padding-top: 0px;
+      padding-right: 0px;
+      text-align: left;
+      padding-left: 50px;
+      
+  }
 
 }

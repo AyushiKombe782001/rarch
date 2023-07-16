@@ -24,29 +24,38 @@
     
     <!-- Navbar -->
 
-    <nav class="navbar navbar-expand navbar-light sticky-top" style="background-color: #ffffff;">
+    <nav class="navbar navbar-expand-lg navbar-light sticky-top" style="background-color: #ffffff;">
       <div class="container-fluid" id="navbarmain">
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
         <a class="navbar-brand navbarlogo" href="#">
           <img src="./Images/logo.png" alt="">
         </a>
-        <div class="navbarcontent" id="navbarTogglerDemo">
-          <ul class="navbar-nav">
-            <li class="nav-item active">
-              <a class="nav-link" href="./index.html">Home</a>
-            </li>
-            <li class="nav-item active">
-              <a class="nav-link" href="./portfolio.html">Portfolio</a>
-            </li>
-            <li class="nav-item active">
-              <a class="nav-link" href="./about.html">About</a>
-            </li>
-            <li class="nav-item active">
-              <a class="nav-link" href="./contact.html">Contact</a>
-            </li>
-          </ul>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <!-- <div class="navbar-nav">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+            <a class="nav-link" href="#">Features</a>
+            <a class="nav-link" href="#">Pricing</a>
+            <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+          </div> -->
+          <div class="navbarcontent" id="navbarTogglerDemo">
+            <ul class="navbar-nav">
+              <li class="nav-item active">
+                <a class="nav-link" href="./index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./portfolio.html">Portfolio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./about.html">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./contact.html">Contact</a>
+              </li>
+            </ul>
+          </div>
         </div>
       </div>
     </nav>
@@ -59,87 +68,98 @@
   
     <div class="container"> 
       <h1 class="portfolio-title"><i>FEATURED<br>PROJECTS</i></h1>
-        <div class="card"> 
-          
-            <div class="image-grid-container">
-                <!-- <img src="./Images/portfolio6/portfolio6_THUMNAIL.jpg" height="380px" alt="01">
-                <img src="./Images/portfolio2/portfolio2_THUMNAIL.jpg" height="380px" alt="02">
-                <img src="./Images/portfolio3/portfolio3_THUMNAIL.jpg" height="380px" alt="03">
-                <img src="./Images/portfolio4/portfolio4_THUMNAIL.jpg" height="190px" alt="04">
-                <img src="./Images/portfolio5/portfolio5_THUMNAIL.JPG" height="190px" alt="05">
-                <img src="./Images/portfolio1/portfolio1_THUMNAIL.jpg" height="190px" alt="06">
-                <img src="./Images/portfolio7/portfolio7_THUMNAIL.jpg" height="190px" alt="07">
-                <img src="./Images/portfolio8/portfolio8_THUMBNAIL.jpg" height="190px" alt="08">
-                <img src="./Images/portfolio9/portfolio9_THUMNAIL.jpg" height="190px" alt="09"> -->
-
-                <div class="example1">
-                    <img src="./Images/portfolio1/portfolio1_THUMNAIL_square.jpg" height="320px" alt="01" onContextMenu="return false;">
-                    <div class="content1">
-                      <div class="text"><a href="./portfolio1/portfolio1.html" style="color: rgb(255, 255, 255); text-decoration: none;">01</a></div>
-                    </div>
+        
+        
+        <div class="row">
+          <div class="col-sm-4">
+            <div class="example1">
+                <img src="./Images/portfolio1/portfolio1_THUMNAIL_square.jpg" alt="01" onContextMenu="return false;">
+                <a href="./portfolio1/portfolio1.html" style="color: rgb(255, 255, 255); text-decoration: none;">
+                  <div class="content1">
+                    <div class="text">01</div>
+                  </div>
+                </a>
+            </div>
+          </div>
+          <div class="col-sm-4">
+            <div class="example2">
+                <img src="./Images/portfolio2/portfolio2_THUMNAIL_square.jpg"  alt="02">
+                <a href="./portfolio2/portfolio2.html" style="color: rgb(255, 255, 255); text-decoration: none;">
+                  <div class="content1">
+                    <div class="text">02</div>
+                  </div>
+                </a>
+            </div>
+          </div>
+          <div class="col-sm-4">
+            <div class="example3">
+                <img src="./Images/portfolio3/portfolio3_THUMNAIL_square.jpg" alt="03">
+                <div class="content3">
+                  <div class="text"><a href="./portfolio3/portfolio3.html" style="color: rgb(255, 255, 255); text-decoration: none;">03</a></div>
                 </div>
-
-                <div class="example2">
-                    <img src="./Images/portfolio2/portfolio2_THUMNAIL_square.jpg" height="320px" alt="02">
-                    <div class="content2">
-                      <div class="text"><a href="./portfolio2/portfolio2.html" style="color: rgb(255, 255, 255); text-decoration: none;">02</a></div>
-                    </div>
-                </div>
-
-                <div class="example3">
-                    <img src="./Images/portfolio3/portfolio3_THUMNAIL_square.jpg" height="320px" alt="03">
-                    <div class="content3">
-                      <div class="text"><a href="./portfolio3/portfolio3.html" style="color: rgb(255, 255, 255); text-decoration: none;">03</a></div>
-                    </div>
-                </div>
-
-                <div class="example4">
-                    <img src="./Images/portfolio4/portfolio4_THUMNAIL_square.jpg" height="320px" alt="04">
-                    <div class="content4">
-                      <div class="text"><a href="./portfolio4/portfolio4.html" style="color: rgb(255, 255, 255); text-decoration: none;">04</a></div>
-                    </div>
-                </div>
-
-                <div class="example5">
-                    <img src="./Images/portfolio5/portfolio5_THUMNAIL_square.JPG" height="320px" alt="05">
-                    <div class="content5">
-                      <div class="text"><a href="./portfolio5/portfolio5.html" style="color: rgb(255, 255, 255); text-decoration: none;">05</a></div>
-                    </div>
-                </div>
-
-                <div class="example6">
-                    <img src="./Images/portfolio6/portfolio6_THUMNAIL_square.jpg" height="320px" alt="06">
-                    <div class="content6">
-                      <div class="text"><a href="./portfolio6/portfolio6.html" style="color: rgb(255, 255, 255); text-decoration: none;">06</a></div>
-                    </div>
-                </div>
-
-                <div class="example7">
-                    <img src="./Images/portfolio7/portfolio7_THUMNAIL_square.jpg" height="320px" alt="07">
-                    <div class="content7">
-                      <div class="text"><a href="./portfolio7/portfolio7.html" style="color: rgb(255, 255, 255); text-decoration: none;">07</a></div>
-                    </div>
-                </div>
-
-                <div class="example8">
-                    <img src="./Images/portfolio8/portfolio8_THUMBNAIL_square.jpg" height="320px" alt="08">
-                    <div class="content8">
-                      <div class="text"><a href="./portfolio8/portfolio8.html" style="color: rgb(255, 255, 255); text-decoration: none;">08</a></div>
-                    </div>
-                </div>
-
-                <div class="example9">
-                    <img src="./Images/portfolio9/portfolio9_THUMNAIL_square.jpg" height="320px" alt="09">
-                    <div class="content9">
-                      <div class="text"><a href="./portfolio9/portfolio9.html" style="color: rgb(255, 255, 255); text-decoration: none;">09</a></div>
-                    </div>
-                </div>
-
-
-            </div> 
-            
+            </div>
+          </div>
         </div>
-    </div>
+        
+        <div class="row">
+          <div class="col-sm-4">
+              <div class="example4">
+                <img src="./Images/portfolio4/portfolio4_THUMNAIL_square.jpg"  alt="04">
+                <div class="content4">
+                  <div class="text"><a href="./portfolio4/portfolio4.html" style="color: rgb(255, 255, 255); text-decoration: none;">04</a></div>
+                </div>
+            </div>
+          </div>
+          <div class="col-sm-4">
+              <div class="example5">
+                <img src="./Images/portfolio5/portfolio5_THUMNAIL_square.JPG"  alt="05">
+                <div class="content5">
+                  <div class="text"><a href="./portfolio5/portfolio5.html" style="color: rgb(255, 255, 255); text-decoration: none;">05</a></div>
+                </div>
+            </div>
+          </div>
+          <div class="col-sm-4">
+              <div class="example6">
+                <img src="./Images/portfolio6/portfolio6_THUMNAIL_square.jpg"  alt="06">
+                <div class="content6">
+                  <div class="text"><a href="./portfolio6/portfolio6.html" style="color: rgb(255, 255, 255); text-decoration: none;">06</a></div>
+                </div>
+            </div>
+          </div>
+        </div>
+        
+        <div class="row">
+            <div class="col-sm-4">
+              <div class="example7">
+                <img src="./Images/portfolio7/portfolio7_THUMNAIL_square.jpg"  alt="07">
+                <div class="content7">
+                  <div class="text"><a href="./portfolio7/portfolio7.html" style="color: rgb(255, 255, 255); text-decoration: none;">07</a></div>
+                </div>
+            </div>
+          </div>
+          <div class="col-sm-4">
+            <div class="example8">
+                <img src="./Images/portfolio8/portfolio8_THUMBNAIL_square.jpg"  alt="08">
+                <div class="content8">
+                  <div class="text"><a href="./portfolio8/portfolio8.html" style="color: rgb(255, 255, 255); text-decoration: none;">08</a></div>
+                </div>
+            </div>
+          </div>
+          <div class="col-sm-4">
+            <div class="example9">
+                <img src="./Images/portfolio9/portfolio9_THUMNAIL_square.jpg" alt="09">
+                <div class="content9">
+                  <div class="text"><a href="./portfolio9/portfolio9.html" style="color: rgb(255, 255, 255); text-decoration: none;">09</a></div>
+                </div>
+            </div>
+          </div>
+        </div>
+        
+        
+
+    
+    
+      </div>
     </div>
 
     <!-- footer -->
