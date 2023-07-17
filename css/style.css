@@ -2083,6 +2083,11 @@ footer .companyicons{
 }
 
 @media only screen and (max-width: 1023px) and (min-width: 896px)  {
+    .navbar-nav{
+        padding-left: 0vw;
+        align-items: center;
+    }
+    
     .nav-item{
         padding-top: 12px;
         padding-right: 20px;
@@ -2101,10 +2106,6 @@ footer .companyicons{
     .navbarlogo img{
         width: 120px;
         height: 50px;
-    }
-    
-    .navbar-nav{
-        padding-left: 45%;
     }
     
     .project {
@@ -2262,11 +2263,12 @@ footer .companyicons{
         padding-bottom: 10px;
         padding-left: 1px;
         
-        font-size: 15px;
+        font-size: 17px;
     }
     
     .navbar-nav{
-        padding-left: 45%;
+        padding-left: 0vw;
+        align-items: center;
     }
     
     .navbarlogo img{
@@ -2274,8 +2276,9 @@ footer .companyicons{
         height: 50px;
     }
 
-    .navbar-nav_{
-        padding-left: 0px;
+    .navbar-nav{
+        padding-left: 0vw;
+        align-items: center;
     }
     
     
@@ -2434,16 +2437,17 @@ footer .companyicons{
 
 @media only screen and (max-width: 767px) and (min-width: 600px)  {
     .nav-item{
-        padding-top: 10px;
+        padding-top: 1px;
         padding-right: 10px;
-        padding-bottom: 10px;
+        padding-bottom: 1px;
         padding-left: 10px;
         
-        font-size: 13px;
+        font-size: 16px;
     }
 
     .navbar-nav{
-        padding-left: 45%;
+        padding-left: 0vw;
+        align-items: center;
     }
     
     #navbarmain{
@@ -2633,9 +2637,9 @@ footer .companyicons{
 
 @media only screen and (max-width: 599px) and (min-width: 500px)  {
     .nav-item{
-        padding-top: 10px;
+        padding-top: 1px;
         padding-right: 3px;
-        padding-bottom: 10px;
+        padding-bottom: 1px;
         padding-left: 3px;
         
         font-size: 16px;
@@ -2643,7 +2647,8 @@ footer .companyicons{
     
 
     .navbar-nav{
-        padding-left: 45%;
+        padding-left: 0vw;
+        align-items: center;
     }
 
     #navbarmain{
@@ -2835,9 +2840,9 @@ footer .companyicons{
 
 @media only screen and (max-width: 499px) and (min-width: 459px)  {
     .nav-item{
-        padding-top: 10px;
+        padding-top: 1px;
         padding-right: 2px;
-        padding-bottom: 10px;
+        padding-bottom: 1px;
         padding-left: 2px;
         
         font-size: 16px;
@@ -2850,7 +2855,8 @@ footer .companyicons{
     }
 
     .navbar-nav{
-        padding-left: 45%;
+        padding-left: 0vw;
+        align-items: center;
     }
     
     .navbarlogo img{
@@ -3035,9 +3041,9 @@ footer .companyicons{
 
 @media only screen and (max-width: 458px) and (min-width: 425px)  {
     .nav-item{
-        padding-top: 10px;
+        padding-top: 1px;
         padding-right: 2px;
-        padding-bottom: 10px;
+        padding-bottom: 1px;
         padding-left: 2px;
         
         font-size: 16px;
@@ -3056,7 +3062,8 @@ footer .companyicons{
 
 
     .navbar-nav{
-        padding-left: 45%;
+        padding-left: 0vw;
+        align-items: center;
     }
 
     .carousel-control-prev, .carousel-control-next, .carousel-indicators {
@@ -3236,9 +3243,9 @@ footer .companyicons{
 
 @media only screen and (max-width: 424px) and (min-width: 375px)  {
     .nav-item{
-        padding-top: 10px;
+        padding-top: 1px;
         padding-right: 2px;
-        padding-bottom: 10px;
+        padding-bottom: 1px;
         padding-left: 2px;
         
         font-size: 16px;
@@ -3257,7 +3264,8 @@ footer .companyicons{
 
 
     .navbar-nav{
-        padding-left: 45%;
+        padding-left: 0vw;
+        align-items: center;
     }
 
     .carousel-control-prev, .carousel-control-next, .carousel-indicators {
@@ -3438,9 +3446,9 @@ footer .companyicons{
 
 @media only screen and (max-width: 374px) and (min-width: 320px)  {
     .nav-item{
-        padding-top: 10px;
+        padding-top: 1px;
         padding-right: 2px;
-        padding-bottom: 10px;
+        padding-bottom: 1px;
         padding-left: 2px;
         
         font-size: 16px;
@@ -3459,7 +3467,8 @@ footer .companyicons{
 
 
     .navbar-nav{
-        padding-left: 45%;
+        padding-left: 0vw;
+        align-items: center;
     }
 
     .carousel-control-prev, .carousel-control-next, .carousel-indicators {
