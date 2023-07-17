@@ -4,7 +4,7 @@
     padding-bottom: 20px;
     padding-left: 50px;
     font-family: 'Playfair Display SC', serif;
-    font-style: italic;
+    
     
     font-size: 20px;
   }
@@ -215,8 +215,13 @@ footer .companyicons i{
 }
 
 footer .companyicons{
-    padding-top: 50px;
+    padding-top: 40px;
     padding-left: 200px;
+}
+
+
+.bg-dark {
+    background-color: #5b5b5b00!important;
 }
 
 
@@ -362,8 +367,22 @@ footer .companyicons{
     .companyimage .breakimg{
         display: inline;
     }
+
+    .bg-dark {
+        background-color: #5b5b5b00!important;
+    }
+
+    footer .companyaddress p{
+        font-size: 23px;
+    }
     
-    
+    footer .companyicons i{
+        font-size: 25px;
+    }
+
+    footer .copyright{
+        font-size: 20px;
+    }
     
     
 }
@@ -497,6 +516,22 @@ footer .companyicons{
         .icons i{
             padding: 20px;
         }
+
+        .bg-dark {
+            background-color: #5b5b5b00!important;
+        }
+
+        footer .companyaddress p{
+            font-size: 23px;
+        }
+        
+        footer .companyicons i{
+            font-size: 25px;
+        }
+
+        footer .copyright{
+            font-size: 20px;
+        }
     
     
     
@@ -629,10 +664,25 @@ footer .companyicons{
     }
     
     
-        .icons i{
-            padding: 20px;
-        }
+    .icons i{
+        padding: 20px;
+    }
     
+    .bg-dark {
+        background-color: #5b5b5b00!important;
+    }
+    
+    footer .companyaddress p{
+        font-size: 23px;
+    }
+    
+    footer .companyicons i{
+        font-size: 25px;
+    }
+
+    footer .copyright{
+        font-size: 20px;
+    }
     
     
     
@@ -763,11 +813,25 @@ footer .companyicons{
     }
     
     
-        .icons i{
-            padding: 20px;
-        }
+    .icons i{
+        padding: 20px;
+    }
     
+    .bg-dark {
+        background-color: #5b5b5b00!important;
+    }
+
+    footer .companyaddress p{
+        font-size: 23px;
+    }
     
+    footer .companyicons i{
+        font-size: 25px;
+    }
+
+    footer .copyright{
+        font-size: 20px;
+    }
     
     
 }
@@ -815,7 +879,7 @@ footer .companyicons{
     
     .project {
         padding-top: 80px;
-        padding-left: 500px;
+        padding-left: 450px;
     }
     
     .project .card-title{
@@ -897,9 +961,25 @@ footer .companyicons{
     }
     
     
-        .icons i{
-            padding: 20px;
-        }
+    .icons i{
+        padding: 20px;
+    }
+
+    .bg-dark {
+        background-color: #5b5b5b00!important;
+    }
+
+    footer .companyaddress p{
+        font-size: 23px;
+    }
+    
+    footer .companyicons i{
+        font-size: 25px;
+    }
+
+    footer .copyright{
+        font-size: 20px;
+    }
     
     
     
@@ -910,9 +990,9 @@ footer .companyicons{
 @media only screen and (max-width: 1800px) and (min-width: 1701px) {
     .nav-item{
         padding-top: 15px;
-        padding-right: 50px;
+        padding-right: 40px;
         padding-bottom: 15px;
-        padding-left: 50px;
+        padding-left: 40px;
         
         font-size: 20px;
     }
@@ -1031,11 +1111,26 @@ footer .companyicons{
     }
     
     
-        .icons i{
-            padding: 20px;
-        }
+    .icons i{
+        padding: 20px;
+    }
+
+    .bg-dark {
+        background-color: #5b5b5b00!important;
+    }
+
+    footer .companyaddress p{
+        font-size: 23px;
+    }
     
+    footer .companyicons i{
+        font-size: 25px;
+    }
+
     
+    footer .copyright{
+        font-size: 20px;
+    }
     
     
 }
@@ -1165,11 +1260,25 @@ footer .companyicons{
     }
     
     
-        .icons i{
-            padding: 20px;
-        }
+    .icons i{
+        padding: 20px;
+    }
     
+    .bg-dark {
+        background-color: #5b5b5b00!important;
+    }
+
+    footer .companyaddress p{
+        font-size: 23px;
+    }
     
+    footer .companyicons i{
+        font-size: 25px;
+    }
+
+    footer .copyright{
+        font-size: 20px;
+    }
     
     
 }
@@ -1299,10 +1408,26 @@ footer .companyicons{
     }
     
     
-        .icons i{
-            padding: 20px;
-        }
+    .icons i{
+        padding: 20px;
+    }
+
     
+    .bg-dark {
+        background-color: #5b5b5b00!important;
+    }
+
+    footer .companyaddress p{
+        font-size: 23px;
+    }
+    
+    footer .companyicons i{
+        font-size: 25px;
+    }
+
+    footer .copyright{
+        font-size: 20px;
+    }
     
     
     
@@ -1434,9 +1559,29 @@ footer .companyicons{
     }
     
     
-        .icons i{
-            padding: 20px;
-        }
+    .icons i{
+        padding: 5px;
+    }
+
+    .bg-dark {
+        background-color: #5b5b5b00!important;
+    }
+
+    footer .companyaddress p{
+        font-size: 23px;
+    }
+    
+    footer .companyicons i{
+        font-size: 20px;
+    }
+
+    footer .companyicons i{
+        padding-left: 20px;
+    }
+    footer .copyright{
+        font-size: 20px;
+    }
+
 }
 
 
@@ -1544,7 +1689,7 @@ footer .companyicons{
 
 
     .companyimage{
-        background-size: 1600px 1150px;
+        background-size: 1600px 1200px;
     }
     
         .icons i{
@@ -1576,7 +1721,26 @@ footer .companyicons{
         padding-top: 50px;
         padding-left: 200px;
     }
+
+    .bg-dark {
+        background-color: #5b5b5b00!important;
+    }
     
+    footer .companyaddress p{
+        font-size: 23px;
+    }
+    
+    footer .companyicons i{
+        font-size: 20px;
+    }
+
+    footer .companyicons i{
+        padding-left: 20px;
+    }
+
+    footer .copyright{
+        font-size: 20px;
+    }
     
 }
 
@@ -1723,6 +1887,26 @@ footer .companyicons{
     
         footer .copyright{
             font-size: 13px;
+        }
+
+        .bg-dark {
+            background-color: #5b5b5b00!important;
+        }
+
+        footer .companyaddress p{
+            font-size: 20px;
+        }
+        
+        footer .companyicons i{
+            font-size: 20px;
+        }
+    
+        footer .companyicons i{
+            padding-left: 20px;
+        }
+
+        footer .copyright{
+            font-size: 20px;
         }
     
     
@@ -1874,6 +2058,26 @@ footer .companyicons{
     footer .copyright{
         font-size: 13px;
     }
+
+    .bg-dark {
+        background-color: #5b5b5b00!important;
+    }
+
+    footer .companyaddress p{
+        font-size: 19px;
+    }
+    
+    footer .companyicons i{
+        font-size: 20px;
+    }
+
+    footer .companyicons i{
+        padding-left: 20px;
+    }
+
+    footer .copyright{
+        font-size: 18px;
+    }
     
     
 }
@@ -2020,15 +2224,32 @@ footer .companyicons{
     }
     
     footer .companyicons{
-        padding-top: 0px;
+        padding-top: 10px;
         padding-right: 0px;
         text-align: left;
         padding-left: 250px;
         
     }
 
+    
     footer .copyright{
         font-size: 10px;
+    }
+
+    .bg-dark {
+        background-color: #52525200!important;
+    }
+
+    footer .footerheading h1{
+        display: none;
+    }
+
+    footer .companyaddress p{
+        font-size: 17px;
+    }
+
+    footer .copyright{
+        font-size: 16px;
     }
     
     
@@ -2180,7 +2401,7 @@ footer .companyicons{
     }
     
     footer .companyicons{
-        padding-top: 0px;
+        padding-top: 10px;
         padding-right: 0px;
         text-align: left;
         padding-left: 250px;
@@ -2190,6 +2411,23 @@ footer .companyicons{
     footer .copyright{
         font-size: 10px;
     }
+
+    .bg-dark {
+        background-color: #acacacde!important;
+    }
+
+    footer .footerheading h1{
+        display: none;
+    }
+
+    footer .companyaddress p{
+        font-size: 15px;
+    }
+
+    footer .copyright{
+        font-size: 14px;
+    }
+    
     
     
 }
@@ -2219,6 +2457,9 @@ footer .companyicons{
         height: 50px;
     }
     
+    .carousel-control-prev, .carousel-control-next{
+        display: none;
+    }
     
     .project {
         padding-top: 50px;
@@ -2307,12 +2548,12 @@ footer .companyicons{
     
     
     .project .viewallpro{
-        padding-top: 25px;
+        padding-top: 20px;
         padding-left: 10px;
     }
     
     .project .viewallpro a{
-        font-size: 12px;
+        font-size: 16px;
     }
     
 
@@ -2363,12 +2604,28 @@ footer .companyicons{
         padding-top: 0px;
         padding-right: 0px;
         text-align: left;
-        padding-left: 170px;
+        padding-left: 160px;
         
     }
 
     footer .copyright{
         font-size: 10px;
+    }
+
+    .bg-dark {
+        background-color: #acacacde!important;
+    }
+
+    footer .footerheading h1{
+        display: none;
+    }
+
+    footer .companyaddress p{
+        font-size: 15px;
+    }
+
+    footer .copyright{
+        font-size: 14px;
     }
     
     
@@ -2398,6 +2655,10 @@ footer .companyicons{
     .navbarlogo img{
         width: 120px;
         height: 50px;
+    }
+
+    .carousel-control-prev, .carousel-control-next, .carousel-indicators {
+        display: none;
     }
     
     
@@ -2488,12 +2749,12 @@ footer .companyicons{
     
     
     .project .viewallpro{
-        padding-top: 25px;
+        padding-top: 20px;
         padding-left: 10px;
     }
     
     .project .viewallpro a{
-        font-size: 12px;
+        font-size: 16px;
     }
     
 
@@ -2551,6 +2812,23 @@ footer .companyicons{
     footer .copyright{
         font-size: 10px;
     }
+
+    .bg-dark {
+        background-color: #acacacde!important;
+    }
+
+    footer .footerheading h1{
+        display: none;
+    }
+
+    footer .companyaddress p{
+        font-size: 15px;
+    }
+
+    footer .copyright{
+        font-size: 14px;
+    }
+    
     
     
 }
@@ -2580,6 +2858,9 @@ footer .companyicons{
         height: 42px;
     }
     
+    .carousel-control-prev, .carousel-control-next, .carousel-indicators {
+        display: none;
+    }
     
     .project {
         padding-top: 50px;
@@ -2668,12 +2949,12 @@ footer .companyicons{
     
     
     .project .viewallpro{
-        padding-top: 25px;
+        padding-top: 15px;
         padding-left: 10px;
     }
     
     .project .viewallpro a{
-        font-size: 12px;
+        font-size: 16px;
     }
     
 
@@ -2731,6 +3012,22 @@ footer .companyicons{
     footer .copyright{
         font-size: 10px;
     }
+
+    .bg-dark {
+        background-color: #acacacde!important;
+    }
+
+    footer .footerheading h1{
+        display: none;
+    }
+
+    footer .companyaddress p{
+        font-size: 15px;
+    }
+
+    footer .copyright{
+        font-size: 14px;
+    }
     
     
 }
@@ -2762,8 +3059,9 @@ footer .companyicons{
         padding-left: 45%;
     }
 
-    
-
+    .carousel-control-prev, .carousel-control-next, .carousel-indicators {
+        display: none;
+    }
 
     
     
@@ -2854,12 +3152,12 @@ footer .companyicons{
     
     
     .project .viewallpro{
-        padding-top: 25px;
+        padding-top: 10px;
         padding-left: 10px;
     }
     
     .project .viewallpro a{
-        font-size: 12px;
+        font-size: 16px;
     }
     
 
@@ -2917,7 +3215,22 @@ footer .companyicons{
     footer .copyright{
         font-size: 10px;
     }
-    
+
+    .bg-dark {
+        background-color: #acacacde!important;
+    }
+
+    footer .footerheading h1{
+        display: none;
+    }
+
+    footer .companyaddress p{
+        font-size: 15px;
+    }
+
+    footer .copyright{
+        font-size: 14px;
+    }
     
 }
 
@@ -2947,7 +3260,9 @@ footer .companyicons{
         padding-left: 45%;
     }
 
-    
+    .carousel-control-prev, .carousel-control-next, .carousel-indicators {
+        display: none;
+    }
 
 
     
@@ -3039,12 +3354,12 @@ footer .companyicons{
     
     
     .project .viewallpro{
-        padding-top: 25px;
+        padding-top: 10px;
         padding-left: 10px;
     }
     
     .project .viewallpro a{
-        font-size: 12px;
+        font-size: 16px;
     }
     
 
@@ -3102,7 +3417,224 @@ footer .companyicons{
     footer .copyright{
         font-size: 10px;
     }
+
+    .bg-dark {
+        background-color: #acacacde!important;
+    }
+
+    footer .footerheading h1{
+        display: none;
+    }
+
+    footer .companyaddress p{
+        font-size: 15px;
+    }
+
+    footer .copyright{
+        font-size: 14px;
+    }
     
+}
+
+@media only screen and (max-width: 374px) and (min-width: 320px)  {
+    .nav-item{
+        padding-top: 10px;
+        padding-right: 2px;
+        padding-bottom: 10px;
+        padding-left: 2px;
+        
+        font-size: 16px;
+    }
+    
+    #navbarmain{
+        
+        padding-right: 25px;
+        padding-left: 25px;
+    }
+    
+    .navbarlogo img{
+        width: 100px;
+        height: 42px;
+    }
+
+
+    .navbar-nav{
+        padding-left: 45%;
+    }
+
+    .carousel-control-prev, .carousel-control-next, .carousel-indicators {
+        display: none;
+    }
+
+
+    
+    
+    .project {
+        padding-top: 50px;
+        padding-left: 30px;
+    }
+    
+    .project .card-title{
+        font-size: 28px;
+        padding-left: 22px;
+        padding-right: 22px;
+    }
+    
+    .project h3{
+        padding-bottom: 40px;
+        font-size: 18px;
+    }
+    
+    
+    
+    
+    .projectfirst .projectwidth{
+        max-width: 650px;
+    }
+    
+    .projectfirst h4 .card-text{
+        font-size: 15px;
+        line-height: 23px;
+    }
+
+    .projectfirst .firstprojectimg{
+        padding: 10px 60px 40px 20px;
+    }
+    
+    
+    
+    
+    
+    
+    .projectsecond .projectwidth{
+        max-width: 650px;
+    }
+    .projectsecond h4 .card-text{
+        font-size: 15px;
+        line-height: 23px;
+    }
+
+    .projectsecond{
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    .projectsecond .card-title{
+        order: 1;
+    }
+
+    .projectsecond img{
+        order: 3;
+    }
+
+    .projectsecond .secondprojectimg{
+        padding: 10px 60px 40px 20px;
+    }
+
+    .projectsecond .hidetitle i{
+        display: none;
+    }
+    
+    
+    
+    
+    
+    
+    .projectthird .projectwidth{
+        max-width: 650px;
+    }
+    .projectthird h4 .card-text{
+        font-size: 15px;
+        line-height: 23px;
+    }
+    
+    .projectthird .thirdprojectimg{
+        padding: 10px 60px 40px 20px;
+    }
+    
+    
+    
+    
+    .project .viewallpro{
+        padding-top: 10px;
+        padding-left: 10px;
+    }
+    
+    .project .viewallpro a{
+        font-size: 16px;
+    }
+    
+
+
+
+    .companyimage{
+        background-size: 550px 850px;
+        display: none;
+    }
+    
+        .icons i{
+            padding: 20px;
+        }
+    
+    .companyimage .breakimg{
+        display: none;
+    }
+    
+    footer .companyname p{
+        font-size: 20px;
+        text-align: center;
+    }
+    
+    
+    footer .companyname .companynameend{
+        font-size: 12px;
+        text-align: center;
+    }
+
+    footer .companyaddress p{
+        font-size: 11px;
+        text-align: center;
+    }
+    
+    
+    footer .footerheading h1 i{
+        font-size: 15px;
+        text-align: left;
+        display: none;
+    }
+    
+    footer .companyicons i{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    
+    footer .companyicons{
+        padding-top: 0px;
+        padding-right: 0px;
+        text-align: left;
+        padding-left: 50px;
+        
+    }
+
+    footer .copyright{
+        font-size: 10px;
+    }
+
+    .bg-dark {
+        background-color: #acacacde!important;
+    }
+
+    footer .footerheading h1{
+        display: none;
+    }
+
+    footer .companyaddress p{
+        font-size: 15px;
+    }
+
+    footer .copyright{
+        font-size: 14px;
+    }
     
 }
 
