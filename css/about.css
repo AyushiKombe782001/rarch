@@ -4,7 +4,6 @@
     padding-bottom: 20px;
     padding-left: 50px;
     font-family: 'Playfair Display SC', serif;
-    font-style: italic;
     
     font-size: 20px;
   }
@@ -26,49 +25,30 @@
     height: 80px;
   }
 
-.about {
-    padding-top: 80px;
-    padding-left: 350px;
-}
+  .navbar-toggler{
+    border: none;
+  }
 
-.about .card-title{
+
+.aboutsection .card-title{
     font-size: 70px;
     font-family: 'Playfair Display SC', serif;
-    padding-left: 30px;
-    padding-right: 10px;
 }
 
-.about h3{
-    font-family: 'Krub', sans-serif;
-    padding-bottom: 50px;
-}
-
-
-.aboutfirst .card-text{
-    font-family: 'Cormorant Garamond', serif;
-    font-size: 20px;
-}
-
-
-.aboutfirst {
-    border: none;
-}
-
-.aboutfirst img:hover{
-    filter: grayscale(100%);
-} 
-
-/* .companyteam{
-    padding-left: 370px;
-    padding-right: 360px;
-    font-family: 'Raleway', sans-serif;
+.aboutsection .col-sm-9{
+    padding-left: 130px;
+    padding-right: 50px;
     
 }
 
+.aboutsection .card-text{
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 25px;
+}
 
-.companyteam .card-body h4{
-    font-weight: 900;
-} */
+.aboutsection .row {
+    margin-right: none;
+}
 
 
 
@@ -100,47 +80,6 @@
     border: none;
 }
 
-
-
-
-.companyteam img{
-    width: 45%;
-    display: inline;
-}
-
-.companyteam{
-    padding-left: 100px;
-    padding-right: 100px;
-}
-
-.companyteam .card{
-    width: 800px;
-    border: none;
-}
-
-.companyteam .firstteammember{
-    padding-left: 80px;
-}
-
-.companyteam .secondteammember{
-    padding-right: 80px;
-}
-
-
-
-
-/* .companyservices .card-title{
-    font-size: 70px;
-    font-family: 'Playfair Display SC', serif;
-    padding-left: 350px;
-    padding-right: 30px;
-}
-
-.companyservices .card-text{
-    font-family: 'Krub', sans-serif;
-    padding-left: 350px;
-    padding-right: 350px;
-} */
 
 .subservices{
     padding-left: 350px;
@@ -194,64 +133,54 @@ footer .companyicons i{
 }
 
 footer .companyicons{
-    padding-top: 50px;
+    padding-top: 40px;
     padding-left: 200px;
 }
 
 
+.bg-dark {
+    background-color: #5b5b5b30!important;
+}
+
+
+
+/* media queries */
+
 @media only screen and (max-width: 2560px) and (min-width: 2401px) {
-    .navbar-nav{
-        padding-left: 42vw;
-    }
 
     .nav-item{
         padding-top: 20px;
-        padding-right: 50px;
+        padding-right: 30px;
         padding-bottom: 20px;
-        padding-left: 50px;
+        padding-left: 30px;
         
+        font-size: 25px;
+    }
+
+    #navbarmain{
+    
+        padding-right: 130px;
+        padding-left: 60px;
+    }
+
+    .navbar-nav{
+        padding-left: 60vw;
+    }
+
+    .aboutsection .card-title{
+        font-size: 90px;
+    }
+
+    .aboutsection .card-text{
+        font-size: 35px;
+    }
+
+    .aboutsection .team-card-title{
         font-size: 30px;
     }
 
-    .about {
-        padding-top: 80px;
-        padding-left: 350px;
-        padding-right: 350px;
-    }
-    
-    .about .card-title{
-        font-size: 90px;
-        padding-left: 30px;
-        padding-right: 10px;
-    }
-    
-    .about h3{
-        font-family: 'Krub', sans-serif;
-        padding-bottom: 50px;
-    }
-    
-    
-    .aboutfirst .card-text{
-        font-family: 'Cormorant Garamond', serif;
-        font-size: 25px;
-    }
-    
-    .companyteam{
-        padding-left: 300px;
-        padding-right: 100px;
-    }
-    
-    .companyteam .card{
-        width: 800px;
-        border: none;
-    }
-    
-    .companyteam .firstteammember{
-        padding-left: 80px;
-    }
-    
-    .companyteam .secondteammember{
-        padding-right: 80px;
+    .aboutsection .row {
+        margin-right: calc(var(--bs-gutter-x) * -0);
     }
 
     .subservices .firstservice, .subservices .secondservice, 
@@ -283,6 +212,36 @@ footer .companyicons{
     .services .card-body{
         padding-left: 80px;
         padding-right: 300px;
+    }
+
+    .services .card-text{
+        font-size: 35px;
+    }
+
+    .subservices .servicestitle{
+        font-size: 30px;
+    }
+
+    .bg-dark {
+        background-color: #5b5b5b30!important;
+    }
+
+    .subservices .firstservice, .subservices .secondservice, 
+    .subservices .thirdservice, .subservices .fourthservice{
+        height: 200px;
+        width: 200px;
+    }
+    
+    footer .companyaddress p{
+        font-size: 21px;
+    }
+    
+    footer .companyicons i{
+      font-size: 25px;
+    }
+    
+    footer .copyright{
+      font-size: 20px;
     }
 
 
@@ -290,58 +249,39 @@ footer .companyicons{
 }
 
 @media only screen and (max-width: 2400px) and (min-width: 2201px) {
-    .navbar-nav{
-        padding-left: 42vw;
-    }
-
     .nav-item{
         padding-top: 20px;
-        padding-right: 50px;
+        padding-right: 30px;
         padding-bottom: 20px;
-        padding-left: 50px;
+        padding-left: 30px;
         
+        font-size: 25px;
+    }
+
+    #navbarmain{
+    
+        padding-right: 130px;
+        padding-left: 60px;
+    }
+
+    .navbar-nav{
+        padding-left: 55vw;
+    }
+
+    .aboutsection .card-title{
+        font-size: 90px;
+    }
+
+    .aboutsection .card-text{
+        font-size: 35px;
+    }
+
+    .aboutsection .team-card-title{
         font-size: 30px;
     }
 
-    .about {
-        padding-top: 80px;
-        padding-left: 350px;
-        padding-right: 350px;
-    }
-    
-    .about .card-title{
-        font-size: 90px;
-        padding-left: 30px;
-        padding-right: 10px;
-    }
-    
-    .about h3{
-        font-family: 'Krub', sans-serif;
-        padding-bottom: 50px;
-    }
-    
-    
-    .aboutfirst .card-text{
-        font-family: 'Cormorant Garamond', serif;
-        font-size: 25px;
-    }
-    
-    .companyteam{
-        padding-left: 300px;
-        padding-right: 100px;
-    }
-    
-    .companyteam .card{
-        width: 800px;
-        border: none;
-    }
-    
-    .companyteam .firstteammember{
-        padding-left: 80px;
-    }
-    
-    .companyteam .secondteammember{
-        padding-right: 80px;
+    .aboutsection .row {
+        margin-right: calc(var(--bs-gutter-x) * -0);
     }
 
     .subservices .firstservice, .subservices .secondservice, 
@@ -352,7 +292,7 @@ footer .companyicons{
 
     .services {
         padding-top: 50px;
-        padding-left: 340px;
+        padding-left: 350px;
     }
     
     .services .card-title{
@@ -373,62 +313,73 @@ footer .companyicons{
     .services .card-body{
         padding-left: 80px;
         padding-right: 300px;
+    }
+
+    .services .card-text{
+        font-size: 35px;
+    }
+
+    .subservices .servicestitle{
+        font-size: 30px;
+    }
+
+    .bg-dark {
+        background-color: #5b5b5b30!important;
+    }
+
+    .subservices .firstservice, .subservices .secondservice, 
+    .subservices .thirdservice, .subservices .fourthservice{
+        height: 200px;
+        width: 200px;
+    }
+    
+    footer .companyaddress p{
+        font-size: 21px;
+    }
+    
+    footer .companyicons i{
+      font-size: 25px;
+    }
+    
+    footer .copyright{
+      font-size: 20px;
     }
 }
 
 @media only screen and (max-width: 2200px) and (min-width: 2001px) {
-    .navbar-nav{
-        padding-left: 38vw;
-    }
-
     .nav-item{
         padding-top: 20px;
-        padding-right: 50px;
+        padding-right: 30px;
         padding-bottom: 20px;
-        padding-left: 50px;
-        
-        font-size: 30px;
-    }
-
-    .about {
-        padding-top: 80px;
-        padding-left: 270px;
-        padding-right: 270px;
-    }
-    
-    .about .card-title{
-        font-size: 90px;
         padding-left: 30px;
-        padding-right: 10px;
-    }
-    
-    .about h3{
-        font-family: 'Krub', sans-serif;
-        padding-bottom: 50px;
-    }
-    
-    
-    .aboutfirst .card-text{
-        font-family: 'Cormorant Garamond', serif;
+        
         font-size: 25px;
     }
+
+    #navbarmain{
     
-    .companyteam{
-        padding-left: 300px;
-        padding-right: 100px;
+        padding-right: 130px;
+        padding-left: 60px;
     }
-    
-    .companyteam .card{
-        width: 800px;
-        border: none;
+
+    .navbar-nav{
+        padding-left: 50vw;
     }
-    
-    .companyteam .firstteammember{
-        padding-left: 80px;
+
+    .aboutsection .card-title{
+        font-size: 90px;
     }
-    
-    .companyteam .secondteammember{
-        padding-right: 80px;
+
+    .aboutsection .card-text{
+        font-size: 28px;
+    }
+
+    .aboutsection .team-card-title{
+        font-size: 25px;
+    }
+
+    .aboutsection .row {
+        margin-right: calc(var(--bs-gutter-x) * -0);
     }
 
     .subservices .firstservice, .subservices .secondservice, 
@@ -439,7 +390,7 @@ footer .companyicons{
 
     .services {
         padding-top: 50px;
-        padding-left: 270px;
+        padding-left: 250px;
     }
     
     .services .card-title{
@@ -452,9 +403,13 @@ footer .companyicons{
         padding-bottom: 50px;
     }
     
+    .services {
+        padding-top: 80px;
+        padding-left: 250px;
+    }
     
     .companyservices .card-text{
-        font-size: 25px;
+        font-size: 20px;
     }
 
     .services .card-body{
@@ -462,101 +417,71 @@ footer .companyicons{
         padding-right: 300px;
     }
 
-    footer h1{
-        font-family: 'Playfair Display SC', serif;
+    .services .card-text{
+        font-size: 28px;
     }
-    
-    
-    
-    footer .companyname p{
-        font-size: 22px;
-        text-align: center;
-        font-family: 'Playfair Display SC', serif;
+
+    .subservices .servicestitle{
+        font-size: 25px;
     }
-    
-    
-    footer .companyname .companynameend{
-        font-size: 13px;
-        text-align: center;
-        font-family: 'Playfair Display SC', serif;
+
+    .bg-dark {
+        background-color: #5b5b5b30!important;
+    }
+
+    .subservices .firstservice, .subservices .secondservice, 
+    .subservices .thirdservice, .subservices .fourthservice{
+        height: 200px;
+        width: 200px;
     }
     
     footer .companyaddress p{
-        text-align: center;
-    }
-    
-    
-    
-    footer .footerheading h1 i{
-        font-size: 45px;
+        font-size: 21px;
     }
     
     footer .companyicons i{
-        padding-left: 40px;
+      font-size: 25px;
     }
     
-    footer .companyicons{
-        padding-top: 50px;
-        padding-left: 200px;
+    footer .copyright{
+      font-size: 20px;
     }
 }
 
-
-
-
 @media only screen and (max-width: 2000px) and (min-width: 1901px) {
-    .navbar-nav{
-        padding-left: 35vw;
-    }
-
     .nav-item{
         padding-top: 20px;
-        padding-right: 50px;
+        padding-right: 30px;
         padding-bottom: 20px;
-        padding-left: 50px;
+        padding-left: 30px;
         
         font-size: 25px;
     }
 
-    .about {
-        padding-top: 80px;
-        padding-left: 230px;
-        padding-right: 230px;
+    #navbarmain{
+    
+        padding-right: 130px;
+        padding-left: 60px;
     }
-    
-    .about .card-title{
-        font-size: 70px;
-        padding-left: 30px;
-        padding-right: 10px;
+
+    .navbar-nav{
+        padding-left: 45vw;
     }
-    
-    .about h3{
-        font-family: 'Krub', sans-serif;
-        padding-bottom: 50px;
+
+    .aboutsection .card-title{
+        font-size: 90px;
     }
-    
-    
-    .aboutfirst .card-text{
-        font-family: 'Cormorant Garamond', serif;
+
+    .aboutsection .card-text{
+        font-size: 26px;
+    }
+
+    .aboutsection .team-card-title{
         font-size: 25px;
     }
-    
-    .companyteam{
-        padding-left: 200px;
-        padding-right: 100px;
-    }
-    
-    .companyteam .card{
-        width: 800px;
-        border: none;
-    }
-    
-    .companyteam .firstteammember{
-        padding-left: 80px;
-    }
-    
-    .companyteam .secondteammember{
-        padding-right: 80px;
+
+    .aboutsection .row {
+        margin-right: calc(var(--bs-gutter-x) * -0);
     }
 
     .subservices .firstservice, .subservices .secondservice, 
@@ -567,11 +492,11 @@ footer .companyicons{
 
     .services {
         padding-top: 50px;
-        padding-left: 230px;
+        padding-left: 200px;
     }
     
     .services .card-title{
-        font-size: 70px;
+        font-size: 90px;
         padding-left: 0px;
         padding-right: 0px;
     }
@@ -580,9 +505,13 @@ footer .companyicons{
         padding-bottom: 50px;
     }
     
+    .services {
+        padding-top: 80px;
+        padding-left: 250px;
+    }
     
     .companyservices .card-text{
-        font-size: 25px;
+        font-size: 26px;
     }
 
     .services .card-body{
@@ -590,98 +519,71 @@ footer .companyicons{
         padding-right: 300px;
     }
 
-    footer h1{
-        font-family: 'Playfair Display SC', serif;
+    .services .card-text{
+        font-size: 26px;
     }
-    
-    
-    
-    footer .companyname p{
-        font-size: 22px;
-        text-align: center;
-        font-family: 'Playfair Display SC', serif;
+
+    .subservices .servicestitle{
+        font-size: 25px;
     }
-    
-    
-    footer .companyname .companynameend{
-        font-size: 13px;
-        text-align: center;
-        font-family: 'Playfair Display SC', serif;
+
+    .bg-dark {
+        background-color: #5b5b5b30!important;
+    }
+
+    .subservices .firstservice, .subservices .secondservice, 
+    .subservices .thirdservice, .subservices .fourthservice{
+        height: 200px;
+        width: 200px;
     }
     
     footer .companyaddress p{
-        text-align: center;
-    }
-    
-    
-    
-    footer .footerheading h1 i{
-        font-size: 45px;
+        font-size: 21px;
     }
     
     footer .companyicons i{
-        padding-left: 40px;
+      font-size: 25px;
     }
     
-    footer .companyicons{
-        padding-top: 50px;
-        padding-left: 200px;
+    footer .copyright{
+      font-size: 20px;
     }
 }
 
 @media only screen and (max-width: 1900px) and (min-width: 1801px) {
-    .navbar-nav{
-        padding-left: 35vw;
-    }
-
     .nav-item{
         padding-top: 20px;
-        padding-right: 50px;
+        padding-right: 30px;
         padding-bottom: 20px;
-        padding-left: 50px;
+        padding-left: 30px;
         
         font-size: 25px;
     }
 
-    .about {
-        padding-top: 80px;
-        padding-left: 230px;
-        padding-right: 230px;
+    #navbarmain{
+    
+        padding-right: 130px;
+        padding-left: 60px;
     }
-    
-    .about .card-title{
-        font-size: 70px;
-        padding-left: 30px;
-        padding-right: 10px;
+
+    .navbar-nav{
+        padding-left: 40vw;
     }
-    
-    .about h3{
-        font-family: 'Krub', sans-serif;
-        padding-bottom: 50px;
+
+    .aboutsection .card-title{
+        font-size: 80px;
     }
-    
-    
-    .aboutfirst .card-text{
-        font-family: 'Cormorant Garamond', serif;
+
+    .aboutsection .card-text{
+        font-size: 26px;
+    }
+
+    .aboutsection .team-card-title{
         font-size: 22px;
     }
-    
-    .companyteam{
-        padding-left: 160px;
-        padding-right: 100px;
-    }
-    
-    .companyteam .card{
-        width: 800px;
-        border: none;
-    }
-    
-    .companyteam .firstteammember{
-        padding-left: 80px;
-    }
-    
-    .companyteam .secondteammember{
-        padding-right: 80px;
+
+    .aboutsection .row {
+        margin-right: calc(var(--bs-gutter-x) * -0);
     }
 
     .subservices .firstservice, .subservices .secondservice, 
@@ -692,11 +594,11 @@ footer .companyicons{
 
     .services {
         padding-top: 50px;
-        padding-left: 230px;
+        padding-left: 200px;
     }
     
     .services .card-title{
-        font-size: 70px;
+        font-size: 80px;
         padding-left: 0px;
         padding-right: 0px;
     }
@@ -705,108 +607,85 @@ footer .companyicons{
         padding-bottom: 50px;
     }
     
+    .services {
+        padding-top: 80px;
+        padding-left: 200px;
+    }
     
     .companyservices .card-text{
-        font-size: 22px;
+        font-size: 26px;
     }
 
     .services .card-body{
         padding-left: 80px;
-        padding-right: 230px;
+        padding-right: 200px;
     }
 
-    footer h1{
-        font-family: 'Playfair Display SC', serif;
+    .services .card-text{
+        font-size: 26px;
     }
-    
-    
-    
-    footer .companyname p{
-        font-size: 22px;
-        text-align: center;
-        font-family: 'Playfair Display SC', serif;
+
+    .subservices .servicestitle{
+        font-size: 25px;
     }
-    
-    
-    footer .companyname .companynameend{
-        font-size: 13px;
-        text-align: center;
-        font-family: 'Playfair Display SC', serif;
+
+    .bg-dark {
+        background-color: #5b5b5b30!important;
+    }
+
+    .subservices .firstservice, .subservices .secondservice, 
+    .subservices .thirdservice, .subservices .fourthservice{
+        height: 200px;
+        width: 200px;
     }
     
     footer .companyaddress p{
-        text-align: center;
-    }
-    
-    
-    
-    footer .footerheading h1 i{
-        font-size: 45px;
+        font-size: 21px;
     }
     
     footer .companyicons i{
-        padding-left: 40px;
+      font-size: 25px;
     }
     
-    footer .companyicons{
-        padding-top: 50px;
-        padding-left: 200px;
+    footer .copyright{
+      font-size: 20px;
     }
 }
 
 @media only screen and (max-width: 1800px) and (min-width: 1701px) {
-    .navbar-nav{
-        padding-left: 32vw;
-    }
-
     .nav-item{
         padding-top: 20px;
-        padding-right: 50px;
+        padding-right: 30px;
         padding-bottom: 20px;
-        padding-left: 50px;
+        padding-left: 30px;
         
         font-size: 25px;
     }
 
-    .about {
-        padding-top: 80px;
-        padding-left: 230px;
-        padding-right: 230px;
+    #navbarmain{
+    
+        padding-right: 130px;
+        padding-left: 60px;
+    }
+
+    .navbar-nav{
+        padding-left: 40vw;
+    }
+
+    .aboutsection .card-title{
+        font-size: 80px;
+    }
+
+    .aboutsection .card-text{
+        font-size: 24px;
+    }
+
+    .aboutsection .team-card-title{
+        font-size: 20px;
     }
     
-    .about .card-title{
-        font-size: 70px;
-        padding-left: 30px;
-        padding-right: 10px;
-    }
-    
-    .about h3{
-        font-family: 'Krub', sans-serif;
-        padding-bottom: 50px;
-    }
-    
-    
-    .aboutfirst .card-text{
-        font-family: 'Cormorant Garamond', serif;
-        font-size: 22px;
-    }
-    
-    .companyteam{
-        padding-left: 130px;
-        padding-right: 100px;
-    }
-    
-    .companyteam .card{
-        width: 800px;
-        border: none;
-    }
-    
-    .companyteam .firstteammember{
-        padding-left: 80px;
-    }
-    
-    .companyteam .secondteammember{
-        padding-right: 80px;
+    .aboutsection .row {
+        margin-right: calc(var(--bs-gutter-x) * -0);
     }
 
     .subservices .firstservice, .subservices .secondservice, 
@@ -817,11 +696,11 @@ footer .companyicons{
 
     .services {
         padding-top: 50px;
-        padding-left: 230px;
+        padding-left: 200px;
     }
     
     .services .card-title{
-        font-size: 70px;
+        font-size: 80px;
         padding-left: 0px;
         padding-right: 0px;
     }
@@ -830,108 +709,85 @@ footer .companyicons{
         padding-bottom: 50px;
     }
     
+    .services {
+        padding-top: 80px;
+        padding-left: 200px;
+    }
     
     .companyservices .card-text{
-        font-size: 22px;
+        font-size: 26px;
     }
 
     .services .card-body{
         padding-left: 80px;
-        padding-right: 230px;
+        padding-right: 200px;
     }
 
-    footer h1{
-        font-family: 'Playfair Display SC', serif;
+    .services .card-text{
+        font-size: 24px;
     }
-    
-    
-    
-    footer .companyname p{
-        font-size: 22px;
-        text-align: center;
-        font-family: 'Playfair Display SC', serif;
+
+    .subservices .servicestitle{
+        font-size: 25px;
     }
-    
-    
-    footer .companyname .companynameend{
-        font-size: 13px;
-        text-align: center;
-        font-family: 'Playfair Display SC', serif;
+
+    .bg-dark {
+        background-color: #5b5b5b30!important;
+    }
+
+    .subservices .firstservice, .subservices .secondservice, 
+    .subservices .thirdservice, .subservices .fourthservice{
+        height: 200px;
+        width: 200px;
     }
     
     footer .companyaddress p{
-        text-align: center;
-    }
-    
-    
-    
-    footer .footerheading h1 i{
-        font-size: 45px;
+        font-size: 21px;
     }
     
     footer .companyicons i{
-        padding-left: 40px;
+      font-size: 25px;
     }
     
-    footer .companyicons{
-        padding-top: 50px;
-        padding-left: 200px;
+    footer .copyright{
+      font-size: 20px;
     }
 }
 
 @media only screen and (max-width: 1700px) and (min-width: 1600px) {
-    .navbar-nav{
-        padding-left: 30vw;
-    }
-
     .nav-item{
         padding-top: 20px;
-        padding-right: 50px;
+        padding-right: 30px;
         padding-bottom: 20px;
-        padding-left: 50px;
+        padding-left: 30px;
         
-        font-size: 23px;
+        font-size: 25px;
     }
 
-    .about {
-        padding-top: 80px;
-        padding-left: 230px;
-        padding-right: 230px;
-    }
+    #navbarmain{
     
-    .about .card-title{
+        padding-right: 130px;
+        padding-left: 60px;
+    }
+
+    .navbar-nav{
+        padding-left: 35vw;
+    }
+
+    .aboutsection .card-title{
         font-size: 70px;
-        padding-left: 30px;
-        padding-right: 10px;
     }
-    
-    .about h3{
-        font-family: 'Krub', sans-serif;
-        padding-bottom: 50px;
+
+    .aboutsection .card-text{
+        font-size: 24px;
     }
-    
-    
-    .aboutfirst .card-text{
-        font-family: 'Cormorant Garamond', serif;
+
+    .aboutsection .team-card-title{
         font-size: 20px;
     }
-    
-    .companyteam{
-        padding-left: 60px;
-        padding-right: 100px;
-    }
-    
-    .companyteam .card{
-        width: 800px;
-        border: none;
-    }
-    
-    .companyteam .firstteammember{
-        padding-left: 80px;
-    }
-    
-    .companyteam .secondteammember{
-        padding-right: 80px;
+
+    .aboutsection .row {
+        margin-right: calc(var(--bs-gutter-x) * -0);
     }
 
     .subservices .firstservice, .subservices .secondservice, 
@@ -942,7 +798,7 @@ footer .companyicons{
 
     .services {
         padding-top: 50px;
-        padding-left: 230px;
+        padding-left: 200px;
     }
     
     .services .card-title{
@@ -955,60 +811,53 @@ footer .companyicons{
         padding-bottom: 50px;
     }
     
+    .services {
+        padding-top: 80px;
+        padding-left: 200px;
+    }
     
     .companyservices .card-text{
-        font-size: 20px;
+        font-size: 26px;
     }
 
     .services .card-body{
         padding-left: 80px;
-        padding-right: 230px;
+        padding-right: 200px;
     }
 
-    footer h1{
-        font-family: 'Playfair Display SC', serif;
+    .services .card-text{
+        font-size: 24px;
     }
-    
-    
-    
-    footer .companyname p{
-        font-size: 22px;
-        text-align: center;
-        font-family: 'Playfair Display SC', serif;
+
+    .subservices .servicestitle{
+        font-size: 25px;
     }
-    
-    
-    footer .companyname .companynameend{
-        font-size: 13px;
-        text-align: center;
-        font-family: 'Playfair Display SC', serif;
+
+    .bg-dark {
+        background-color: #5b5b5b30!important;
+    }
+
+    .subservices .firstservice, .subservices .secondservice, 
+    .subservices .thirdservice, .subservices .fourthservice{
+        height: 200px;
+        width: 200px;
     }
     
     footer .companyaddress p{
-        text-align: center;
-    }
-    
-    
-    
-    footer .footerheading h1 i{
-        font-size: 45px;
+        font-size: 21px;
     }
     
     footer .companyicons i{
-        padding-left: 40px;
+      font-size: 25px;
     }
     
-    footer .companyicons{
-        padding-top: 50px;
-        padding-left: 200px;
+    footer .copyright{
+      font-size: 20px;
     }
-}
+} 
+/* done */
 
 @media only screen and (max-width: 1599px) and (min-width: 1500px) {
-    .navbar-nav{
-        padding-left: 35vw;
-    }
-
     .nav-item{
         padding-top: 20px;
         padding-right: 30px;
@@ -1018,45 +867,30 @@ footer .companyicons{
         font-size: 20px;
     }
 
-    .about {
-        padding-top: 80px;
-        padding-left: 230px;
-        padding-right: 200px;
+    #navbarmain{
+    
+        padding-right: 130px;
+        padding-left: 60px;
     }
-    
-    .about .card-title{
-        font-size: 60px;
-        padding-left: 30px;
-        padding-right: 10px;
+
+    .navbar-nav{
+        padding-left: 35vw;
     }
-    
-    .about h3{
-        font-family: 'Krub', sans-serif;
-        padding-bottom: 50px;
+
+    .aboutsection .card-title{
+        font-size: 70px;
     }
-    
-    
-    .aboutfirst .card-text{
-        font-family: 'Cormorant Garamond', serif;
+
+    .aboutsection .card-text{
+        font-size: 24px;
+    }
+
+    .aboutsection .team-card-title{
         font-size: 20px;
     }
-    
-    .companyteam{
-        padding-left: 60px;
-        padding-right: 80px;
-    }
-    
-    .companyteam .card{
-        width: 700px;
-        border: none;
-    }
-    
-    .companyteam .firstteammember{
-        padding-left: 70px;
-    }
-    
-    .companyteam .secondteammember{
-        padding-right: 70px;
+
+    .aboutsection .row {
+        margin-right: calc(var(--bs-gutter-x) * -0);
     }
 
     .subservices .firstservice, .subservices .secondservice, 
@@ -1067,11 +901,11 @@ footer .companyicons{
 
     .services {
         padding-top: 50px;
-        padding-left: 230px;
+        padding-left: 200px;
     }
     
     .services .card-title{
-        font-size: 60px;
+        font-size: 70px;
         padding-left: 0px;
         padding-right: 0px;
     }
@@ -1080,9 +914,13 @@ footer .companyicons{
         padding-bottom: 50px;
     }
     
+    .services {
+        padding-top: 50px;
+        padding-left: 200px;
+    }
     
     .companyservices .card-text{
-        font-size: 20px;
+        font-size: 26px;
     }
 
     .services .card-body{
@@ -1090,51 +928,39 @@ footer .companyicons{
         padding-right: 200px;
     }
 
-    footer h1{
-        font-family: 'Playfair Display SC', serif;
+    .services .card-text{
+        font-size: 24px;
     }
-    
-    
-    
-    footer .companyname p{
-        font-size: 22px;
-        text-align: center;
-        font-family: 'Playfair Display SC', serif;
+
+    .subservices .servicestitle{
+        font-size: 25px;
     }
-    
-    
-    footer .companyname .companynameend{
-        font-size: 13px;
-        text-align: center;
-        font-family: 'Playfair Display SC', serif;
+
+    .bg-dark {
+        background-color: #5b5b5b30!important;
+    }
+
+    .subservices .firstservice, .subservices .secondservice, 
+    .subservices .thirdservice, .subservices .fourthservice{
+        height: 200px;
+        width: 200px;
     }
     
     footer .companyaddress p{
-        text-align: center;
-    }
-    
-    
-    
-    footer .footerheading h1 i{
-        font-size: 45px;
+        font-size: 21px;
     }
     
     footer .companyicons i{
-        padding-left: 40px;
+      font-size: 25px;
     }
     
-    footer .companyicons{
-        padding-top: 50px;
-        padding-left: 200px;
+    footer .copyright{
+      font-size: 20px;
     }
 }
 
 
 @media only screen and (max-width: 1499px) and (min-width: 1351px) {
-    .navbar-nav{
-        padding-left: 32vw;
-    }
-
     .nav-item{
         padding-top: 20px;
         padding-right: 30px;
@@ -1144,45 +970,30 @@ footer .companyicons{
         font-size: 20px;
     }
 
-    .about {
-        padding-top: 80px;
-        padding-left: 180px;
-        padding-right: 180px;
-    }
+    #navbarmain{
     
-    .about .card-title{
+        padding-right: 130px;
+        padding-left: 60px;
+    }
+
+    .navbar-nav{
+        padding-left: 35vw;
+    }
+
+    .aboutsection .card-title{
         font-size: 60px;
-        padding-left: 30px;
-        padding-right: 10px;
     }
-    
-    .about h3{
-        font-family: 'Krub', sans-serif;
-        padding-bottom: 50px;
+
+    .aboutsection .card-text{
+        font-size: 22px;
     }
-    
-    
-    .aboutfirst .card-text{
-        font-family: 'Cormorant Garamond', serif;
+
+    .aboutsection .team-card-title{
         font-size: 18px;
     }
-    
-    .companyteam{
-        padding-left: 60px;
-        padding-right: 100px;
-    }
-    
-    .companyteam .card{
-        width: 650px;
-        border: none;
-    }
-    
-    .companyteam .firstteammember{
-        padding-left: 80px;
-    }
-    
-    .companyteam .secondteammember{
-        padding-right: 80px;
+
+    .aboutsection .row {
+        margin-right: calc(var(--bs-gutter-x) * -0);
     }
 
     .subservices .firstservice, .subservices .secondservice, 
@@ -1192,8 +1003,8 @@ footer .companyicons{
     }
 
     .services {
-        padding-top: 30px;
-        padding-left: 180px;
+        padding-top: 50px;
+        padding-left: 200px;
     }
     
     .services .card-title{
@@ -1206,108 +1017,30 @@ footer .companyicons{
         padding-bottom: 50px;
     }
     
+    .services {
+        padding-top: 50px;
+        padding-left: 130px;
+    }
     
     .companyservices .card-text{
-        font-size: 18px;
+        font-size: 22px;
     }
 
     .services .card-body{
         padding-left: 80px;
-        padding-right: 200px;
+        padding-right: 150px;
     }
 
-    footer h1{
-        font-family: 'Playfair Display SC', serif;
-    }
-    
-    
-    
-    footer .companyname p{
+    .services .card-text{
         font-size: 22px;
-        text-align: center;
-        font-family: 'Playfair Display SC', serif;
-    }
-    
-    
-    footer .companyname .companynameend{
-        font-size: 13px;
-        text-align: center;
-        font-family: 'Playfair Display SC', serif;
-    }
-    
-    footer .companyaddress p{
-        text-align: center;
-    }
-    
-    
-    
-    footer .footerheading h1 i{
-        font-size: 45px;
-    }
-    
-    footer .companyicons i{
-        padding-left: 40px;
-    }
-    
-    footer .companyicons{
-        padding-top: 50px;
-        padding-left: 150px;
-    }
-}
-
-@media only screen and (max-width: 1350px) and (min-width: 1200px) {
-    .navbar-nav{
-        padding-left: 32vw;
     }
 
-    .nav-item{
-        padding-top: 20px;
-        padding-right: 20px;
-        padding-bottom: 20px;
-        padding-left: 20px;
-        
+    .subservices .servicestitle{
         font-size: 20px;
     }
 
-    .about {
-        padding-top: 80px;
-        padding-left: 150px;
-        padding-right: 150px;
-    }
-    
-    .about .card-title{
-        font-size: 50px;
-        padding-left: 30px;
-        padding-right: 10px;
-    }
-    
-    .about h3{
-        font-family: 'Krub', sans-serif;
-        padding-bottom: 50px;
-    }
-    
-    
-    .aboutfirst .card-text{
-        font-family: 'Cormorant Garamond', serif;
-        font-size: 18px;
-    }
-    
-    .companyteam{
-        padding-left: 40px;
-        padding-right: 70px;
-    }
-    
-    .companyteam .card{
-        width: 600px;
-        border: none;
-    }
-    
-    .companyteam .firstteammember{
-        padding-left: 80px;
-    }
-    
-    .companyteam .secondteammember{
-        padding-right: 80px;
+    .bg-dark {
+        background-color: #5b5b5b30!important;
     }
 
     .subservices .firstservice, .subservices .secondservice, 
@@ -1315,22 +1048,73 @@ footer .companyicons{
         height: 150px;
         width: 150px;
     }
+    
+    footer .companyaddress p{
+        font-size: 21px;
+    }
+  
+    footer .companyicons i{
+        font-size: 20px;
+    }
+  
+    footer .companyicons i{
+        padding-left: 20px;
+    }
+  
+    footer .copyright{
+        font-size: 20px;
+    }
+}
 
-    .subservices{
-        padding-left: 300px;
-        padding-right: 300px;
-        padding-bottom: 100px;
+@media only screen and (max-width: 1350px) and (min-width: 1200px) {
+    .nav-item{
+        padding-top: 20px;
+        padding-right: 30px;
+        padding-bottom: 20px;
+        padding-left: 30px;
         
+        font-size: 18px;
+    }
+
+    #navbarmain{
+    
+        padding-right: 130px;
+        padding-left: 60px;
+    }
+
+    .navbar-nav{
+        padding-left: 25vw;
+    }
+
+    .aboutsection .card-title{
+        font-size: 60px;
+    }
+
+    .aboutsection .card-text{
+        font-size: 20px;
+    }
+
+    .aboutsection .team-card-title{
+        font-size: 18px;
+    }
+
+    .aboutsection .row {
+        margin-right: calc(var(--bs-gutter-x) * -0);
+    }
+
+    .subservices .firstservice, .subservices .secondservice, 
+    .subservices .thirdservice, .subservices .fourthservice{
+        height: 180px;
+        width: 180px;
     }
 
     .services {
-        padding-top: 30px;
-        padding-left: 180px;
-        padding-right: 0px;
+        padding-top: 50px;
+        padding-left: 200px;
     }
     
     .services .card-title{
-        font-size: 50px;
+        font-size: 60px;
         padding-left: 0px;
         padding-right: 0px;
     }
@@ -1339,52 +1123,52 @@ footer .companyicons{
         padding-bottom: 50px;
     }
     
+    .services {
+        padding-top: 50px;
+        padding-left: 130px;
+    }
     
     .companyservices .card-text{
-        font-size: 18px;
+        font-size: 22px;
     }
 
     .services .card-body{
         padding-left: 80px;
-        padding-right: 170px;
+        padding-right: 150px;
     }
 
-    footer h1{
-        font-family: 'Playfair Display SC', serif;
-    }
-    
-    
-    
-    footer .companyname p{
+    .services .card-text{
         font-size: 22px;
-        text-align: center;
-        font-family: 'Playfair Display SC', serif;
     }
-    
-    
-    footer .companyname .companynameend{
-        font-size: 13px;
-        text-align: center;
-        font-family: 'Playfair Display SC', serif;
+
+    .subservices .servicestitle{
+        font-size: 20px;
+    }
+
+    .bg-dark {
+        background-color: #5b5b5b30!important;
+    }
+
+    .subservices .firstservice, .subservices .secondservice, 
+    .subservices .thirdservice, .subservices .fourthservice{
+        height: 150px;
+        width: 150px;
     }
     
     footer .companyaddress p{
-        text-align: center;
+        font-size: 21px;
     }
-    
-    
-    
-    footer .footerheading h1 i{
-        font-size: 45px;
-    }
-    
+  
     footer .companyicons i{
-        padding-left: 40px;
+        font-size: 20px;
     }
-    
-    footer .companyicons{
-        padding-top: 50px;
-        padding-left: 150px;
+  
+    footer .companyicons i{
+        padding-left: 20px;
+    }
+  
+    footer .copyright{
+        font-size: 20px;
     }
 }
 
