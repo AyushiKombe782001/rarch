@@ -70,34 +70,11 @@
 }
 
 
-.companyservices .card-text{
-    font-family: 'Cormorant Garamond', serif;
-    font-size: 20px;
-}
-
 
 .companyservices {
     border: none;
 }
 
-
-.subservices{
-    padding-left: 350px;
-    padding-right: 350px;
-    padding-bottom: 100px;
-    text-align: center;
-    
-}
-
-.subservices .firstservice, .subservices .secondservice, 
-.subservices .thirdservice, .subservices .fourthservice{
-    height: 120px;
-    width: 120px;
-}
-
-.subservices .servicestitle{
-    font-family: 'Playfair Display SC', serif;
-}
 
 footer h1{
     font-family: 'Playfair Display SC', serif;
@@ -183,15 +160,9 @@ footer .companyicons{
         margin-right: calc(var(--bs-gutter-x) * -0);
     }
 
-    .subservices .firstservice, .subservices .secondservice, 
-    .subservices .thirdservice, .subservices .fourthservice{
-        height: 180px;
-        width: 180px;
-    }
-
     .services {
         padding-top: 50px;
-        padding-left: 350px;
+        padding-left: 200px;
     }
     
     .services .card-title{
@@ -203,33 +174,27 @@ footer .companyicons{
     .services h3{
         padding-bottom: 50px;
     }
-    
-    
-    .companyservices .card-text{
-        font-size: 25px;
+
+    .subservices img{
+        width: 220px;
+        height: 220px;
     }
 
-    .services .card-body{
-        padding-left: 80px;
-        padding-right: 300px;
-    }
-
-    .services .card-text{
-        font-size: 35px;
-    }
-
-    .subservices .servicestitle{
+    .subservices .card-title{
         font-size: 30px;
+    }
+
+    .subservices .lefttwo{
+        padding-left: 180px;
+    }
+
+    .subservices .righttwo{
+        padding-right: 180px;
+        wi
     }
 
     .bg-dark {
         background-color: #5b5b5b30!important;
-    }
-
-    .subservices .firstservice, .subservices .secondservice, 
-    .subservices .thirdservice, .subservices .fourthservice{
-        height: 200px;
-        width: 200px;
     }
     
     footer .companyaddress p{
@@ -284,12 +249,6 @@ footer .companyicons{
         margin-right: calc(var(--bs-gutter-x) * -0);
     }
 
-    .subservices .firstservice, .subservices .secondservice, 
-    .subservices .thirdservice, .subservices .fourthservice{
-        height: 180px;
-        width: 180px;
-    }
-
     .services {
         padding-top: 50px;
         padding-left: 350px;
@@ -304,33 +263,9 @@ footer .companyicons{
     .services h3{
         padding-bottom: 50px;
     }
-    
-    
-    .companyservices .card-text{
-        font-size: 25px;
-    }
-
-    .services .card-body{
-        padding-left: 80px;
-        padding-right: 300px;
-    }
-
-    .services .card-text{
-        font-size: 35px;
-    }
-
-    .subservices .servicestitle{
-        font-size: 30px;
-    }
 
     .bg-dark {
         background-color: #5b5b5b30!important;
-    }
-
-    .subservices .firstservice, .subservices .secondservice, 
-    .subservices .thirdservice, .subservices .fourthservice{
-        height: 200px;
-        width: 200px;
     }
     
     footer .companyaddress p{
@@ -382,12 +317,7 @@ footer .companyicons{
         margin-right: calc(var(--bs-gutter-x) * -0);
     }
 
-    .subservices .firstservice, .subservices .secondservice, 
-    .subservices .thirdservice, .subservices .fourthservice{
-        height: 180px;
-        width: 180px;
-    }
-
+    
     .services {
         padding-top: 50px;
         padding-left: 250px;
@@ -407,32 +337,9 @@ footer .companyicons{
         padding-top: 80px;
         padding-left: 250px;
     }
-    
-    .companyservices .card-text{
-        font-size: 20px;
-    }
-
-    .services .card-body{
-        padding-left: 80px;
-        padding-right: 300px;
-    }
-
-    .services .card-text{
-        font-size: 28px;
-    }
-
-    .subservices .servicestitle{
-        font-size: 25px;
-    }
 
     .bg-dark {
         background-color: #5b5b5b30!important;
-    }
-
-    .subservices .firstservice, .subservices .secondservice, 
-    .subservices .thirdservice, .subservices .fourthservice{
-        height: 200px;
-        width: 200px;
     }
     
     footer .companyaddress p{
