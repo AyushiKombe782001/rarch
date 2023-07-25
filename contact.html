@@ -28,17 +28,20 @@
     
     <!-- Navbar -->
 
-    <nav class="navbar navbar-expand navbar-light sticky-top" style="background-color: #ffffff;">
-        <div class="container-fluid" id="navbarmain">
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <a class="navbar-brand" href="#">
-            <img src="./Images/logo.png" alt="" width="160" height="90">
-          </a>
+    <nav class="navbar navbar-expand-lg navbar-light sticky-top" style="background-color: #ffffff;">
+      <div class="container-fluid" id="navbarmain">
+        <a class="navbar-brand navbarlogo" href="#">
+          <img src="./Images/logo.png" alt="">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          
           <div class="navbarcontent" id="navbarTogglerDemo">
             <ul class="navbar-nav">
-              <li class="nav-item">
+              <li class="nav-item active">
                 <a class="nav-link" href="./index.html">Home</a>
               </li>
               <li class="nav-item">
@@ -53,7 +56,8 @@
             </ul>
           </div>
         </div>
-      </nav>
+      </div>
+    </nav>
     <!-- Navbar Ends -->
 
 
@@ -93,10 +97,10 @@
                     <div class="card outlinecard">
                       <div class="card-body">
                         <p class="card-text">R arch
-                        <br>135, Satra Plaza, Palm Beach Road
-                        <br>Sector 19D,
+                        <br>135, Satra Plaza,<br> Palm Beach Road
+                        <br>Sector 19 D,
                         <br>Vashi, Navi Mumbai
-                        <br>400703</p>
+                        <br>400 703</p>
                       </div>
                     </div>
                   </div>
@@ -151,10 +155,10 @@
 
 
           <div class="col-sm-7">
-            <div class="card outlinecard">
+            <div class="card outlinecard123">
               <div class="card-body">
                 
-                <form class="row g-2" action="https://formsubmit.co/kombeayushi@gmail.com" method="post">
+                <form class="row g-2 contactform" action="https://formsubmit.co/kombeayushi@gmail.com" method="post">
                   <input type="hidden" name="_subject" value="New submission!">
                   <input type="hidden" name="_captcha" value="false">
                   <div class="col-md-6">
@@ -206,7 +210,7 @@
     
 
     <!-- footer -->
-    <footer class="bg-dark text-center text-lg-start text-white">
+    <footer class="bg-dark text-center text-lg-start text-black">
       <!-- Grid container -->
       <div class="container p-4">
         <!--Grid row-->
@@ -214,21 +218,21 @@
           <!--Grid column-->
           <div class="col-lg-4 col-md-12 mb-4 mb-md-0 footerheading">
             
-            <h1><i>BE IN</i></h1>
-            <h1><i>TOUCH</i></h1>
+            <h1 style="font-weight: 600;">GET IN</h1>
+            <h1 style="font-weight: 600;">TOUCH</h1>
           </div>
           <!--Grid column-->
     
           <!--Grid column-->
           <div class="col-lg-4 col-md-12 mb-4 mb-md-0">
     
-            <div class="companyname"><p>R arch</p></div>
             
-            <div class="companyaddress">
-              <p>135, Satra Plaza, Palm Beach Road,
-                Sector 19D, 
-                Vashi, Navi Mumbai 
-                -400703</p>
+            
+            <div class="companyaddress" style="font-family: 'Lora', serif; font-weight: 500;">
+              <p>135, Satra Plaza, <br>Palm Beach Road,
+                Sector 19 D, 
+                Vashi,<br> Navi Mumbai 
+                - 400 703</p>
             </div>
             
           </div>
@@ -256,9 +260,11 @@
       <!-- Grid container -->
     
       <!-- Copyright -->
+      <div class="copyright" style="font-family: 'Lora', serif;">
       <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
-        © 2023 Copyright:
-        <a class="text-white" href="#">yourlink.com</a>
+        © 2023 Copyright: 
+        <a href="#" style="color: black; font-family: 'Lora', serif;"> yourlink.com</a>
+      </div>
       </div>
       <!-- Copyright -->
     </footer>
