@@ -1318,6 +1318,11 @@ footer .companyicons{
         padding-right: 0;
     }
 
+    .aboutsection .col-sm-2{
+        padding-right: calc(var(--bs-gutter-x) * 0);
+        padding-left: calc(var(--bs-gutter-x) * 0);
+    }
+
 
     .services {
         padding-top: 50px;
