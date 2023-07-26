@@ -23,29 +23,33 @@
     
     <!-- Navbar -->
 
-    <nav class="navbar navbar-expand navbar-light sticky-top" style="background-color: #ffffff;">
+    <nav class="navbar navbar-expand-lg navbar-light sticky-top" style="background-color: #ffffff;">
       <div class="container-fluid" id="navbarmain">
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
         <a class="navbar-brand navbarlogo" href="#">
           <img src="../Images/logo.png" alt="">
         </a>
-        <div class="navbarcontent" id="navbarTogglerDemo">
-          <ul class="navbar-nav">
-            <li class="nav-item active">
-              <a class="nav-link" href="../index.html">Home</a>
-            </li>
-            <li class="nav-item active">
-              <a class="nav-link" href="../portfolio.html">Portfolio</a>
-            </li>
-            <li class="nav-item active">
-              <a class="nav-link" href="../about.html">About</a>
-            </li>
-            <li class="nav-item active">
-              <a class="nav-link" href="../contact.html">Contact</a>
-            </li>
-          </ul>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          
+          <div class="navbarcontent" id="navbarTogglerDemo">
+            <ul class="navbar-nav">
+              <li class="nav-item active">
+                <a class="nav-link" href="../index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../portfolio.html">Portfolio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../about.html">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../contact.html">Contact</a>
+              </li>
+            </ul>
+          </div>
         </div>
       </div>
     </nav>
@@ -62,7 +66,7 @@
             <a href="../portfolio7/portfolio7.html">PREVIOUS PROJECT</a>
           </div>
         </div>
-        <div class="col-6 col-md-6">
+        <div class="col-sm-6 col-md-6">
           <div class="p-3 nextdirection">
             <a href="../portfolio9/portfolio9.html">NEXT PROJECT</a>
           </div>
@@ -213,7 +217,7 @@
     
 
     <!-- footer -->
-    <footer class="bg-dark text-center text-lg-start text-white">
+    <footer class="bg-dark text-center text-lg-start text-black">
       <!-- Grid container -->
       <div class="container p-4">
         <!--Grid row-->
@@ -221,21 +225,21 @@
           <!--Grid column-->
           <div class="col-lg-4 col-md-12 mb-4 mb-md-0 footerheading">
             
-            <h1><i>BE IN</i></h1>
-            <h1><i>TOUCH</i></h1>
+            <h1 style="font-weight: 600;">GET IN</h1>
+            <h1 style="font-weight: 600;">TOUCH</h1>
           </div>
           <!--Grid column-->
     
           <!--Grid column-->
           <div class="col-lg-4 col-md-12 mb-4 mb-md-0">
     
-            <div class="companyname"><p>R arch</p></div>
             
-            <div class="companyaddress">
-              <p>135, Satra Plaza, Palm Beach Road,
-                Sector 19D, 
-                Vashi, Navi Mumbai 
-                -400703</p>
+            
+            <div class="companyaddress" style="font-family: 'Lora', serif; font-weight: 500;">
+              <p>135, Satra Plaza, <br>Palm Beach Road,
+                Sector 19 D, 
+                Vashi,<br> Navi Mumbai 
+                - 400 703</p>
             </div>
             
           </div>
@@ -263,9 +267,11 @@
       <!-- Grid container -->
     
       <!-- Copyright -->
+      <div class="copyright" style="font-family: 'Lora', serif;">
       <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
-        © 2023 Copyright:
-        <a class="text-white" href="#">yourlink.com</a>
+        © 2023 Copyright: 
+        <a href="#" style="color: black; font-family: 'Lora', serif;"> yourlink.com</a>
+      </div>
       </div>
       <!-- Copyright -->
     </footer>
