@@ -2018,7 +2018,7 @@ footer .companyicons{
     }
 
     .aboutsection .team-card-title{
-        font-size: 12px;
+        font-size: 15px;
     }
 
     .aboutsection .teamcompany1 .card-body{
@@ -2044,6 +2044,13 @@ footer .companyicons{
         padding-left: calc(var(--bs-gutter-x) * 0);
     }
 
+    .aboutsection .card-img-top{
+        padding-top: 50px;
+        padding-left: 70px;
+        padding-right: 70px;
+
+    }
+
 
     .services {
         padding-top: 50px;
@@ -2058,6 +2065,7 @@ footer .companyicons{
         font-size: 37px;
         padding-left: 0px;
         padding-right: 0px;
+        word-wrap: normal;
     }
     
 
@@ -2068,6 +2076,7 @@ footer .companyicons{
     .services h3{
         padding-bottom: 50px;
     }
+
 
     .subservices img{
         width: 100px;
@@ -2083,8 +2092,13 @@ footer .companyicons{
     }
 
     .subservices{
-        padding-left: 40px;
+        padding-left: 50px;
         padding-bottom: 40px;
+    }
+
+    .subservices .col-md-8, .subservices .col-md-7{
+        padding-right: 30px;
+
     }
 
     .subservices .row{
@@ -2094,7 +2108,7 @@ footer .companyicons{
 
 
     .subservices .pointerservices{
-        font-size: 12px;
+        font-size: 15px;
     }
 
     .bg-dark {
@@ -2159,86 +2173,101 @@ footer .companyicons{
     }
 
     .aboutsection .card-text{
-        font-size: 16px;
+        font-size: 15px;
     }
 
     .aboutsection .team-card-title{
         font-size: 15px;
     }
 
+    .aboutsection .teamcompany1 .card-body{
+        padding-left: 0;
+        padding-right: 0;
+    }
+
     .aboutsection .row {
         margin-right: calc(var(--bs-gutter-x) * -0);
     }
 
-    .aboutsection .col-sm-2 .card-body {
-        padding-left: 50px;
-        padding-right: 50px;
+    .aboutsection .col-sm-9{
+        padding-left: 60px;
     }
 
-    .aboutsection .col-sm-2 {
+    .aboutsection .col-sm-2 .card-body{
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .aboutsection .col-sm-2{
         padding-right: calc(var(--bs-gutter-x) * 0);
         padding-left: calc(var(--bs-gutter-x) * 0);
-        padding-top: 30px;
     }
 
-    .aboutsection .col-sm-9 {
+    .aboutsection .card-img-top{
+        padding-top: 50px;
+        padding-left: 70px;
+        padding-right: 70px;
+
+    }
+
+
+    .services {
+        padding-top: 50px;
         padding-left: 50px;
-        padding-right: 40px
     }
 
-    .subservices .firstservice, .subservices .secondservice, 
-    .subservices .thirdservice, .subservices .fourthservice{
-        height: 120px;
-        width: 120px;
+    .services .firstcard{
+        word-wrap: normal;
     }
     
-    .subservices{
-        padding-left: 140px;
-        padding-right: 140px;
-        padding-bottom: 50px;
-    }
-
-    .subservices .row>* {
-        padding-right: calc(var(--bs-gutter-x) * 0);
-        padding-left: calc(var(--bs-gutter-x) * 0);
-        margin-top: var(--bs-gutter-y);
-    }
-
     .services .card-title{
         font-size: 37px;
         padding-left: 0px;
         padding-right: 0px;
+        word-wrap: normal;
     }
     
+
+    .services .col-md-3{
+        width: 35%;
+    }
+
     .services h3{
         padding-bottom: 50px;
     }
-    
-    .services {
-        padding-top: 30px;
-        padding-left: 45px;
-    }
-    
-    .companyservices .card-text{
-        font-size: 22px;
+
+
+    .subservices img{
+        width: 100px;
+        height: 100px;
     }
 
-    .services .card-body{
-        padding-left: 0px;
-        padding-right: 40px;
+    .subservices .card-title{
+        font-size: 17px;
     }
 
-    .services .card-text{
-        font-size: 16px;
+    .subservices .card-text ul li{
+        font-size: 20px;
     }
 
-    .subservices .servicestitle{
+    .subservices{
+        padding-left: 50px;
+        padding-bottom: 40px;
+    }
+
+    .subservices .col-md-8, .subservices .col-md-7{
+        padding-right: 30px;
+
+    }
+
+    .subservices .row{
+
+        margin-right: calc(var(--bs-gutter-x) * -.0);
+    }
+
+
+    .subservices .pointerservices{
         font-size: 15px;
-    }
-
-    .aboutsection .card-img-top{
-        padding-left: 40px;
-        padding-right: 40px;
     }
 
     .bg-dark {
@@ -2304,86 +2333,101 @@ footer .companyicons{
     }
 
     .aboutsection .card-text{
-        font-size: 16px;
+        font-size: 15px;
     }
 
     .aboutsection .team-card-title{
         font-size: 15px;
     }
 
+    .aboutsection .teamcompany1 .card-body{
+        padding-left: 0;
+        padding-right: 0;
+    }
+
     .aboutsection .row {
         margin-right: calc(var(--bs-gutter-x) * -0);
     }
 
-    .aboutsection .col-sm-2 .card-body {
-        padding-left: 50px;
-        padding-right: 50px;
+    .aboutsection .col-sm-9{
+        padding-left: 60px;
     }
 
-    .aboutsection .col-sm-2 {
+    .aboutsection .col-sm-2 .card-body{
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .aboutsection .col-sm-2{
         padding-right: calc(var(--bs-gutter-x) * 0);
         padding-left: calc(var(--bs-gutter-x) * 0);
-        padding-top: 30px;
     }
 
-    .aboutsection .col-sm-9 {
-        padding-left: 50px;
-        padding-right: 40px
-    }
-
-    .subservices .firstservice, .subservices .secondservice, 
-    .subservices .thirdservice, .subservices .fourthservice{
-        height: 120px;
-        width: 120px;
-    }
-    
-    .subservices{
+    .aboutsection .card-img-top{
+        padding-top: 50px;
         padding-left: 70px;
         padding-right: 70px;
-        padding-bottom: 20px;
+
     }
 
-    .subservices .row>* {
-        padding-right: calc(var(--bs-gutter-x) * 0);
-        padding-left: calc(var(--bs-gutter-x) * 0);
-        margin-top: var(--bs-gutter-y);
+
+    .services {
+        padding-top: 50px;
+        padding-left: 50px;
     }
 
+    .services .firstcard{
+        word-wrap: normal;
+    }
+    
     .services .card-title{
         font-size: 37px;
         padding-left: 0px;
         padding-right: 0px;
+        word-wrap: normal;
     }
     
+
+    .services .col-md-3{
+        width: 35%;
+    }
+
     .services h3{
         padding-bottom: 50px;
     }
-    
-    .services {
-        padding-top: 30px;
-        padding-left: 35px;
-    }
-    
-    .companyservices .card-text{
-        font-size: 22px;
+
+
+    .subservices img{
+        width: 100px;
+        height: 100px;
     }
 
-    .services .card-body{
-        padding-left: 0px;
-        padding-right: 35px;
+    .subservices .card-title{
+        font-size: 17px;
     }
 
-    .services .card-text{
-        font-size: 16px;
+    .subservices .card-text ul li{
+        font-size: 20px;
     }
 
-    .subservices .servicestitle{
+    .subservices{
+        padding-left: 50px;
+        padding-bottom: 40px;
+    }
+
+    .subservices .col-md-8, .subservices .col-md-7{
+        padding-right: 30px;
+
+    }
+
+    .subservices .row{
+
+        margin-right: calc(var(--bs-gutter-x) * -.0);
+    }
+
+
+    .subservices .pointerservices{
         font-size: 15px;
-    }
-
-    .aboutsection .card-img-top{
-        padding-left: 40px;
-        padding-right: 40px;
     }
 
     .bg-dark {
