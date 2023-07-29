@@ -397,7 +397,7 @@ padding-left: 200px;
     }
 
     .project .projecttitle{
-        font-size: 50px;
+        font-size: 45px;
     }
 
     .project .projectdetails{
@@ -460,7 +460,7 @@ padding-left: 200px;
     }
 
     .project .projecttitle{
-        font-size: 45px;
+        font-size: 42px;
     }
 
     .carouselcard{
@@ -519,7 +519,7 @@ padding-left: 200px;
     }
 
     .project .projecttitle{
-        font-size: 45px;
+        font-size: 40px;
     }
 
     .carouselcard{
@@ -577,7 +577,7 @@ padding-left: 200px;
     }
 
     .project .projecttitle{
-        font-size: 45px;
+        font-size: 40px;
     }
 
     .carouselcard{
@@ -635,7 +635,7 @@ padding-left: 200px;
     }
 
     .project .projecttitle{
-        font-size: 45px;
+        font-size: 36px;
     }
 
     .project .projectdetails{
@@ -698,7 +698,7 @@ padding-left: 200px;
     }
 
     .project .projecttitle{
-        font-size: 40px;
+        font-size: 36px;
     }
 
     .project .projectdetails{
@@ -765,7 +765,7 @@ padding-left: 200px;
     }
 
     .project .projecttitle{
-        font-size: 35px;
+        font-size: 32px;
     }
 
     .project .projectdetails{
@@ -845,7 +845,7 @@ padding-left: 200px;
     }
 
     .project .projecttitle{
-        font-size: 35px;
+        font-size: 30px;
     }
 
     .project .projectdetails{
@@ -922,7 +922,7 @@ padding-left: 200px;
     }
 
     .project .projecttitle{
-        font-size: 35px;
+        font-size: 27px;
     }
 
     .project .projectdetails{
@@ -999,7 +999,7 @@ padding-left: 200px;
     }
 
     .project .projecttitle{
-        font-size: 35px;
+        font-size: 27px;
     }
 
     .project .projectdetails{
@@ -1081,7 +1081,7 @@ padding-left: 200px;
     }
 
     .project .projecttitle{
-        font-size: 32px;
+        font-size: 23px;
     }
 
     .project .projectdetails{
@@ -1172,7 +1172,7 @@ padding-left: 200px;
     }
 
     .project .projecttitle{
-        font-size: 28px;
+        font-size: 21px;
     }
 
     .project .projectdetails{
@@ -1230,7 +1230,7 @@ padding-left: 200px;
     }
 }
 
-@media only screen and (max-width: 767px) and (min-width: 576px) {
+@media only screen and (max-width: 767px) and (min-width: 700px) {
     .nav-item{
         padding-top: 10px;
         padding-right: 20px;
@@ -1267,7 +1267,227 @@ padding-left: 200px;
     }
 
     .project .projecttitle{
-        font-size: 22px;
+        font-size: 20px;
+    }
+
+    .project .projectdetails{
+        font-size: 12px;
+        line-height: 18px;
+    }
+
+    .project .col-sm-2 {
+        padding-left: calc(var(--bs-gutter-x) * 0);
+    }
+
+    .project .col-sm-2 .card-body{
+        padding-left: 0;
+    }
+
+    .project .col-sm-4 {
+        padding-right: calc(var(--bs-gutter-x) * 0);
+    }
+
+    .project .col-sm-6 {
+        padding-right: calc(var(--bs-gutter-x) * 0);
+        padding-left: calc(var(--bs-gutter-x) * 0);
+    }
+
+    .carouselcard{
+        padding-left: 40px;
+        padding-right: 40px;
+        
+    }
+    
+    .carouselcard .photo1, .photo2, .photo3{
+        padding-left: 100px;
+        padding-right: 100px;
+    }
+
+    .project .boldtext{
+        font-size: 15px;
+    }
+
+    .project .whatproject p, .project .whereproject p, .project .whenproject p{
+        font-size: 10px;
+    }
+
+    .bg-dark {
+        background-color: #5b5b5b30!important;
+    }
+    
+    footer .companyaddress p{
+        font-size: 18px;
+    }
+  
+    footer .companyicons i{
+        font-size: 16px;
+        padding-left: 10px;
+    }
+  
+    footer .copyright{
+        font-size: 15px;
+    }
+
+    footer .footerheading{
+        display: none;
+    }
+
+    footer .companyicons{
+        padding-top: 5px;
+        padding-left: 0px;
+    }
+}
+
+@media only screen and (max-width: 699px) and (min-width: 630px) {
+    .nav-item{
+        padding-top: 10px;
+        padding-right: 20px;
+        padding-bottom: 10px;
+        padding-left: 20px;
+        
+        font-size: 18px;
+    }
+
+    #navbarmain{
+    
+        padding-right: 50px;
+        padding-left: 60px;
+    }
+
+    .navbar-nav{
+        padding-left: 0vw;
+        align-items: center;
+    }
+
+    .navbarlogo img{
+        width: 100px;
+        height: 50px;
+    }
+
+    .navbar-light .navbar-toggler{
+        border: none;
+    }
+
+    .project {
+        padding-top: 70px;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    .project .projecttitle{
+        font-size: 17px;
+    }
+
+    .project .projectdetails{
+        font-size: 12px;
+        line-height: 18px;
+    }
+
+    .project .col-sm-2 {
+        padding-left: calc(var(--bs-gutter-x) * 0);
+    }
+
+    .project .col-sm-2 .card-body{
+        padding-left: 0;
+    }
+
+    .project .col-sm-4 {
+        padding-right: calc(var(--bs-gutter-x) * 0);
+    }
+
+    .project .col-sm-6 {
+        padding-right: calc(var(--bs-gutter-x) * 0);
+        padding-left: calc(var(--bs-gutter-x) * 0);
+    }
+
+    .carouselcard{
+        padding-left: 40px;
+        padding-right: 40px;
+        
+    }
+    
+    .carouselcard .photo1, .photo2, .photo3{
+        padding-left: 100px;
+        padding-right: 100px;
+    }
+
+    .project .boldtext{
+        font-size: 15px;
+    }
+
+    .project .whatproject p, .project .whereproject p, .project .whenproject p{
+        font-size: 10px;
+    }
+
+    .bg-dark {
+        background-color: #5b5b5b30!important;
+    }
+    
+    footer .companyaddress p{
+        font-size: 18px;
+    }
+  
+    footer .companyicons i{
+        font-size: 16px;
+        padding-left: 10px;
+    }
+  
+    footer .copyright{
+        font-size: 15px;
+    }
+
+    footer .footerheading{
+        display: none;
+    }
+
+    footer .companyicons{
+        padding-top: 5px;
+        padding-left: 0px;
+    }
+}
+
+@media only screen and (max-width: 629px) and (min-width: 576px) {
+    .nav-item{
+        padding-top: 10px;
+        padding-right: 20px;
+        padding-bottom: 10px;
+        padding-left: 20px;
+        
+        font-size: 18px;
+    }
+
+    #navbarmain{
+    
+        padding-right: 50px;
+        padding-left: 60px;
+    }
+
+    .navbar-nav{
+        padding-left: 0vw;
+        align-items: center;
+    }
+
+    .navbarlogo img{
+        width: 100px;
+        height: 50px;
+    }
+
+    .navbar-light .navbar-toggler{
+        border: none;
+    }
+
+    .project {
+        padding-top: 70px;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    .project .projecttitle{
+        font-size: 17px;
+    }
+
+    .project .projectdetail .col-sm-3 .card-body{
+        padding-right: 0;
     }
 
     .project .projectdetails{
