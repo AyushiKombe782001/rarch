@@ -264,7 +264,7 @@ padding-left: 200px;
     }
 
     .project .projecttitle{
-        font-size: 60px;
+        font-size: 55px;
     }
 
     .project .projectdetails{
@@ -321,7 +321,7 @@ padding-left: 200px;
     }
 
     .project .projecttitle{
-        font-size: 55px;
+        font-size: 47px;
     }
 
     .project .projectdetails{
@@ -378,7 +378,12 @@ padding-left: 200px;
     }
 
     .project .projecttitle{
-        font-size: 50px;
+        font-size: 45px;
+    }
+
+
+    .project .projectdetail .col-sm-3 .card-body{
+        padding-right: 0;
     }
 
     .project .projectdetails{
@@ -435,7 +440,12 @@ padding-left: 200px;
     }
 
     .project .projecttitle{
-        font-size: 45px;
+        font-size: 40px;
+    }
+
+
+    .project .projectdetail .col-sm-3 .card-body{
+        padding-right: 0;
     }
 
     .carouselcard{
@@ -489,8 +499,14 @@ padding-left: 200px;
     }
 
     .project .projecttitle{
-        font-size: 45px;
+        font-size: 40px;
     }
+
+
+    .project .projectdetail .col-sm-3 .card-body{
+        padding-right: 0;
+    }
+
 
     .carouselcard{
         padding-left: 300px;
@@ -544,6 +560,12 @@ padding-left: 200px;
         font-size: 40px;
     }
 
+
+    .project .projectdetail .col-sm-3 .card-body{
+        padding-right: 0;
+    }
+
+
     .carouselcard{
         padding-left: 270px;
         padding-right: 270px; 
@@ -593,8 +615,14 @@ padding-left: 200px;
     }
 
     .project .projecttitle{
-        font-size: 40px;
+        font-size: 37px;
     }
+
+
+    .project .projectdetail .col-sm-3 .card-body{
+        padding-right: 0;
+    }
+
 
     .project .projectdetails{
         font-size: 18px;
@@ -651,7 +679,12 @@ padding-left: 200px;
     }
 
     .project .projecttitle{
-        font-size: 40px;
+        font-size: 36px;
+    }
+
+
+    .project .projectdetail .col-sm-3 .card-body{
+        padding-right: 0;
     }
 
     .project .projectdetails{
@@ -712,7 +745,12 @@ padding-left: 200px;
     }
 
     .project .projecttitle{
-        font-size: 35px;
+        font-size: 32px;
+    }
+
+
+    .project .projectdetail .col-sm-3 .card-body{
+        padding-right: 0;
     }
 
     .project .projectdetails{
@@ -786,7 +824,12 @@ padding-left: 200px;
     }
 
     .project .projecttitle{
-        font-size: 32px;
+        font-size: 28px;
+    }
+
+
+    .project .projectdetail .col-sm-3 .card-body{
+        padding-right: 0;
     }
 
     .project .projectdetails{
@@ -857,7 +900,12 @@ padding-left: 200px;
     }
 
     .project .projecttitle{
-        font-size: 32px;
+        font-size: 28px;
+    }
+
+
+    .project .projectdetail .col-sm-3 .card-body{
+        padding-right: 0;
     }
 
     .project .projectdetails{
@@ -928,7 +976,12 @@ padding-left: 200px;
     }
 
     .project .projecttitle{
-        font-size: 30px;
+        font-size: 28px;
+    }
+
+
+    .project .projectdetail .col-sm-3 .card-body{
+        padding-right: 0;
     }
 
     .project .projectdetails{
@@ -1006,6 +1059,11 @@ padding-left: 200px;
 
     .project .projecttitle{
         font-size: 25px;
+    }
+
+
+    .project .projectdetail .col-sm-3 .card-body{
+        padding-right: 0;
     }
 
     .project .projectdetails{
@@ -1090,7 +1148,12 @@ padding-left: 200px;
     }
 
     .project .projecttitle{
-        font-size: 24px;
+        font-size: 23px;
+    }
+
+
+    .project .projectdetail .col-sm-3 .card-body{
+        padding-right: 0;
     }
 
     .project .projectdetails{
@@ -1180,6 +1243,11 @@ padding-left: 200px;
 
     .project .projecttitle{
         font-size: 18px;
+    }
+
+
+    .project .projectdetail .col-sm-3 .card-body{
+        padding-right: 0;
     }
 
     .project .projectdetails{

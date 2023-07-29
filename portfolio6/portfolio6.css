@@ -331,7 +331,7 @@ padding-left: 200px;
     }
 
     .project .projecttitle{
-        font-size: 60px;
+        font-size: 55px;
     }
 
     .project .projectdetails{
@@ -842,7 +842,7 @@ padding-left: 200px;
     }
 
     .project .projecttitle{
-        font-size: 32px;
+        font-size: 30px;
     }
 
     .project .projectdetails{
@@ -996,7 +996,7 @@ padding-left: 200px;
     }
 
     .project .projecttitle{
-        font-size: 30px;
+        font-size: 28px;
     }
 
     .project .projectdetails{
@@ -1264,7 +1264,11 @@ padding-left: 200px;
     }
 
     .project .projecttitle{
-        font-size: 15px;
+        font-size: 19px;
+    }
+
+    .project .projectdetail .col-sm-3 .card-body{
+        padding-right: 0;
     }
 
 
