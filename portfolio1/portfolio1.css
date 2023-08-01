@@ -1253,6 +1253,11 @@ padding-left: 200px;
         line-height: 18px;
     }
 
+
+    .pagedirection .nextdirection{
+        text-align: right;
+    }
+
     .project .col-sm-2 {
         padding-left: calc(var(--bs-gutter-x) * 0);
     }
@@ -1367,6 +1372,10 @@ padding-left: 200px;
     .project .projectdetails{
         font-size: 12px;
         line-height: 18px;
+    }
+
+    .pagedirection .nextdirection{
+        text-align: right;
     }
 
     .project .col-sm-2 {
@@ -1489,6 +1498,10 @@ padding-left: 200px;
     .project .projectdetails{
         font-size: 12px;
         line-height: 18px;
+    }
+
+    .pagedirection .nextdirection{
+        text-align: right;
     }
 
     .project .col-sm-2 {
