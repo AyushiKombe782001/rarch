@@ -22,7 +22,7 @@
   
   .navbarlogo img{
     width: 170px;
-    height: 80px;
+    height: 85px;
   }
 
   .navbar-toggler{
@@ -178,22 +178,26 @@ footer .companyicons{
 @media only screen and (max-width: 2560px) and (min-width: 2401px) {
 
     .nav-item{
-        padding-top: 20px;
-        padding-right: 30px;
-        padding-bottom: 20px;
-        padding-left: 30px;
+        padding-top: 15px;
+        padding-right: 50px;
+        padding-bottom: 15px;
+        padding-left: 50px;
         
         font-size: 25px;
     }
-
-    #navbarmain{
     
-        padding-right: 130px;
-        padding-left: 60px;
+    .nav-item a:link{
+        color: #000;
     }
-
+    
+    #navbarmain{
+        
+        padding-right: 10px;
+        padding-left: 80px;
+    }
+    
     .navbar-nav{
-        padding-left: 60vw;
+        padding-left: 40vw;
     }
 
 
@@ -224,22 +228,26 @@ footer .companyicons{
 
 @media only screen and (max-width: 2400px) and (min-width: 2201px) {
     .nav-item{
-        padding-top: 20px;
-        padding-right: 30px;
-        padding-bottom: 20px;
-        padding-left: 30px;
+        padding-top: 15px;
+        padding-right: 50px;
+        padding-bottom: 15px;
+        padding-left: 50px;
         
         font-size: 25px;
     }
-
-    #navbarmain{
-    
-        padding-right: 130px;
-        padding-left: 60px;
+  
+    .nav-item a:link{
+        color: #000;
     }
-
+  
+    #navbarmain{
+        
+        padding-right: 10px;
+        padding-left: 80px;
+    }
+  
     .navbar-nav{
-        padding-left: 55vw;
+        padding-left: 40vw;
     }
 
     .companycontact .outlinecard, .outlinecard123{
@@ -266,22 +274,26 @@ footer .companyicons{
 
 @media only screen and (max-width: 2200px) and (min-width: 2001px) {
     .nav-item{
-        padding-top: 20px;
-        padding-right: 30px;
-        padding-bottom: 20px;
-        padding-left: 30px;
+        padding-top: 15px;
+        padding-right: 50px;
+        padding-bottom: 15px;
+        padding-left: 50px;
         
         font-size: 25px;
     }
-
-    #navbarmain{
-    
-        padding-right: 130px;
-        padding-left: 60px;
+  
+    .nav-item a:link{
+        color: #000;
     }
-
+  
+    #navbarmain{
+        
+        padding-right: 10px;
+        padding-left: 80px;
+    }
+  
     .navbar-nav{
-        padding-left: 50vw;
+        padding-left: 40vw;
     }
 
     .companycontact .outlinecard, .outlinecard123{
@@ -311,22 +323,27 @@ footer .companyicons{
 
 @media only screen and (max-width: 2000px) and (min-width: 1901px) {
     .nav-item{
-        padding-top: 20px;
-        padding-right: 30px;
-        padding-bottom: 20px;
-        padding-left: 30px;
+        padding-top: 15px;
+        padding-right: 50px;
+        padding-bottom: 15px;
+        padding-left: 50px;
         
-        font-size: 25px;
+        font-size: 20px;
     }
-
-    #navbarmain{
     
-        padding-right: 130px;
-        padding-left: 60px;
+    .nav-item a:link{
+        color: #000;
     }
+    
+    #navbarmain{
+        
+        padding-right: 80px;
+        padding-left: 80px;
+    }
+    
 
     .navbar-nav{
-        padding-left: 45vw;
+        padding-left: 40vw;
     }
 
     .companycontact .outlinecard, .outlinecard123{
@@ -356,19 +373,24 @@ footer .companyicons{
 
 @media only screen and (max-width: 1900px) and (min-width: 1801px) {
     .nav-item{
-        padding-top: 20px;
-        padding-right: 30px;
-        padding-bottom: 20px;
-        padding-left: 30px;
+        padding-top: 15px;
+        padding-right: 50px;
+        padding-bottom: 15px;
+        padding-left: 50px;
         
-        font-size: 25px;
+        font-size: 20px;
     }
-
-    #navbarmain{
     
-        padding-right: 130px;
-        padding-left: 60px;
+    .nav-item a:link{
+        color: #000;
     }
+    
+    #navbarmain{
+        
+        padding-right: 80px;
+        padding-left: 80px;
+    }
+    
 
     .navbar-nav{
         padding-left: 40vw;
@@ -401,22 +423,27 @@ footer .companyicons{
 
 @media only screen and (max-width: 1800px) and (min-width: 1701px) {
     .nav-item{
-        padding-top: 20px;
-        padding-right: 30px;
-        padding-bottom: 20px;
-        padding-left: 30px;
+        padding-top: 15px;
+        padding-right: 40px;
+        padding-bottom: 15px;
+        padding-left: 40px;
         
-        font-size: 25px;
+        font-size: 20px;
     }
-
-    #navbarmain{
     
-        padding-right: 130px;
-        padding-left: 60px;
+    .nav-item a:link{
+        color: #000;
     }
+    
+    #navbarmain{
+        
+        padding-right: 80px;
+        padding-left: 80px;
+    }
+    
 
     .navbar-nav{
-        padding-left: 40vw;
+        padding-left: 30vw;
     }
 
 
@@ -451,22 +478,27 @@ footer .companyicons{
 
 @media only screen and (max-width: 1700px) and (min-width: 1600px) {
     .nav-item{
-        padding-top: 20px;
-        padding-right: 30px;
-        padding-bottom: 20px;
-        padding-left: 30px;
+        padding-top: 15px;
+        padding-right: 40px;
+        padding-bottom: 15px;
+        padding-left: 40px;
         
-        font-size: 25px;
+        font-size: 20px;
     }
-
-    #navbarmain{
     
-        padding-right: 130px;
-        padding-left: 60px;
+    .nav-item a:link{
+        color: #000;
     }
+    
+    #navbarmain{
+        
+        padding-right: 80px;
+        padding-left: 80px;
+    }
+    
 
     .navbar-nav{
-        padding-left: 35vw;
+        padding-left: 30vw;
     }
 
     .companycontact .outlinecard, .outlinecard123{
@@ -508,22 +540,27 @@ footer .companyicons{
 
 @media only screen and (max-width: 1599px) and (min-width: 1500px) {
     .nav-item{
-        padding-top: 20px;
-        padding-right: 30px;
-        padding-bottom: 20px;
-        padding-left: 30px;
+        padding-top: 15px;
+        padding-right: 40px;
+        padding-bottom: 15px;
+        padding-left: 40px;
         
         font-size: 20px;
     }
-
-    #navbarmain{
     
-        padding-right: 130px;
-        padding-left: 60px;
+    .nav-item a:link{
+        color: #000;
     }
+    
+    #navbarmain{
+        
+        padding-right: 80px;
+        padding-left: 80px;
+    }
+    
 
     .navbar-nav{
-        padding-left: 35vw;
+        padding-left: 30vw;
     }
 
     .companycontact .outlinecard, .outlinecard123{
@@ -565,22 +602,27 @@ footer .companyicons{
 
 @media only screen and (max-width: 1499px) and (min-width: 1351px) {
     .nav-item{
-        padding-top: 20px;
-        padding-right: 30px;
-        padding-bottom: 20px;
-        padding-left: 30px;
+        padding-top: 15px;
+        padding-right: 40px;
+        padding-bottom: 15px;
+        padding-left: 40px;
         
         font-size: 20px;
     }
-
-    #navbarmain{
     
-        padding-right: 130px;
-        padding-left: 60px;
+    .nav-item a:link{
+        color: #000;
     }
+    
+    #navbarmain{
+        
+        padding-right: 80px;
+        padding-left: 80px;
+    }
+    
 
     .navbar-nav{
-        padding-left: 35vw;
+        padding-left: 23vw;
     }
 
     .companycontact .outlinecard, .outlinecard123{
@@ -626,22 +668,22 @@ footer .companyicons{
 
 @media only screen and (max-width: 1350px) and (min-width: 1200px) {
     .nav-item{
-        padding-top: 20px;
-        padding-right: 20px;
-        padding-bottom: 20px;
-        padding-left: 20px;
+        padding-top: 15px;
+        padding-right: 30px;
+        padding-bottom: 15px;
+        padding-left: 30px;
         
-        font-size: 18px;
+        font-size: 20px;
     }
-
-    #navbarmain{
     
-        padding-right: 130px;
+    #navbarmain{
+        
+        padding-right: 60px;
         padding-left: 60px;
     }
 
     .navbar-nav{
-        padding-left: 35vw;
+        padding-left: 23vw;
     }
 
     .companycontact .outlinecard, .outlinecard123{
@@ -692,27 +734,22 @@ footer .companyicons{
 
 @media only screen and (max-width: 1199px) and (min-width: 1070px) {
     .nav-item{
-        padding-top: 20px;
-        padding-right: 20px;
-        padding-bottom: 20px;
-        padding-left: 20px;
+        padding-top: 15px;
+        padding-right: 30px;
+        padding-bottom: 15px;
+        padding-left: 30px;
         
-        font-size: 18px;
+        font-size: 20px;
     }
-
-    #navbarmain{
     
-        padding-right: 130px;
+    #navbarmain{
+        
+        padding-right: 60px;
         padding-left: 60px;
     }
 
     .navbar-nav{
-        padding-left: 27vw;
-    }
-
-    .navbarlogo img{
-        width: 150px;
-        height: 70px;
+        padding-left: 19vw;
     }
 
     .companycontact .outlinecard, .outlinecard123{
@@ -760,27 +797,22 @@ footer .companyicons{
 
 @media only screen and (max-width: 1069px) and (min-width: 1024px) {
     .nav-item{
-        padding-top: 20px;
-        padding-right: 20px;
-        padding-bottom: 20px;
-        padding-left: 20px;
+        padding-top: 15px;
+        padding-right: 25px;
+        padding-bottom: 15px;
+        padding-left: 25px;
         
-        font-size: 18px;
+        font-size: 20px;
     }
-
-    #navbarmain{
     
-        padding-right: 130px;
-        padding-left: 60px;
+    #navbarmain{
+        
+        padding-right: 50px;
+        padding-left: 50px;
     }
 
     .navbar-nav{
-        padding-left: 27vw;
-    }
-
-    .navbarlogo img{
-        width: 150px;
-        height: 70px;
+        padding-left: 18vw;
     }
 
     .companycontact .outlinecard, .outlinecard123{
@@ -828,28 +860,24 @@ footer .companyicons{
 }
 
 @media only screen and (max-width: 1023px) and (min-width: 992px) {
+    .navbar-nav{
+        padding-left: 0vw;
+        align-items: center;
+    }
+    
     .nav-item{
-        padding-top: 20px;
+        padding-top: 12px;
         padding-right: 20px;
-        padding-bottom: 20px;
+        padding-bottom: 12px;
         padding-left: 20px;
         
-        font-size: 18px;
+        font-size: 17px;
     }
-
-    #navbarmain{
     
-        padding-right: 130px;
-        padding-left: 60px;
-    }
-
-    .navbar-nav{
-        padding-left: 25vw;
-    }
-
-    .navbarlogo img{
-        width: 150px;
-        height: 70px;
+    #navbarmain{
+        
+        padding-right: 40px;
+        padding-left: 40px;
     }
 
     .companycontact .outlinecard, .outlinecard123{
@@ -897,29 +925,24 @@ footer .companyicons{
 }
 
 @media only screen and (max-width: 991px) and (min-width: 880px) {
-    .nav-item{
-        padding-top: 10px;
-        padding-right: 20px;
-        padding-bottom: 10px;
-        padding-left: 20px;
-        
-        font-size: 18px;
-    }
-
-    #navbarmain{
-    
-        padding-right: 50px;
-        padding-left: 60px;
-    }
-
     .navbar-nav{
         padding-left: 0vw;
         align-items: center;
     }
-
-    .navbarlogo img{
-        width: 100px;
-        height: 50px;
+    
+    .nav-item{
+        padding-top: 12px;
+        padding-right: 20px;
+        padding-bottom: 12px;
+        padding-left: 20px;
+        
+        font-size: 17px;
+    }
+    
+    #navbarmain{
+        
+        padding-right: 40px;
+        padding-left: 40px;
     }
 
     .companycontact .outlinecard, .outlinecard123{
@@ -982,29 +1005,24 @@ footer .companyicons{
 }
 
 @media only screen and (max-width: 879px) and (min-width: 768px) {
-    .nav-item{
-        padding-top: 10px;
-        padding-right: 20px;
-        padding-bottom: 10px;
-        padding-left: 20px;
-        
-        font-size: 18px;
-    }
-
-    #navbarmain{
-    
-        padding-right: 50px;
-        padding-left: 60px;
-    }
-
     .navbar-nav{
         padding-left: 0vw;
         align-items: center;
     }
-
-    .navbarlogo img{
-        width: 100px;
-        height: 50px;
+    
+    .nav-item{
+        padding-top: 12px;
+        padding-right: 20px;
+        padding-bottom: 12px;
+        padding-left: 20px;
+        
+        font-size: 17px;
+    }
+    
+    #navbarmain{
+        
+        padding-right: 40px;
+        padding-left: 40px;
     }
 
     .companycontact .outlinecard, .outlinecard123{
@@ -1068,28 +1086,28 @@ footer .companyicons{
 
 @media only screen and (max-width: 767px) and (min-width: 700px) {
     .nav-item{
-        padding-top: 10px;
-        padding-right: 20px;
-        padding-bottom: 10px;
-        padding-left: 20px;
+        padding-top: 1px;
+        padding-right: 10px;
+        padding-bottom: 1px;
+        padding-left: 10px;
         
-        font-size: 18px;
-    }
-
-    #navbarmain{
-    
-        padding-right: 50px;
-        padding-left: 60px;
+        font-size: 16px;
     }
 
     .navbar-nav{
         padding-left: 0vw;
         align-items: center;
     }
-
+    
+    #navbarmain{
+        
+        padding-right: 25px;
+        padding-left: 25px;
+    }
+    
     .navbarlogo img{
-        width: 100px;
-        height: 50px;
+        width: 120px;
+        height: 65px;
     }
 
     .companycontact .outlinecard, .outlinecard123{
@@ -1152,28 +1170,28 @@ footer .companyicons{
 
 @media only screen and (max-width: 699px) and (min-width: 650px) {
     .nav-item{
-        padding-top: 10px;
-        padding-right: 20px;
-        padding-bottom: 10px;
-        padding-left: 20px;
+        padding-top: 1px;
+        padding-right: 10px;
+        padding-bottom: 1px;
+        padding-left: 10px;
         
-        font-size: 18px;
-    }
-
-    #navbarmain{
-    
-        padding-right: 50px;
-        padding-left: 60px;
+        font-size: 16px;
     }
 
     .navbar-nav{
         padding-left: 0vw;
         align-items: center;
     }
-
+    
+    #navbarmain{
+        
+        padding-right: 25px;
+        padding-left: 25px;
+    }
+    
     .navbarlogo img{
-        width: 100px;
-        height: 50px;
+        width: 120px;
+        height: 65px;
     }
 
     .companycontact .outlinecard, .outlinecard123{
@@ -1236,28 +1254,28 @@ footer .companyicons{
 
 @media only screen and (max-width: 649px) and (min-width: 600px) {
     .nav-item{
-        padding-top: 10px;
-        padding-right: 20px;
-        padding-bottom: 10px;
-        padding-left: 20px;
+        padding-top: 1px;
+        padding-right: 10px;
+        padding-bottom: 1px;
+        padding-left: 10px;
         
-        font-size: 18px;
-    }
-
-    #navbarmain{
-    
-        padding-right: 50px;
-        padding-left: 60px;
+        font-size: 16px;
     }
 
     .navbar-nav{
         padding-left: 0vw;
         align-items: center;
     }
-
+    
+    #navbarmain{
+        
+        padding-right: 25px;
+        padding-left: 25px;
+    }
+    
     .navbarlogo img{
-        width: 100px;
-        height: 50px;
+        width: 120px;
+        height: 65px;
     }
 
     .companycontact .outlinecard{
@@ -1316,28 +1334,29 @@ footer .companyicons{
 
 @media only screen and (max-width: 599px) and (min-width: 576px) {
     .nav-item{
-        padding-top: 10px;
-        padding-right: 20px;
-        padding-bottom: 10px;
-        padding-left: 20px;
+        padding-top: 1px;
+        padding-right: 3px;
+        padding-bottom: 1px;
+        padding-left: 3px;
         
-        font-size: 18px;
+        font-size: 16px;
     }
-
-    #navbarmain{
     
-        padding-right: 50px;
-        padding-left: 60px;
-    }
 
     .navbar-nav{
         padding-left: 0vw;
         align-items: center;
     }
 
+    #navbarmain{
+        
+        padding-right: 25px;
+        padding-left: 25px;
+    }
+    
     .navbarlogo img{
-        width: 100px;
-        height: 50px;
+        width: 120px;
+        height: 65px;
     }
 
     .companycontact .outlinecard{
@@ -1396,28 +1415,29 @@ footer .companyicons{
 
 @media only screen and (max-width: 575px) and (min-width: 425px) {
     .nav-item{
-        padding-top: 10px;
-        padding-right: 20px;
-        padding-bottom: 10px;
-        padding-left: 20px;
+        padding-top: 1px;
+        padding-right: 3px;
+        padding-bottom: 1px;
+        padding-left: 3px;
         
-        font-size: 18px;
+        font-size: 16px;
     }
-
-    #navbarmain{
     
-        padding-right: 30px;
-        padding-left: 30px;
-    }
 
     .navbar-nav{
         padding-left: 0vw;
         align-items: center;
     }
 
+    #navbarmain{
+        
+        padding-right: 25px;
+        padding-left: 25px;
+    }
+    
     .navbarlogo img{
-        width: 100px;
-        height: 50px;
+        width: 120px;
+        height: 65px;
     }
 
     .companycontact .outlinecard{
@@ -1489,28 +1509,29 @@ footer .companyicons{
 
 @media only screen and (max-width: 424px) and (min-width: 375px) {
     .nav-item{
-        padding-top: 10px;
-        padding-right: 20px;
-        padding-bottom: 10px;
-        padding-left: 20px;
+        padding-top: 1px;
+        padding-right: 2px;
+        padding-bottom: 1px;
+        padding-left: 2px;
         
-        font-size: 18px;
+        font-size: 16px;
+    }
+    
+    #navbarmain{
+        
+        padding-right: 25px;
+        padding-left: 25px;
+    }
+    
+    .navbarlogo img{
+        width: 105px;
+        height: 50px;
     }
 
-    #navbarmain{
-    
-        padding-right: 20px;
-        padding-left: 30px;
-    }
 
     .navbar-nav{
         padding-left: 0vw;
         align-items: center;
-    }
-
-    .navbarlogo img{
-        width: 100px;
-        height: 50px;
     }
 
     .companycontact .outlinecard{
@@ -1583,28 +1604,29 @@ footer .companyicons{
 
 @media only screen and (max-width: 374px) and (min-width: 320px) {
     .nav-item{
-        padding-top: 10px;
-        padding-right: 20px;
-        padding-bottom: 10px;
-        padding-left: 20px;
+        padding-top: 1px;
+        padding-right: 2px;
+        padding-bottom: 1px;
+        padding-left: 2px;
         
-        font-size: 18px;
+        font-size: 16px;
+    }
+    
+    #navbarmain{
+        
+        padding-right: 25px;
+        padding-left: 25px;
+    }
+    
+    .navbarlogo img{
+        width: 105px;
+        height: 50px;
     }
 
-    #navbarmain{
-    
-        padding-right: 20px;
-        padding-left: 30px;
-    }
 
     .navbar-nav{
         padding-left: 0vw;
         align-items: center;
-    }
-
-    .navbarlogo img{
-        width: 100px;
-        height: 50px;
     }
 
     .companycontact .outlinecard{
