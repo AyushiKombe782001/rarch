@@ -22,7 +22,7 @@
 
 .navbarlogo img{
   width: 170px;
-  height: 80px;
+  height: 85px;
 }
 
 
@@ -521,7 +521,7 @@ footer .companyicons{
 
 /* media queries */
 
-@media only screen and (max-width: 2560px) and (min-width: 2000px) {
+@media only screen and (max-width: 2560px) and (min-width: 2401px) {
   .projectscards .container {
       padding-left: 9vw;
       padding-bottom: 100px;
@@ -535,22 +535,26 @@ footer .companyicons{
   }
 
   .nav-item{
-    padding-top: 20px;
-    padding-right: 30px;
-    padding-bottom: 20px;
-    padding-left: 30px;
-    
-    font-size: 20px;
+      padding-top: 15px;
+      padding-right: 50px;
+      padding-bottom: 15px;
+      padding-left: 50px;
+      
+      font-size: 25px;
   }
-  
+
+  .nav-item a:link{
+      color: #000;
+  }
+
   #navbarmain{
-    
-    padding-right: 130px;
-    padding-left: 60px;
+      
+      padding-right: 10px;
+      padding-left: 80px;
   }
 
   .navbar-nav{
-    padding-left: 60vw;
+      padding-left: 40vw;
   }
 
 
@@ -586,6 +590,145 @@ footer .companyicons{
 
 }
 
+@media only screen and (max-width: 2400px) and (min-width: 2201px) {
+  .projectscards .container {
+      padding-left: 9vw;
+      padding-bottom: 100px;
+      padding-right: 9vw;
+  }
+
+  .portfolio-title {
+    /* padding-left: 500px; */
+    font-size: 55px;
+    font-family: 'Playfair Display SC', serif;
+  }
+
+  .nav-item{
+    padding-top: 15px;
+    padding-right: 50px;
+    padding-bottom: 15px;
+    padding-left: 50px;
+    
+    font-size: 25px;
+  }
+
+  .nav-item a:link{
+      color: #000;
+  }
+
+  #navbarmain{
+      
+      padding-right: 10px;
+      padding-left: 80px;
+  }
+
+  .navbar-nav{
+      padding-left: 40vw;
+  }
+
+
+  .bg-dark {
+    background-color: #5b5b5b30!important;
+  }
+
+  footer .companyaddress p{
+      font-size: 21px;
+  }
+
+  footer .companyicons i{
+      font-size: 25px;
+  }
+
+  footer .copyright{
+      font-size: 20px;
+  }
+
+  .projectscards .container .example1 .content1:hover .text,
+  .projectscards .container .example2 .content2:hover .text,
+  .projectscards .container .example3 .content3:hover .text,
+  .projectscards .container .example4 .content4:hover .text,
+  .projectscards .container .example5 .content5:hover .text,
+  .projectscards .container .example6 .content6:hover .text,
+  .projectscards .container .example7 .content7:hover .text,
+  .projectscards .container .example8 .content8:hover .text,
+  .projectscards .container .example9 .content9:hover .text {
+    transform: translateY(3vw);
+    -webkit-transform: translateY(3vw);
+  }
+  
+
+}
+
+@media only screen and (max-width: 2200px) and (min-width: 2000px) {
+  .projectscards .container {
+      padding-left: 9vw;
+      padding-bottom: 100px;
+      padding-right: 9vw;
+  }
+
+  .portfolio-title {
+    /* padding-left: 500px; */
+    font-size: 55px;
+    font-family: 'Playfair Display SC', serif;
+  }
+
+  .nav-item{
+    padding-top: 15px;
+    padding-right: 50px;
+    padding-bottom: 15px;
+    padding-left: 50px;
+    
+    font-size: 25px;
+  }
+
+  .nav-item a:link{
+      color: #000;
+  }
+
+  #navbarmain{
+      
+      padding-right: 10px;
+      padding-left: 80px;
+  }
+
+  .navbar-nav{
+      padding-left: 40vw;
+  }
+
+
+  .bg-dark {
+    background-color: #5b5b5b30!important;
+  }
+
+  footer .companyaddress p{
+      font-size: 21px;
+  }
+
+  footer .companyicons i{
+      font-size: 25px;
+  }
+
+  footer .copyright{
+      font-size: 20px;
+  }
+
+  .projectscards .container .example1 .content1:hover .text,
+  .projectscards .container .example2 .content2:hover .text,
+  .projectscards .container .example3 .content3:hover .text,
+  .projectscards .container .example4 .content4:hover .text,
+  .projectscards .container .example5 .content5:hover .text,
+  .projectscards .container .example6 .content6:hover .text,
+  .projectscards .container .example7 .content7:hover .text,
+  .projectscards .container .example8 .content8:hover .text,
+  .projectscards .container .example9 .content9:hover .text {
+    transform: translateY(3vw);
+    -webkit-transform: translateY(3vw);
+  }
+  
+
+}
+
+
 @media only screen and (max-width: 1999px) and (min-width: 1800px) {
   .projectscards .container {
       padding-left: 2vw;
@@ -599,22 +742,27 @@ footer .companyicons{
   }
 
   .nav-item{
-    padding-top: 20px;
-    padding-right: 30px;
-    padding-bottom: 20px;
-    padding-left: 30px;
+    padding-top: 15px;
+    padding-right: 50px;
+    padding-bottom: 15px;
+    padding-left: 50px;
     
     font-size: 20px;
   }
-  
-  #navbarmain{
-    
-    padding-right: 130px;
-    padding-left: 60px;
+
+  .nav-item a:link{
+      color: #000;
   }
 
+  #navbarmain{
+      
+      padding-right: 80px;
+      padding-left: 80px;
+  }
+
+
   .navbar-nav{
-    padding-left: 50vw;
+      padding-left: 40vw;
   }
 
   .bg-dark {
@@ -649,22 +797,27 @@ footer .companyicons{
   }
 
   .nav-item{
-    padding-top: 20px;
-    padding-right: 30px;
-    padding-bottom: 20px;
-    padding-left: 30px;
+    padding-top: 15px;
+    padding-right: 40px;
+    padding-bottom: 15px;
+    padding-left: 40px;
     
     font-size: 20px;
   }
-  
-  #navbarmain{
-    
-    padding-right: 130px;
-    padding-left: 60px;
+
+  .nav-item a:link{
+      color: #000;
   }
 
+  #navbarmain{
+      
+      padding-right: 80px;
+      padding-left: 80px;
+  }
+
+
   .navbar-nav{
-    padding-left: 40vw;
+      padding-left: 30vw;
   }
 
   .bg-dark {
@@ -699,24 +852,23 @@ footer .companyicons{
   }
 
   .nav-item{
-    padding-top: 20px;
+    padding-top: 15px;
     padding-right: 30px;
-    padding-bottom: 20px;
+    padding-bottom: 15px;
     padding-left: 30px;
     
     font-size: 20px;
-  }
-  
-  #navbarmain{
+}
+
+#navbarmain{
     
-    padding-right: 130px;
+    padding-right: 60px;
     padding-left: 60px;
-  }
+}
 
-
-  .navbar-nav{
-    padding-left: 30vw;
-  }
+.navbar-nav{
+    padding-left: 23vw;
+}
 
   .bg-dark {
       background-color: #5b5b5b30!important;
@@ -750,22 +902,22 @@ footer .companyicons{
   }
 
   .nav-item{
-    padding-top: 20px;
-    padding-right: 20px;
-    padding-bottom: 20px;
-    padding-left: 20px;
+    padding-top: 15px;
+    padding-right: 30px;
+    padding-bottom: 15px;
+    padding-left: 30px;
     
     font-size: 20px;
   }
-  
+
   #navbarmain{
-    
-    padding-right: 100px;
-    padding-left: 40px;
+      
+      padding-right: 60px;
+      padding-left: 60px;
   }
 
   .navbar-nav{
-    padding-left: 20vw;
+      padding-left: 19vw;
   }
 
   footer .companyicons i{
@@ -791,23 +943,24 @@ footer .companyicons{
 
 
   .nav-item{
-    padding-top: 20px;
-    padding-right: 20px;
-    padding-bottom: 20px;
-    padding-left: 20px;
+    padding-top: 15px;
+    padding-right: 25px;
+    padding-bottom: 15px;
+    padding-left: 25px;
     
     font-size: 20px;
   }
-  
+
   #navbarmain{
-    
-    padding-right: 100px;
-    padding-left: 40px;
+      
+      padding-right: 50px;
+      padding-left: 50px;
   }
 
   .navbar-nav{
-    padding-left: 15vw;
+      padding-left: 18vw;
   }
+
 
   footer .companyicons i{
     padding-left: 10px;
@@ -844,11 +997,6 @@ footer .companyicons{
 @media only screen and (max-width: 991px) and (min-width: 800px) {
   
 
-  .navbar-nav{
-    padding-left: 0vw;
-    align-items: center;
-  }
-
   .portfolio-title {
     /* padding-left: 500px; */
     font-size: 45px;
@@ -862,19 +1010,24 @@ footer .companyicons{
   }
 
 
-  .nav-item{
-    padding-top: 20px;
-    padding-right: 10px;
-    padding-bottom: 20px;
-    padding-left: 10px;
-    
-    font-size: 20px;
+  .navbar-nav{
+    padding-left: 0vw;
+    align-items: center;
   }
-  
+
+  .nav-item{
+      padding-top: 12px;
+      padding-right: 20px;
+      padding-bottom: 12px;
+      padding-left: 20px;
+      
+      font-size: 17px;
+  }
+
   #navbarmain{
-    
-    padding-right: 80px;
-    padding-left: 40px;
+      
+      padding-right: 40px;
+      padding-left: 40px;
   }
 
   footer .footerheading h1 i{
@@ -927,11 +1080,6 @@ footer .companyicons{
 @media only screen and (max-width: 799px) and (min-width: 768px) {
 
   
-  .navbar-nav{
-    padding-left: 0vw;
-    align-items: center;
-  }
-
   .portfolio-title {
     /* padding-left: 500px; */
     font-size: 45px;
@@ -946,18 +1094,22 @@ footer .companyicons{
 
 
   .nav-item{
-    padding-top: 20px;
-    padding-right: 10px;
-    padding-bottom: 20px;
-    padding-left: 10px;
+    padding-top: 10px;
+    padding-right: 1px;
+    padding-bottom: 10px;
+    padding-left: 1px;
     
     font-size: 17px;
   }
-  
-  #navbarmain{
-    
-    padding-right: 50px;
-    padding-left: 30px;
+
+  .navbar-nav{
+      padding-left: 0vw;
+      align-items: center;
+  }
+
+  .navbar-nav{
+      padding-left: 0vw;
+      align-items: center;
   }
 
   footer .footerheading h1 i{
@@ -1009,15 +1161,11 @@ footer .companyicons{
 
 @media only screen and (max-width: 767px) and (min-width: 700px) {
 
-  
-  .navbar-nav{
-    padding-left: 0vw;
-    align-items: center;
-  }
+
 
   .navbarlogo img{
     width: 120px;
-    height: 60px;
+    height: 65px;
   }
 
 
@@ -1035,18 +1183,23 @@ footer .companyicons{
 
 
   .nav-item{
-    padding-top: 20px;
+    padding-top: 1px;
     padding-right: 10px;
-    padding-bottom: 20px;
+    padding-bottom: 1px;
     padding-left: 10px;
     
-    font-size: 17px;
+    font-size: 16px;
   }
-  
+
+  .navbar-nav{
+      padding-left: 0vw;
+      align-items: center;
+  }
+
   #navbarmain{
-    
-    padding-right: 50px;
-    padding-left: 30px;
+      
+      padding-right: 25px;
+      padding-left: 25px;
   }
 
   footer .footerheading h1 i{
@@ -1099,14 +1252,10 @@ footer .companyicons{
 
 @media only screen and (max-width: 699px) and (min-width: 575px) {
 
-  .navbar-nav{
-    padding-left: 0vw;
-    align-items: center;
-  }
 
   .navbarlogo img{
     width: 120px;
-    height: 60px;
+    height: 65px;
   }
 
 
@@ -1123,18 +1272,23 @@ footer .companyicons{
 
 
   .nav-item{
-    padding-top: 20px;
-    padding-right: 5px;
-    padding-bottom: 20px;
-    padding-left: 5px;
+    padding-top: 1px;
+    padding-right: 10px;
+    padding-bottom: 1px;
+    padding-left: 10px;
     
-    font-size: 17px;
+    font-size: 16px;
   }
-  
+
+  .navbar-nav{
+      padding-left: 0vw;
+      align-items: center;
+  }
+
   #navbarmain{
-    
-    padding-right: 20px;
-    padding-left: 20px;
+      
+      padding-right: 25px;
+      padding-left: 25px;
   }
 
   footer .footerheading h1 i{
@@ -1185,15 +1339,11 @@ footer .companyicons{
 }
 
 @media only screen and (max-width: 574px) and (min-width: 525px) {
-  
-  .navbar-nav{
-    padding-left: 0vw;
-    align-items: center;
-  }
+
 
   .navbarlogo img{
     width: 120px;
-    height: 60px;
+    height: 65px;
   }
 
 
@@ -1210,19 +1360,25 @@ footer .companyicons{
 
 
   .nav-item{
-    padding-top: 20px;
-    padding-right: 5px;
-    padding-bottom: 20px;
-    padding-left: 5px;
+    padding-top: 1px;
+    padding-right: 3px;
+    padding-bottom: 1px;
+    padding-left: 3px;
     
-    font-size: 17px;
-  }
-  
-  #navbarmain{
+    font-size: 16px;
+}
+
+
+.navbar-nav{
+    padding-left: 0vw;
+    align-items: center;
+}
+
+#navbarmain{
     
-    padding-right: 20px;
-    padding-left: 10px;
-  }
+    padding-right: 25px;
+    padding-left: 25px;
+}
 
   .projectscards .container .row{
     padding-bottom: 0px;
@@ -1288,18 +1444,6 @@ footer .companyicons{
 
 
 @media only screen and (max-width: 524px) and (min-width: 425px) {
-  
-
-  .navbar-nav{
-    padding-left: 0vw;
-    align-items: center;
-  }
-
-  .navbarlogo img{
-    width: 100px;
-    height: 50px;
-  }
-
 
   .portfolio-title {
     /* padding-left: 500px; */
@@ -1314,18 +1458,29 @@ footer .companyicons{
 
 
   .nav-item{
-    padding-top: 20px;
-    padding-right: 5px;
-    padding-bottom: 20px;
-    padding-left: 5px;
+    padding-top: 1px;
+    padding-right: 2px;
+    padding-bottom: 1px;
+    padding-left: 2px;
     
-    font-size: 17px;
+    font-size: 16px;
   }
-  
+
   #navbarmain{
-    
-    padding-right: 20px;
-    padding-left: 10px;
+      
+      padding-right: 25px;
+      padding-left: 25px;
+  }
+
+  .navbarlogo img{
+      width: 120px;
+      height: 65px;
+  }
+
+
+  .navbar-nav{
+      padding-left: 0vw;
+      align-items: center;
   }
 
   .projectscards .container .row{
@@ -1391,17 +1546,6 @@ footer .companyicons{
 }
 
 @media only screen and (max-width: 424px) and (min-width: 375px) {
-  
-
-  .navbar-nav{
-    padding-left: 0vw;
-    align-items: center;
-  }
-
-  .navbarlogo img{
-    width: 100px;
-    height: 50px;
-  }
 
 
   .portfolio-title {
@@ -1417,18 +1561,29 @@ footer .companyicons{
 
 
   .nav-item{
-    padding-top: 20px;
-    padding-right: 5px;
-    padding-bottom: 20px;
-    padding-left: 5px;
+    padding-top: 1px;
+    padding-right: 2px;
+    padding-bottom: 1px;
+    padding-left: 2px;
     
-    font-size: 17px;
+    font-size: 16px;
   }
-  
+
   #navbarmain{
-    
-    padding-right: 20px;
-    padding-left: 10px;
+      
+      padding-right: 25px;
+      padding-left: 25px;
+  }
+
+  .navbarlogo img{
+      width: 105px;
+      height: 50px;
+  }
+
+
+  .navbar-nav{
+      padding-left: 0vw;
+      align-items: center;
   }
 
   .projectscards .container .row{
@@ -1494,17 +1649,6 @@ footer .companyicons{
 }
 
 @media only screen and (max-width: 374px) and (min-width: 320px) {
-  
-
-  .navbar-nav{
-    padding-left: 0vw;
-    align-items: center;
-  }
-
-  .navbarlogo img{
-    width: 100px;
-    height: 50px;
-  }
 
 
   .portfolio-title {
@@ -1520,18 +1664,29 @@ footer .companyicons{
 
 
   .nav-item{
-    padding-top: 20px;
-    padding-right: 5px;
-    padding-bottom: 20px;
-    padding-left: 5px;
+    padding-top: 1px;
+    padding-right: 2px;
+    padding-bottom: 1px;
+    padding-left: 2px;
     
-    font-size: 17px;
+    font-size: 16px;
   }
-  
+
   #navbarmain{
-    
-    padding-right: 20px;
-    padding-left: 10px;
+      
+      padding-right: 25px;
+      padding-left: 25px;
+  }
+
+  .navbarlogo img{
+      width: 105px;
+      height: 50px;
+  }
+
+
+  .navbar-nav{
+      padding-left: 0vw;
+      align-items: center;
   }
 
   .projectscards .container .row{

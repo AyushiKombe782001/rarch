@@ -23,7 +23,7 @@
   
   .navbarlogo img{
     width: 170px;
-    height: 80px;
+    height: 85px;
   }
 
 
@@ -252,13 +252,8 @@ footer .companyicons{
         padding-left: 80px;
     }
     
-    .navbarlogo img{
-        width: 165px;
-        height: 70px;
-    }
-
     .navbar-nav{
-        padding-left: 50vw;
+        padding-left: 40vw;
     }
     
     
@@ -356,7 +351,7 @@ footer .companyicons{
     }
     
     .companyimage{
-        background-size: 2570px 1500px;
+        background-size: 2570px 1600px;
     }
     
     
@@ -387,7 +382,6 @@ footer .companyicons{
     
 }
 
-
 @media only screen and (max-width: 2400px) and (min-width: 2201px) {
     .nav-item{
         padding-top: 15px;
@@ -397,24 +391,19 @@ footer .companyicons{
         
         font-size: 25px;
     }
-    
+  
     .nav-item a:link{
         color: #000;
     }
-    
+  
     #navbarmain{
         
-        padding-right: 80px;
+        padding-right: 10px;
         padding-left: 80px;
     }
-    
-    .navbarlogo img{
-        width: 165px;
-        height: 70px;
-    }
-
+  
     .navbar-nav{
-        padding-left: 45vw;
+        padding-left: 40vw;
     }
     
     
@@ -509,7 +498,7 @@ footer .companyicons{
     }
     
     .companyimage{
-        background-size: 2570px 1500px;
+        background-size: 2570px 1600px;
     }
     
     
@@ -538,7 +527,6 @@ footer .companyicons{
     
 }
 
-
 @media only screen and (max-width: 2200px) and (min-width: 2001px) {
     .nav-item{
         padding-top: 15px;
@@ -546,26 +534,21 @@ footer .companyicons{
         padding-bottom: 15px;
         padding-left: 50px;
         
-        font-size: 20px;
+        font-size: 25px;
     }
-    
+  
     .nav-item a:link{
         color: #000;
     }
-    
+  
     #navbarmain{
         
-        padding-right: 80px;
+        padding-right: 10px;
         padding-left: 80px;
     }
-    
-    .navbarlogo img{
-        width: 165px;
-        height: 70px;
-    }
-
+  
     .navbar-nav{
-        padding-left: 45vw;
+        padding-left: 40vw;
     }
 
     
@@ -660,7 +643,7 @@ footer .companyicons{
     }
     
     .companyimage{
-        background-size: 2210px 1400px;
+        background-size: 2210px 1600px;
     }
     
     
@@ -688,7 +671,6 @@ footer .companyicons{
     
 }
 
-
 @media only screen and (max-width: 2000px) and (min-width: 1901px) {
     .nav-item{
         padding-top: 15px;
@@ -709,10 +691,6 @@ footer .companyicons{
         padding-left: 80px;
     }
     
-    .navbarlogo img{
-        width: 165px;
-        height: 70px;
-    }
 
     .navbar-nav{
         padding-left: 40vw;
@@ -809,7 +787,7 @@ footer .companyicons{
     }
     
     .companyimage{
-        background-size: 2010px 1300px;
+        background-size: 2010px 1600px;
     }
     
     
@@ -836,7 +814,6 @@ footer .companyicons{
     
 }
 
-
 @media only screen and (max-width: 1900px) and (min-width: 1801px) {
     .nav-item{
         padding-top: 15px;
@@ -857,10 +834,6 @@ footer .companyicons{
         padding-left: 80px;
     }
     
-    .navbarlogo img{
-        width: 165px;
-        height: 70px;
-    }
 
     .navbar-nav{
         padding-left: 40vw;
@@ -986,7 +959,6 @@ footer .companyicons{
     
 }
 
-
 @media only screen and (max-width: 1800px) and (min-width: 1701px) {
     .nav-item{
         padding-top: 15px;
@@ -1007,24 +979,17 @@ footer .companyicons{
         padding-left: 80px;
     }
     
-    .navbarlogo img{
-        width: 165px;
-        height: 70px;
+
+    .navbar-nav{
+        padding-left: 30vw;
     }
-    
     
     .carousel .carousel-indicators button {
     
-       width: 15px;
-       height: 15px;
-       
-    }
-
-    .navbar-nav{
-        padding-left: 40vw;
-    }
-    
-    
+        width: 15px;
+        height: 15px;
+        
+     }
     
     
     .project {
@@ -1135,13 +1100,12 @@ footer .companyicons{
     
 }
 
-
 @media only screen and (max-width: 1700px) and (min-width: 1600px) {
     .nav-item{
         padding-top: 15px;
-        padding-right: 50px;
+        padding-right: 40px;
         padding-bottom: 15px;
-        padding-left: 50px;
+        padding-left: 40px;
         
         font-size: 20px;
     }
@@ -1156,9 +1120,9 @@ footer .companyicons{
         padding-left: 80px;
     }
     
-    .navbarlogo img{
-        width: 165px;
-        height: 70px;
+
+    .navbar-nav{
+        padding-left: 30vw;
     }
     
     
@@ -1167,10 +1131,6 @@ footer .companyicons{
        width: 15px;
        height: 15px;
        
-    }
-
-    .navbar-nav{
-        padding-left: 30vw;
     }
     
     
@@ -1283,13 +1243,12 @@ footer .companyicons{
     
 }
 
-
 @media only screen and (max-width: 1599px) and (min-width: 1500px) {
     .nav-item{
         padding-top: 15px;
-        padding-right: 50px;
+        padding-right: 40px;
         padding-bottom: 15px;
-        padding-left: 50px;
+        padding-left: 40px;
         
         font-size: 20px;
     }
@@ -1304,9 +1263,9 @@ footer .companyicons{
         padding-left: 80px;
     }
     
-    .navbarlogo img{
-        width: 165px;
-        height: 70px;
+
+    .navbar-nav{
+        padding-left: 30vw;
     }
     
     
@@ -1315,10 +1274,6 @@ footer .companyicons{
        width: 15px;
        height: 15px;
        
-    }
-
-    .navbar-nav{
-        padding-left: 30vw;
     }
     
     
@@ -1433,14 +1388,12 @@ footer .companyicons{
     
 }
 
-/* solve */
-
 @media only screen and (max-width: 1499px) and (min-width: 1351px) {
     .nav-item{
         padding-top: 15px;
-        padding-right: 50px;
+        padding-right: 40px;
         padding-bottom: 15px;
-        padding-left: 50px;
+        padding-left: 40px;
         
         font-size: 20px;
     }
@@ -1455,13 +1408,9 @@ footer .companyicons{
         padding-left: 80px;
     }
     
-    .navbarlogo img{
-        width: 165px;
-        height: 70px;
-    }
 
     .navbar-nav{
-        padding-left: 20vw;
+        padding-left: 23vw;
     }
     
     
@@ -1584,7 +1533,6 @@ footer .companyicons{
 
 }
 
-
 @media only screen and (max-width: 1350px) and (min-width: 1200px)  {
     .nav-item{
         padding-top: 15px;
@@ -1599,11 +1547,6 @@ footer .companyicons{
         
         padding-right: 60px;
         padding-left: 60px;
-    }
-    
-    .navbarlogo img{
-        width: 165px;
-        height: 70px;
     }
 
     .navbar-nav{
@@ -1744,7 +1687,6 @@ footer .companyicons{
     
 }
 
-
 @media only screen and (max-width: 1199px) and (min-width: 1070px)  {
     .nav-item{
         padding-top: 15px;
@@ -1759,11 +1701,6 @@ footer .companyicons{
         
         padding-right: 60px;
         padding-left: 60px;
-    }
-    
-    .navbarlogo img{
-        width: 165px;
-        height: 70px;
     }
 
     .navbar-nav{
@@ -1912,7 +1849,6 @@ footer .companyicons{
     
 }
 
-
 @media only screen and (max-width: 1069px) and (min-width: 1024px)  {
     .nav-item{
         padding-top: 15px;
@@ -1927,11 +1863,6 @@ footer .companyicons{
         
         padding-right: 50px;
         padding-left: 50px;
-    }
-    
-    .navbarlogo img{
-        width: 140px;
-        height: 60px;
     }
 
     .navbar-nav{
@@ -2103,11 +2034,6 @@ footer .companyicons{
         padding-left: 40px;
     }
     
-    .navbarlogo img{
-        width: 120px;
-        height: 50px;
-    }
-    
     .project {
         padding-top: 80px;
         padding-left: 95px;
@@ -2269,11 +2195,6 @@ footer .companyicons{
     .navbar-nav{
         padding-left: 0vw;
         align-items: center;
-    }
-    
-    .navbarlogo img{
-        width: 120px;
-        height: 50px;
     }
 
     .navbar-nav{
@@ -2458,7 +2379,7 @@ footer .companyicons{
     
     .navbarlogo img{
         width: 120px;
-        height: 50px;
+        height: 65px;
     }
     
     .carousel-control-prev, .carousel-control-next{
@@ -2659,7 +2580,7 @@ footer .companyicons{
     
     .navbarlogo img{
         width: 120px;
-        height: 50px;
+        height: 65px;
     }
 
     .carousel-control-prev, .carousel-control-next, .carousel-indicators {
@@ -2841,27 +2762,28 @@ footer .companyicons{
 @media only screen and (max-width: 499px) and (min-width: 459px)  {
     .nav-item{
         padding-top: 1px;
-        padding-right: 2px;
+        padding-right: 3px;
         padding-bottom: 1px;
-        padding-left: 2px;
+        padding-left: 3px;
         
         font-size: 16px;
     }
     
-    #navbarmain{
-        
-        padding-right: 25px;
-        padding-left: 25px;
-    }
 
     .navbar-nav{
         padding-left: 0vw;
         align-items: center;
     }
+
+    #navbarmain{
+        
+        padding-right: 25px;
+        padding-left: 25px;
+    }
     
     .navbarlogo img{
-        width: 100px;
-        height: 42px;
+        width: 120px;
+        height: 65px;
     }
     
     .carousel-control-prev, .carousel-control-next, .carousel-indicators {
@@ -3038,7 +2960,6 @@ footer .companyicons{
     
 }
 
-
 @media only screen and (max-width: 458px) and (min-width: 425px)  {
     .nav-item{
         padding-top: 1px;
@@ -3056,8 +2977,8 @@ footer .companyicons{
     }
     
     .navbarlogo img{
-        width: 100px;
-        height: 42px;
+        width: 120px;
+        height: 65px;
     }
 
 
@@ -3258,8 +3179,8 @@ footer .companyicons{
     }
     
     .navbarlogo img{
-        width: 100px;
-        height: 42px;
+        width: 105px;
+        height: 50px;
     }
 
 
@@ -3461,8 +3382,8 @@ footer .companyicons{
     }
     
     .navbarlogo img{
-        width: 100px;
-        height: 42px;
+        width: 105px;
+        height: 50px;
     }
 
 
