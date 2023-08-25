@@ -4,8 +4,7 @@
   padding-bottom: 20px;
   padding-left: 50px;
   font-family: 'Playfair Display SC', serif;
-  font-style: italic;
-  
+
   font-size: 20px;
 }
 
@@ -23,38 +22,46 @@
 
 .navbarlogo img{
   width: 170px;
-  height: 80px;
+  height: 85px;
+}
+
+
+.navbar-toggler{
+  border: none;
 }
 
 .portfolio-title {
     padding-top: 20px;
     padding-bottom: 40px;
-    padding-left: 500px;
+    /* padding-left: 500px; */
     font-size: 70px;
     font-family: 'Playfair Display SC', serif;
 }
 
-.projectscards .card {
+/* .projectscards .card {
     width: 60rem;
     border: none;
     
-}
+} */
 
-.projectscards .image-grid-container {
+/* .projectscards .image-grid-container {
     display: grid;
-    /* For 3 columns */
+
     grid-template-columns: auto auto auto;
     border: none;
-}
+} */
 
 .projectscards img {
     width: 100%;
-    padding: 13px;
 }
 
-.projectscards .container {
-    padding-left: 210px;
+/* .projectscards .container {
+    padding-left: 0;
     padding-bottom: 100px;
+} */
+
+.projectscards .container .row{
+  padding-bottom: 23px;
 }
 
 
@@ -71,14 +78,14 @@
   }
   .projectscards .container .content1 {
     opacity: 0;
-    font-size: 60px;
+    font-size: 70px;
     position: absolute;
     top: 0;
     left: 0;
-    color: #000000;
+    
     background-color: rgba(200, 200, 200, 0.3);
-    width: 320px;
-    height: 320px;
+    width: 100%;
+    height: 100%;
     -webkit-transition: all 400ms ease-out;
     -moz-transition: all 400ms ease-out;
     -o-transition: all 400ms ease-out;
@@ -99,8 +106,8 @@
   }
   .projectscards .container .example1 .content1:hover .text {
     opacity: 1;
-    transform: translateY(100px);
-    -webkit-transform: translateY(100px);
+    transform: translateY(7vw);
+    -webkit-transform: translateY(7vw);
   }
 
 
@@ -118,14 +125,13 @@
   }
   .projectscards .container .content2 {
     opacity: 0;
-    font-size: 60px;
+    font-size: 70px;
     position: absolute;
     top: 0;
     left: 0;
-    color: #000000;
     background-color: rgba(200, 200, 200, 0.3);
-    width: 320px;
-    height: 320px;
+    width: 100%;
+    height: 100%;
     -webkit-transition: all 400ms ease-out;
     -moz-transition: all 400ms ease-out;
     -o-transition: all 400ms ease-out;
@@ -145,8 +151,8 @@
   }
   .projectscards .container .example2 .content2:hover .text {
     opacity: 1;
-    transform: translateY(100px);
-    -webkit-transform: translateY(100px);
+    transform: translateY(7vw);
+    -webkit-transform: translateY(7vw);
   }
 
 
@@ -162,14 +168,13 @@
   }
   .projectscards .container .content3 {
     opacity: 0;
-    font-size: 60px;
+    font-size: 70px;
     position: absolute;
     top: 0;
     left: 0;
-    color: #000000;
     background-color: rgba(200, 200, 200, 0.3);
-    width: 320px;
-    height: 320px;
+    width: 100%;
+    height: 100%;
     -webkit-transition: all 400ms ease-out;
     -moz-transition: all 400ms ease-out;
     -o-transition: all 400ms ease-out;
@@ -189,8 +194,8 @@
   }
   .projectscards .container .example3 .content3:hover .text {
     opacity: 1;
-    transform: translateY(100px);
-    -webkit-transform: translateY(100px);
+    transform: translateY(7vw);
+    -webkit-transform: translateY(7vw);
   }
 
 
@@ -206,14 +211,13 @@
   }
   .projectscards .container .content4 {
     opacity: 0;
-    font-size: 60px;
+    font-size: 70px;
     position: absolute;
     top: 0;
     left: 0;
-    color: #000000;
     background-color: rgba(200, 200, 200, 0.3);
-    width: 320px;
-    height: 320px;
+    width: 100%;
+    height: 100%;
     -webkit-transition: all 400ms ease-out;
     -moz-transition: all 400ms ease-out;
     -o-transition: all 400ms ease-out;
@@ -233,8 +237,8 @@
   }
   .projectscards .container .example4 .content4:hover .text {
     opacity: 1;
-    transform: translateY(100px);
-    -webkit-transform: translateY(100px);
+    transform: translateY(7vw);
+    -webkit-transform: translateY(7vw);
   }
 
 
@@ -251,14 +255,13 @@
   }
   .projectscards .container .content5 {
     opacity: 0;
-    font-size: 60px;
+    font-size: 70px;
     position: absolute;
     top: 0;
     left: 0;
-    color: #000000;
     background-color: rgba(200, 200, 200, 0.3);
-    width: 320px;
-    height: 320px;
+    width: 100%;
+    height: 100%;
     -webkit-transition: all 400ms ease-out;
     -moz-transition: all 400ms ease-out;
     -o-transition: all 400ms ease-out;
@@ -278,8 +281,8 @@
   }
   .projectscards .container .example5 .content5:hover .text {
     opacity: 1;
-    transform: translateY(100px);
-    -webkit-transform: translateY(100px);
+    transform: translateY(7vw);
+    -webkit-transform: translateY(7vw);
   }
 
 
@@ -298,14 +301,13 @@
   }
   .projectscards .container .content6 {
     opacity: 0;
-    font-size: 60px;
+    font-size: 70px;
     position: absolute;
     top: 0;
     left: 0;
-    color: #000000;
     background-color: rgba(200, 200, 200, 0.3);
-    width: 320px;
-    height: 320px;
+    width: 100%;
+    height: 100%;
     -webkit-transition: all 400ms ease-out;
     -moz-transition: all 400ms ease-out;
     -o-transition: all 400ms ease-out;
@@ -325,8 +327,8 @@
   }
   .projectscards .container .example6 .content6:hover .text {
     opacity: 1;
-    transform: translateY(100px);
-    -webkit-transform: translateY(100px);
+    transform: translateY(7vw);
+    -webkit-transform: translateY(7vw);
   }
 
 
@@ -343,14 +345,13 @@
   }
   .projectscards .container .content7 {
     opacity: 0;
-    font-size: 60px;
+    font-size: 70px;
     position: absolute;
     top: 0;
     left: 0;
-    color: #000000;
     background-color: rgba(200, 200, 200, 0.3);
-    width: 320px;
-    height: 320px;
+    width: 100%;
+    height: 100%;
     -webkit-transition: all 400ms ease-out;
     -moz-transition: all 400ms ease-out;
     -o-transition: all 400ms ease-out;
@@ -370,8 +371,8 @@
   }
   .projectscards .container .example7 .content7:hover .text {
     opacity: 1;
-    transform: translateY(100px);
-    -webkit-transform: translateY(100px);
+    transform: translateY(7vw);
+    -webkit-transform: translateY(7vw);
   }
 
 
@@ -389,14 +390,13 @@
   }
   .projectscards .container .content8 {
     opacity: 0;
-    font-size: 60px;
+    font-size: 70px;
     position: absolute;
     top: 0;
     left: 0;
-    color: #000000;
     background-color: rgba(200, 200, 200, 0.3);
-    width: 320px;
-    height: 320px;
+    width: 100%;
+    height: 100%;
     -webkit-transition: all 400ms ease-out;
     -moz-transition: all 400ms ease-out;
     -o-transition: all 400ms ease-out;
@@ -416,8 +416,8 @@
   }
   .projectscards .container .example8 .content8:hover .text {
     opacity: 1;
-    transform: translateY(100px);
-    -webkit-transform: translateY(100px);
+    transform: translateY(7vw);
+    -webkit-transform: translateY(7vw);
   }
 
 
@@ -434,14 +434,13 @@
   }
   .projectscards .container .content9 {
     opacity: 0;
-    font-size: 60px;
+    font-size: 70px;
     position: absolute;
     top: 0;
     left: 0;
-    color: #000000;
     background-color: rgba(200, 200, 200, 0.3);
-    width: 320px;
-    height: 320px;
+    width: 100%;
+    height: 100%;
     -webkit-transition: all 400ms ease-out;
     -moz-transition: all 400ms ease-out;
     -o-transition: all 400ms ease-out;
@@ -461,8 +460,8 @@
   }
   .projectscards .container .example9 .content9:hover .text {
     opacity: 1;
-    transform: translateY(100px);
-    -webkit-transform: translateY(100px);
+    transform: translateY(7vw);
+    -webkit-transform: translateY(7vw);
   }
 
 
@@ -471,30 +470,1284 @@
 }
 
 footer h1{
-font-family: 'Playfair Display SC', serif;
+    font-family: 'Playfair Display SC', serif;
 }
 
 
 
 footer .companyname p{
-font-size: 22px;
-text-align: center;
-font-family: 'Playfair Display SC', serif;
+    font-size: 22px;
+    text-align: center;
+    font-family: 'Playfair Display SC', serif;
+}
+
+
+footer .companyname .companynameend{
+    font-size: 13px;
+    text-align: center;
+    font-family: 'Playfair Display SC', serif;
 }
 
 footer .companyaddress p{
-text-align: center;
+    text-align: center;
 }
 
+
+
 footer .footerheading h1 i{
-font-size: 45px;
+    font-size: 45px;
 }
 
 footer .companyicons i{
-padding-left: 40px;
+    padding-left: 40px;
 }
 
 footer .companyicons{
-padding-top: 50px;
-padding-left: 200px;
+    padding-top: 40px;
+    padding-left: 200px;
+}
+
+
+.bg-dark {
+    background-color: #5b5b5b30!important;
+}
+
+
+
+
+
+
+
+
+/* media queries */
+
+@media only screen and (max-width: 2560px) and (min-width: 2401px) {
+  .projectscards .container {
+      padding-left: 9vw;
+      padding-bottom: 100px;
+      padding-right: 9vw;
+  }
+
+  .portfolio-title {
+    /* padding-left: 500px; */
+    font-size: 55px;
+    font-family: 'Playfair Display SC', serif;
+  }
+
+  .nav-item{
+      padding-top: 15px;
+      padding-right: 50px;
+      padding-bottom: 15px;
+      padding-left: 50px;
+      
+      font-size: 25px;
+  }
+
+  .nav-item a:link{
+      color: #000;
+  }
+
+  #navbarmain{
+      
+      padding-right: 10px;
+      padding-left: 80px;
+  }
+
+  .navbar-nav{
+      padding-left: 40vw;
+  }
+
+
+  .bg-dark {
+    background-color: #5b5b5b30!important;
+  }
+
+  footer .companyaddress p{
+      font-size: 21px;
+  }
+
+  footer .companyicons i{
+      font-size: 25px;
+  }
+
+  footer .copyright{
+      font-size: 20px;
+  }
+
+  .projectscards .container .example1 .content1:hover .text,
+  .projectscards .container .example2 .content2:hover .text,
+  .projectscards .container .example3 .content3:hover .text,
+  .projectscards .container .example4 .content4:hover .text,
+  .projectscards .container .example5 .content5:hover .text,
+  .projectscards .container .example6 .content6:hover .text,
+  .projectscards .container .example7 .content7:hover .text,
+  .projectscards .container .example8 .content8:hover .text,
+  .projectscards .container .example9 .content9:hover .text {
+    transform: translateY(3vw);
+    -webkit-transform: translateY(3vw);
+  }
+  
+
+}
+
+@media only screen and (max-width: 2400px) and (min-width: 2201px) {
+  .projectscards .container {
+      padding-left: 9vw;
+      padding-bottom: 100px;
+      padding-right: 9vw;
+  }
+
+  .portfolio-title {
+    /* padding-left: 500px; */
+    font-size: 55px;
+    font-family: 'Playfair Display SC', serif;
+  }
+
+  .nav-item{
+    padding-top: 15px;
+    padding-right: 50px;
+    padding-bottom: 15px;
+    padding-left: 50px;
+    
+    font-size: 25px;
+  }
+
+  .nav-item a:link{
+      color: #000;
+  }
+
+  #navbarmain{
+      
+      padding-right: 10px;
+      padding-left: 80px;
+  }
+
+  .navbar-nav{
+      padding-left: 40vw;
+  }
+
+
+  .bg-dark {
+    background-color: #5b5b5b30!important;
+  }
+
+  footer .companyaddress p{
+      font-size: 21px;
+  }
+
+  footer .companyicons i{
+      font-size: 25px;
+  }
+
+  footer .copyright{
+      font-size: 20px;
+  }
+
+  .projectscards .container .example1 .content1:hover .text,
+  .projectscards .container .example2 .content2:hover .text,
+  .projectscards .container .example3 .content3:hover .text,
+  .projectscards .container .example4 .content4:hover .text,
+  .projectscards .container .example5 .content5:hover .text,
+  .projectscards .container .example6 .content6:hover .text,
+  .projectscards .container .example7 .content7:hover .text,
+  .projectscards .container .example8 .content8:hover .text,
+  .projectscards .container .example9 .content9:hover .text {
+    transform: translateY(3vw);
+    -webkit-transform: translateY(3vw);
+  }
+  
+
+}
+
+@media only screen and (max-width: 2200px) and (min-width: 2000px) {
+  .projectscards .container {
+      padding-left: 9vw;
+      padding-bottom: 100px;
+      padding-right: 9vw;
+  }
+
+  .portfolio-title {
+    /* padding-left: 500px; */
+    font-size: 55px;
+    font-family: 'Playfair Display SC', serif;
+  }
+
+  .nav-item{
+    padding-top: 15px;
+    padding-right: 50px;
+    padding-bottom: 15px;
+    padding-left: 50px;
+    
+    font-size: 25px;
+  }
+
+  .nav-item a:link{
+      color: #000;
+  }
+
+  #navbarmain{
+      
+      padding-right: 10px;
+      padding-left: 80px;
+  }
+
+  .navbar-nav{
+      padding-left: 40vw;
+  }
+
+
+  .bg-dark {
+    background-color: #5b5b5b30!important;
+  }
+
+  footer .companyaddress p{
+      font-size: 21px;
+  }
+
+  footer .companyicons i{
+      font-size: 25px;
+  }
+
+  footer .copyright{
+      font-size: 20px;
+  }
+
+  .projectscards .container .example1 .content1:hover .text,
+  .projectscards .container .example2 .content2:hover .text,
+  .projectscards .container .example3 .content3:hover .text,
+  .projectscards .container .example4 .content4:hover .text,
+  .projectscards .container .example5 .content5:hover .text,
+  .projectscards .container .example6 .content6:hover .text,
+  .projectscards .container .example7 .content7:hover .text,
+  .projectscards .container .example8 .content8:hover .text,
+  .projectscards .container .example9 .content9:hover .text {
+    transform: translateY(3vw);
+    -webkit-transform: translateY(3vw);
+  }
+  
+
+}
+
+
+@media only screen and (max-width: 1999px) and (min-width: 1800px) {
+  .projectscards .container {
+      padding-left: 2vw;
+      padding-bottom: 100px;
+  }
+
+  .portfolio-title {
+    /* padding-left: 500px; */
+    font-size: 55px;
+    font-family: 'Playfair Display SC', serif;
+  }
+
+  .nav-item{
+    padding-top: 15px;
+    padding-right: 50px;
+    padding-bottom: 15px;
+    padding-left: 50px;
+    
+    font-size: 20px;
+  }
+
+  .nav-item a:link{
+      color: #000;
+  }
+
+  #navbarmain{
+      
+      padding-right: 80px;
+      padding-left: 80px;
+  }
+
+
+  .navbar-nav{
+      padding-left: 40vw;
+  }
+
+  .bg-dark {
+      background-color: #5b5b5b30!important;
+  }
+
+  footer .companyaddress p{
+      font-size: 21px;
+  }
+
+  footer .companyicons i{
+      font-size: 25px;
+  }
+
+  footer .copyright{
+      font-size: 20px;
+  }
+
+}
+
+@media only screen and (max-width: 1799px) and (min-width: 1400px) {
+  .projectscards .container {
+    width: fit-content;
+      padding-bottom: 100px;
+      padding-left: 3vw;
+  }
+
+  .portfolio-title {
+    /* padding-left: 500px; */
+    font-size: 55px;
+    font-family: 'Playfair Display SC', serif;
+  }
+
+  .nav-item{
+    padding-top: 15px;
+    padding-right: 40px;
+    padding-bottom: 15px;
+    padding-left: 40px;
+    
+    font-size: 20px;
+  }
+
+  .nav-item a:link{
+      color: #000;
+  }
+
+  #navbarmain{
+      
+      padding-right: 80px;
+      padding-left: 80px;
+  }
+
+
+  .navbar-nav{
+      padding-left: 30vw;
+  }
+
+  .bg-dark {
+      background-color: #5b5b5b30!important;
+  }
+
+  footer .companyaddress p{
+      font-size: 21px;
+  }
+
+  footer .companyicons i{
+      font-size: 25px;
+  }
+
+  footer .copyright{
+      font-size: 20px;
+  }
+
+}
+
+@media only screen and (max-width: 1399px) and (min-width: 1200px) {
+  .projectscards .container {
+    width: fit-content;
+      padding-bottom: 100px;
+      padding-left: 3vw;
+  }
+
+  .portfolio-title {
+    /* padding-left: 500px; */
+    font-size: 45px;
+    font-family: 'Playfair Display SC', serif;
+  }
+
+  .nav-item{
+    padding-top: 15px;
+    padding-right: 30px;
+    padding-bottom: 15px;
+    padding-left: 30px;
+    
+    font-size: 20px;
+}
+
+#navbarmain{
+    
+    padding-right: 60px;
+    padding-left: 60px;
+}
+
+.navbar-nav{
+    padding-left: 23vw;
+}
+
+  .bg-dark {
+      background-color: #5b5b5b30!important;
+  }
+
+  footer .companyaddress p{
+      font-size: 21px;
+  }
+
+  footer .companyicons i{
+      font-size: 20px;
+  }
+
+  footer .companyicons i{
+      padding-left: 20px;
+  }
+
+  footer .copyright{
+      font-size: 20px;
+  }
+
+}
+
+@media only screen and (max-width: 1199px) and (min-width: 1050px) {
+  
+
+  .portfolio-title {
+    /* padding-left: 500px; */
+    font-size: 50px;
+    font-family: 'Playfair Display SC', serif;
+  }
+
+  .nav-item{
+    padding-top: 15px;
+    padding-right: 30px;
+    padding-bottom: 15px;
+    padding-left: 30px;
+    
+    font-size: 20px;
+  }
+
+  #navbarmain{
+      
+      padding-right: 60px;
+      padding-left: 60px;
+  }
+
+  .navbar-nav{
+      padding-left: 19vw;
+  }
+
+  footer .companyicons i{
+    padding-left: 10px;
+    }
+
+}
+
+@media only screen and (max-width: 1049px) and (min-width: 992px) {
+  
+
+  .portfolio-title {
+    /* padding-left: 500px; */
+    font-size: 45px;
+    font-family: 'Playfair Display SC', serif;
+  }
+
+  .projectscards .container {
+      padding-left: 12vw;
+      padding-bottom: 100px;
+      padding-right: 12vw;
+  }
+
+
+  .nav-item{
+    padding-top: 15px;
+    padding-right: 25px;
+    padding-bottom: 15px;
+    padding-left: 25px;
+    
+    font-size: 20px;
+  }
+
+  #navbarmain{
+      
+      padding-right: 50px;
+      padding-left: 50px;
+  }
+
+  .navbar-nav{
+      padding-left: 18vw;
+  }
+
+
+  footer .companyicons i{
+    padding-left: 10px;
+  }
+
+  .projectscards .container .example1 .content1:hover .text,
+  .projectscards .container .example2 .content2:hover .text,
+  .projectscards .container .example3 .content3:hover .text,
+  .projectscards .container .example4 .content4:hover .text,
+  .projectscards .container .example5 .content5:hover .text,
+  .projectscards .container .example6 .content6:hover .text,
+  .projectscards .container .example7 .content7:hover .text,
+  .projectscards .container .example8 .content8:hover .text,
+  .projectscards .container .example9 .content9:hover .text {
+    transform: translateY(6vw);
+    -webkit-transform: translateY(6vw);
+  }
+
+  .projectscards .container .content1,
+  .projectscards .container .content2,
+  .projectscards .container .content3,
+  .projectscards .container .content4,
+  .projectscards .container .content5,
+  .projectscards .container .content6,
+  .projectscards .container .content7,
+  .projectscards .container .content8,
+  .projectscards .container .content9 {
+    font-size: 50px;
+
+  }
+
+}
+
+@media only screen and (max-width: 991px) and (min-width: 800px) {
+  
+
+  .portfolio-title {
+    /* padding-left: 500px; */
+    font-size: 45px;
+    font-family: 'Playfair Display SC', serif;
+  }
+
+  .projectscards .container {
+      padding-left: 5vw;
+      padding-bottom: 100px;
+      padding-right: 5vw;
+  }
+
+
+  .navbar-nav{
+    padding-left: 0vw;
+    align-items: center;
+  }
+
+  .nav-item{
+      padding-top: 12px;
+      padding-right: 20px;
+      padding-bottom: 12px;
+      padding-left: 20px;
+      
+      font-size: 17px;
+  }
+
+  #navbarmain{
+      
+      padding-right: 40px;
+      padding-left: 40px;
+  }
+
+  footer .footerheading h1 i{
+    font-size: 15px;
+    text-align: left;
+    display: none;
+  }
+
+  footer .companyicons i{
+      padding-left: 20px;
+      padding-right: 20px;
+  }
+
+  footer .companyicons{
+      padding-top: 0px;
+      padding-right: 0px;
+      text-align: left;
+      padding-left: 250px;
+      
+  }
+
+  .projectscards .container .example1 .content1:hover .text,
+  .projectscards .container .example2 .content2:hover .text,
+  .projectscards .container .example3 .content3:hover .text,
+  .projectscards .container .example4 .content4:hover .text,
+  .projectscards .container .example5 .content5:hover .text,
+  .projectscards .container .example6 .content6:hover .text,
+  .projectscards .container .example7 .content7:hover .text,
+  .projectscards .container .example8 .content8:hover .text,
+  .projectscards .container .example9 .content9:hover .text {
+    transform: translateY(6vw);
+    -webkit-transform: translateY(6vw);
+  }
+
+  .projectscards .container .content1,
+  .projectscards .container .content2,
+  .projectscards .container .content3,
+  .projectscards .container .content4,
+  .projectscards .container .content5,
+  .projectscards .container .content6,
+  .projectscards .container .content7,
+  .projectscards .container .content8,
+  .projectscards .container .content9 {
+    font-size: 50px;
+
+  }
+
+}
+
+@media only screen and (max-width: 799px) and (min-width: 768px) {
+
+  
+  .portfolio-title {
+    /* padding-left: 500px; */
+    font-size: 45px;
+    font-family: 'Playfair Display SC', serif;
+  }
+
+  .projectscards .container {
+      padding-left: 7vw;
+      padding-bottom: 100px;
+      padding-right: 7vw;
+  }
+
+
+  .navbar-nav{
+    padding-left: 0vw;
+    align-items: center;
+  }
+
+  .nav-item{
+      padding-top: 12px;
+      padding-right: 20px;
+      padding-bottom: 12px;
+      padding-left: 20px;
+      
+      font-size: 17px;
+  }
+
+  #navbarmain{
+      
+      padding-right: 40px;
+      padding-left: 40px;
+  }
+
+  footer .footerheading h1 i{
+    font-size: 15px;
+    text-align: left;
+    display: none;
+  }
+
+  footer .companyicons i{
+      padding-left: 20px;
+      padding-right: 20px;
+  }
+
+  footer .companyicons{
+      padding-top: 0px;
+      padding-right: 0px;
+      text-align: left;
+      padding-left: 250px;
+      
+  }
+
+  .projectscards .container .example1 .content1:hover .text,
+  .projectscards .container .example2 .content2:hover .text,
+  .projectscards .container .example3 .content3:hover .text,
+  .projectscards .container .example4 .content4:hover .text,
+  .projectscards .container .example5 .content5:hover .text,
+  .projectscards .container .example6 .content6:hover .text,
+  .projectscards .container .example7 .content7:hover .text,
+  .projectscards .container .example8 .content8:hover .text,
+  .projectscards .container .example9 .content9:hover .text {
+    transform: translateY(6vw);
+    -webkit-transform: translateY(6vw);
+  }
+
+  .projectscards .container .content1,
+  .projectscards .container .content2,
+  .projectscards .container .content3,
+  .projectscards .container .content4,
+  .projectscards .container .content5,
+  .projectscards .container .content6,
+  .projectscards .container .content7,
+  .projectscards .container .content8,
+  .projectscards .container .content9 {
+    font-size: 50px;
+
+  }
+
+}
+
+@media only screen and (max-width: 767px) and (min-width: 700px) {
+
+
+
+  .navbarlogo img{
+    width: 120px;
+    height: 65px;
+  }
+
+
+  .portfolio-title {
+    /* padding-left: 500px; */
+    font-size: 45px;
+    font-family: 'Playfair Display SC', serif;
+  }
+
+  .projectscards .container {
+      padding-left: 2vw;
+      padding-bottom: 100px;
+      padding-right: 2vw;
+  }
+
+
+  .nav-item{
+    padding-top: 1px;
+    padding-right: 10px;
+    padding-bottom: 1px;
+    padding-left: 10px;
+    
+    font-size: 16px;
+  }
+
+  .navbar-nav{
+      padding-left: 0vw;
+      align-items: center;
+  }
+
+  #navbarmain{
+      
+      padding-right: 25px;
+      padding-left: 25px;
+  }
+
+  footer .footerheading h1 i{
+    font-size: 15px;
+    text-align: left;
+    display: none;
+  }
+
+  footer .companyicons i{
+      padding-left: 20px;
+      padding-right: 20px;
+  }
+
+  footer .companyicons{
+      padding-top: 0px;
+      padding-right: 0px;
+      text-align: left;
+      padding-left: 160px;
+      
+  }
+
+  .projectscards .container .example1 .content1:hover .text,
+  .projectscards .container .example2 .content2:hover .text,
+  .projectscards .container .example3 .content3:hover .text,
+  .projectscards .container .example4 .content4:hover .text,
+  .projectscards .container .example5 .content5:hover .text,
+  .projectscards .container .example6 .content6:hover .text,
+  .projectscards .container .example7 .content7:hover .text,
+  .projectscards .container .example8 .content8:hover .text,
+  .projectscards .container .example9 .content9:hover .text {
+    transform: translateY(5vw);
+    -webkit-transform: translateY(5vw);
+  }
+
+  .projectscards .container .content1,
+  .projectscards .container .content2,
+  .projectscards .container .content3,
+  .projectscards .container .content4,
+  .projectscards .container .content5,
+  .projectscards .container .content6,
+  .projectscards .container .content7,
+  .projectscards .container .content8,
+  .projectscards .container .content9 {
+    font-size: 50px;
+
+  }
+
+}
+
+
+@media only screen and (max-width: 699px) and (min-width: 575px) {
+
+
+  .navbarlogo img{
+    width: 120px;
+    height: 65px;
+  }
+
+
+  .portfolio-title {
+    /* padding-left: 500px; */
+    font-size: 45px;
+  }
+
+  .projectscards .container {
+      padding-left: 2vw;
+      padding-bottom: 100px;
+      padding-right: 2vw;
+  }
+
+
+  .nav-item{
+    padding-top: 1px;
+    padding-right: 10px;
+    padding-bottom: 1px;
+    padding-left: 10px;
+    
+    font-size: 16px;
+  }
+
+  .navbar-nav{
+      padding-left: 0vw;
+      align-items: center;
+  }
+
+  #navbarmain{
+      
+      padding-right: 25px;
+      padding-left: 25px;
+  }
+
+  footer .footerheading h1 i{
+    font-size: 15px;
+    text-align: left;
+    display: none;
+  }
+
+  footer .companyicons i{
+      padding-left: 20px;
+      padding-right: 20px;
+  }
+
+  footer .companyicons{
+      padding-top: 0px;
+      padding-right: 0px;
+      text-align: left;
+      padding-left: 160px;
+      
+  }
+
+  .projectscards .container .example1 .content1:hover .text,
+  .projectscards .container .example2 .content2:hover .text,
+  .projectscards .container .example3 .content3:hover .text,
+  .projectscards .container .example4 .content4:hover .text,
+  .projectscards .container .example5 .content5:hover .text,
+  .projectscards .container .example6 .content6:hover .text,
+  .projectscards .container .example7 .content7:hover .text,
+  .projectscards .container .example8 .content8:hover .text,
+  .projectscards .container .example9 .content9:hover .text {
+    transform: translateY(5vw);
+    -webkit-transform: translateY(5vw);
+  }
+
+  .projectscards .container .content1,
+  .projectscards .container .content2,
+  .projectscards .container .content3,
+  .projectscards .container .content4,
+  .projectscards .container .content5,
+  .projectscards .container .content6,
+  .projectscards .container .content7,
+  .projectscards .container .content8,
+  .projectscards .container .content9 {
+    font-size: 50px;
+
+  }
+
+}
+
+@media only screen and (max-width: 574px) and (min-width: 525px) {
+
+
+  .navbarlogo img{
+    width: 120px;
+    height: 65px;
+  }
+
+
+  .portfolio-title {
+    /* padding-left: 500px; */
+    font-size: 40px;
+  }
+
+  .projectscards .container {
+      padding-left: 7vw;
+      padding-bottom: 100px;
+      padding-right: 7vw;
+  }
+
+
+  .nav-item{
+    padding-top: 1px;
+    padding-right: 3px;
+    padding-bottom: 1px;
+    padding-left: 3px;
+    
+    font-size: 16px;
+}
+
+
+.navbar-nav{
+    padding-left: 0vw;
+    align-items: center;
+}
+
+#navbarmain{
+    
+    padding-right: 25px;
+    padding-left: 25px;
+}
+
+  .projectscards .container .row{
+    padding-bottom: 0px;
+  }
+
+  .projectscards .container .row .example1, 
+  .projectscards .container .row .example2, 
+  .projectscards .container .row .example3, 
+  .projectscards .container .row .example4, 
+  .projectscards .container .row .example5,
+  .projectscards .container .row .example6, 
+  .projectscards .container .row .example7, 
+  .projectscards .container .row .example8{
+    padding-bottom: 30px;
+  }
+
+  footer .footerheading h1 i{
+    font-size: 15px;
+    text-align: left;
+    display: none;
+  }
+
+  footer .companyicons i{
+      padding-left: 20px;
+      padding-right: 20px;
+  }
+
+  footer .companyicons{
+      padding-top: 0px;
+      padding-right: 0px;
+      text-align: left;
+      padding-left: 150px;
+      
+  }
+
+  .projectscards .container .example1 .content1:hover .text,
+  .projectscards .container .example2 .content2:hover .text,
+  .projectscards .container .example3 .content3:hover .text,
+  .projectscards .container .example4 .content4:hover .text,
+  .projectscards .container .example5 .content5:hover .text,
+  .projectscards .container .example6 .content6:hover .text,
+  .projectscards .container .example7 .content7:hover .text,
+  .projectscards .container .example8 .content8:hover .text,
+  .projectscards .container .example9 .content9:hover .text {
+    transform: translateY(30vw);
+    -webkit-transform: translateY(30vw);
+  }
+
+  .projectscards .container .content1,
+  .projectscards .container .content2,
+  .projectscards .container .content3,
+  .projectscards .container .content4,
+  .projectscards .container .content5,
+  .projectscards .container .content6,
+  .projectscards .container .content7,
+  .projectscards .container .content8,
+  .projectscards .container .content9 {
+    font-size: 60px;
+
+  }
+
+}
+
+
+@media only screen and (max-width: 524px) and (min-width: 425px) {
+
+  .portfolio-title {
+    /* padding-left: 500px; */
+    font-size: 35px;
+  }
+
+  .projectscards .container {
+      padding-left: 7vw;
+      padding-bottom: 100px;
+      padding-right: 7vw;
+  }
+
+
+  .nav-item{
+    padding-top: 1px;
+    padding-right: 2px;
+    padding-bottom: 1px;
+    padding-left: 2px;
+    
+    font-size: 16px;
+  }
+
+  #navbarmain{
+      
+      padding-right: 25px;
+      padding-left: 25px;
+  }
+
+  .navbarlogo img{
+      width: 120px;
+      height: 65px;
+  }
+
+
+  .navbar-nav{
+      padding-left: 0vw;
+      align-items: center;
+  }
+
+  .projectscards .container .row{
+    padding-bottom: 0px;
+  }
+
+  .projectscards .container .row .example1, 
+  .projectscards .container .row .example2, 
+  .projectscards .container .row .example3, 
+  .projectscards .container .row .example4, 
+  .projectscards .container .row .example5,
+  .projectscards .container .row .example6, 
+  .projectscards .container .row .example7, 
+  .projectscards .container .row .example8{
+    padding-bottom: 30px;
+  }
+
+  footer .footerheading h1 i{
+    font-size: 15px;
+    text-align: left;
+    display: none;
+  }
+
+  footer .companyicons i{
+      padding-left: 20px;
+      padding-right: 20px;
+  }
+
+  footer .companyicons{
+      padding-top: 0px;
+      padding-right: 0px;
+      text-align: left;
+      padding-left: 100px;
+      
+  }
+
+  .projectscards .container .example1 .content1:hover .text,
+  .projectscards .container .example2 .content2:hover .text,
+  .projectscards .container .example3 .content3:hover .text,
+  .projectscards .container .example4 .content4:hover .text,
+  .projectscards .container .example5 .content5:hover .text,
+  .projectscards .container .example6 .content6:hover .text,
+  .projectscards .container .example7 .content7:hover .text,
+  .projectscards .container .example8 .content8:hover .text,
+  .projectscards .container .example9 .content9:hover .text {
+    transform: translateY(30vw);
+    -webkit-transform: translateY(30vw);
+  }
+
+  .projectscards .container .content1,
+  .projectscards .container .content2,
+  .projectscards .container .content3,
+  .projectscards .container .content4,
+  .projectscards .container .content5,
+  .projectscards .container .content6,
+  .projectscards .container .content7,
+  .projectscards .container .content8,
+  .projectscards .container .content9 {
+    font-size: 60px;
+
+  }
+
+}
+
+@media only screen and (max-width: 424px) and (min-width: 375px) {
+
+
+  .portfolio-title {
+    /* padding-left: 500px; */
+    font-size: 35px;
+  }
+
+  .projectscards .container {
+      padding-left: 7vw;
+      padding-bottom: 100px;
+      padding-right: 7vw;
+  }
+
+
+  .nav-item{
+    padding-top: 1px;
+    padding-right: 2px;
+    padding-bottom: 1px;
+    padding-left: 2px;
+    
+    font-size: 16px;
+  }
+
+  #navbarmain{
+      
+      padding-right: 25px;
+      padding-left: 25px;
+  }
+
+  .navbarlogo img{
+      width: 105px;
+      height: 50px;
+  }
+
+
+  .navbar-nav{
+      padding-left: 0vw;
+      align-items: center;
+  }
+
+  .projectscards .container .row{
+    padding-bottom: 0px;
+  }
+
+  .projectscards .container .row .example1, 
+  .projectscards .container .row .example2, 
+  .projectscards .container .row .example3, 
+  .projectscards .container .row .example4, 
+  .projectscards .container .row .example5,
+  .projectscards .container .row .example6, 
+  .projectscards .container .row .example7, 
+  .projectscards .container .row .example8{
+    padding-bottom: 30px;
+  }
+
+  footer .footerheading h1 i{
+    font-size: 13px;
+    text-align: left;
+    display: none;
+  }
+
+  footer .companyicons i{
+      padding-left: 20px;
+      padding-right: 20px;
+  }
+
+  footer .companyicons{
+      padding-top: 0px;
+      padding-right: 0px;
+      text-align: left;
+      padding-left: 80px;
+      
+  }
+
+  .projectscards .container .example1 .content1:hover .text,
+  .projectscards .container .example2 .content2:hover .text,
+  .projectscards .container .example3 .content3:hover .text,
+  .projectscards .container .example4 .content4:hover .text,
+  .projectscards .container .example5 .content5:hover .text,
+  .projectscards .container .example6 .content6:hover .text,
+  .projectscards .container .example7 .content7:hover .text,
+  .projectscards .container .example8 .content8:hover .text,
+  .projectscards .container .example9 .content9:hover .text {
+    transform: translateY(30vw);
+    -webkit-transform: translateY(30vw);
+  }
+
+  .projectscards .container .content1,
+  .projectscards .container .content2,
+  .projectscards .container .content3,
+  .projectscards .container .content4,
+  .projectscards .container .content5,
+  .projectscards .container .content6,
+  .projectscards .container .content7,
+  .projectscards .container .content8,
+  .projectscards .container .content9 {
+    font-size: 60px;
+
+  }
+
+}
+
+@media only screen and (max-width: 374px) and (min-width: 320px) {
+
+
+  .portfolio-title {
+    /* padding-left: 500px; */
+    font-size: 35px;
+  }
+
+  .projectscards .container {
+      padding-left: 7vw;
+      padding-bottom: 100px;
+      padding-right: 7vw;
+  }
+
+
+  .nav-item{
+    padding-top: 1px;
+    padding-right: 2px;
+    padding-bottom: 1px;
+    padding-left: 2px;
+    
+    font-size: 16px;
+  }
+
+  #navbarmain{
+      
+      padding-right: 25px;
+      padding-left: 25px;
+  }
+
+  .navbarlogo img{
+      width: 105px;
+      height: 50px;
+  }
+
+
+  .navbar-nav{
+      padding-left: 0vw;
+      align-items: center;
+  }
+
+  .projectscards .container .row{
+    padding-bottom: 0px;
+  }
+
+  .projectscards .container .row .example1, 
+  .projectscards .container .row .example2, 
+  .projectscards .container .row .example3, 
+  .projectscards .container .row .example4, 
+  .projectscards .container .row .example5,
+  .projectscards .container .row .example6, 
+  .projectscards .container .row .example7, 
+  .projectscards .container .row .example8{
+    padding-bottom: 30px;
+  }
+
+  footer .footerheading h1 i{
+    font-size: 13px;
+    text-align: left;
+    display: none;
+  }
+
+  footer .companyicons i{
+      padding-left: 20px;
+      padding-right: 20px;
+  }
+
+  footer .companyicons{
+      padding-top: 0px;
+      padding-right: 0px;
+      text-align: left;
+      padding-left: 50px;
+      
+  }
+
+  .projectscards .container .example1 .content1:hover .text,
+  .projectscards .container .example2 .content2:hover .text,
+  .projectscards .container .example3 .content3:hover .text,
+  .projectscards .container .example4 .content4:hover .text,
+  .projectscards .container .example5 .content5:hover .text,
+  .projectscards .container .example6 .content6:hover .text,
+  .projectscards .container .example7 .content7:hover .text,
+  .projectscards .container .example8 .content8:hover .text,
+  .projectscards .container .example9 .content9:hover .text {
+    transform: translateY(30vw);
+    -webkit-transform: translateY(30vw);
+  }
+
+  .projectscards .container .content1,
+  .projectscards .container .content2,
+  .projectscards .container .content3,
+  .projectscards .container .content4,
+  .projectscards .container .content5,
+  .projectscards .container .content6,
+  .projectscards .container .content7,
+  .projectscards .container .content8,
+  .projectscards .container .content9 {
+    font-size: 60px;
+
+  }
+
 }

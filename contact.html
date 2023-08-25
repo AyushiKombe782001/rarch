@@ -7,7 +7,7 @@
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="./css/contact.css">
-    <title>Residential Architects</title>
+    <title>R arch Architects</title>
     <style>
       @import url('https://fonts.googleapis.com/css2?family=Playball&display=swap');
       @import url('https://fonts.googleapis.com/css2?family=Playfair+Display+SC&display=swap');
@@ -21,23 +21,27 @@
       @import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
       @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css");
       @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@600&display=swap');
+      @import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
     </style>
 </head>
 <body>
     
     <!-- Navbar -->
 
-    <nav class="navbar navbar-expand navbar-light sticky-top" style="background-color: #ffffff;">
-        <div class="container-fluid" id="navbarmain">
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <a class="navbar-brand" href="#">
-            <img src="./Images/logo.png" alt="" width="160" height="90">
-          </a>
+    <nav class="navbar navbar-expand-lg navbar-light sticky-top" style="background-color: #ffffff;">
+      <div class="container-fluid" id="navbarmain">
+        <a class="navbar-brand navbarlogo" href="#">
+          <img src="./Images/logo.png" alt="">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          
           <div class="navbarcontent" id="navbarTogglerDemo">
             <ul class="navbar-nav">
-              <li class="nav-item">
+              <li class="nav-item active">
                 <a class="nav-link" href="./index.html">Home</a>
               </li>
               <li class="nav-item">
@@ -52,7 +56,8 @@
             </ul>
           </div>
         </div>
-      </nav>
+      </div>
+    </nav>
     <!-- Navbar Ends -->
 
 
@@ -92,10 +97,10 @@
                     <div class="card outlinecard">
                       <div class="card-body">
                         <p class="card-text">R arch
-                        <br>135, Satra Plaza, Palm Beach Road
-                        <br>Sector 19D,
+                        <br>135, Satra Plaza,<br> Palm Beach Road
+                        <br>Sector 19 D,
                         <br>Vashi, Navi Mumbai
-                        <br>400703</p>
+                        <br>400 703</p>
                       </div>
                     </div>
                   </div>
@@ -150,32 +155,32 @@
 
 
           <div class="col-sm-7">
-            <div class="card outlinecard">
+            <div class="card outlinecard123">
               <div class="card-body">
                 
-                <form class="row g-4" action="https://formsubmit.co/kombeayushi@gmail.com" method="post">
+                <form class="row g-2 contactform" action="https://formspree.io/f/xleygdbg" method="POST">
                   <input type="hidden" name="_subject" value="New submission!">
                   <input type="hidden" name="_captcha" value="false">
                   <div class="col-md-6">
-                    <label for="inputFirstName" class="form-label">First Name</label>
-                    <input type="text" class="form-control" placeholder="First name" id="inputFirstName" name="firstname" required>
+                    <label for="inputFirstName" class="form-label"></label>
+                    <input type="text" class="form-control" placeholder="First name" id="inputFirstName" name="firstname" required style="font-family: 'Playfair Display SC', serif ;">
                   </div>
-                  <input type="hidden" name="_next" value="https://yourdomain.co/thanks.html">
+                  <!-- <input type="hidden" name="_next" value="https://yourdomain.co/thanks.html"> -->
                   <div class="col-md-6">
-                    <label for="inputLastName" class="form-label">Last Name</label>
-                    <input type="text" class="form-control" placeholder="Last name" id="inputLastName" name="lastname" required>
+                    <label for="inputLastName" class="form-label"></label>
+                    <input type="text" class="form-control" placeholder="Last name" id="inputLastName" name="lastname" required style="font-family: 'Playfair Display SC', serif ;">
                   </div>
                   <div class="col-12">
-                    <label for="FormControlInput1" class="form-label">Email Address</label>
-                    <input type="email" class="form-control" id="FormControlInput1" placeholder="name@example.com" name="email" required>
+                    <label for="FormControlInput1" class="form-label"></label>
+                    <input type="email" class="form-control" id="FormControlInput1" placeholder="Email" name="email" required style="font-family: 'Playfair Display SC', serif ;">
                   </div>
                   <div class="col-12">
-                    <label for="FormControlTextarea1" class="form-label">Message</label>
-                    <textarea class="form-control" id="FormControlTextarea1" rows="3" name="message" placeholder="Write Your Message" required></textarea>
+                    <label for="FormControlTextarea1" class="form-label"></label>
+                    <textarea class="form-control" id="FormControlTextarea1" rows="3" name="message" placeholder="Message" required style="font-family: 'Playfair Display SC', serif ;"></textarea>
                   </div>
                   
                   <div class="col-12">
-                    <button type="submit" class="btn btn-primary">SEND</button>
+                    <button type="submit" class="btn" style="border: 1px solid black; font-family: 'Playfair Display SC', serif ;">SEND</button>
                   </div>
                 </form>
 
@@ -195,6 +200,7 @@
     <div class="map" style="width: 100%;">
       <div class="container" style="width: 100%;">
         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3770.5706503278516!2d73.00354867587635!3d19.08260585176387!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7c13428f153c3%3A0xcedc32f30e4d80ed!2sSatra%20Plaza!5e0!3m2!1sen!2sin!4v1686738843661!5m2!1sen!2sin" width="1024" height="766" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <!-- <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15249822.21961233!2d82.75252935!3d21.068622799999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x23b59ce95f1e80d5%3A0xfc7633420d031805!2sR%20arch%20Architects!5e0!3m2!1sen!2sin!4v1690608079494!5m2!1sen!2sin" width="1024" height="766" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe> -->
       </div>
     </div>
 
@@ -205,7 +211,7 @@
     
 
     <!-- footer -->
-    <footer class="bg-dark text-center text-lg-start text-white">
+    <footer class="bg-dark text-center text-lg-start text-black">
       <!-- Grid container -->
       <div class="container p-4">
         <!--Grid row-->
@@ -213,21 +219,21 @@
           <!--Grid column-->
           <div class="col-lg-4 col-md-12 mb-4 mb-md-0 footerheading">
             
-            <h1><i>BE IN</i></h1>
-            <h1><i>TOUCH</i></h1>
+            <h1 style="font-weight: 600;">GET IN</h1>
+            <h1 style="font-weight: 600;">TOUCH</h1>
           </div>
           <!--Grid column-->
     
           <!--Grid column-->
           <div class="col-lg-4 col-md-12 mb-4 mb-md-0">
     
-            <div class="companyname"><p>R arch</p></div>
             
-            <div class="companyaddress">
-              <p>135, Satra Plaza, Palm Beach Road,
-                Sector 19D, 
-                Vashi, Navi Mumbai 
-                -400703</p>
+            
+            <div class="companyaddress" style="font-family: 'Lora', serif; font-weight: 500;">
+              <p>135, Satra Plaza, <br>Palm Beach Road,
+                Sector 19 D, 
+                Vashi,<br> Navi Mumbai 
+                - 400 703</p>
             </div>
             
           </div>
@@ -255,9 +261,11 @@
       <!-- Grid container -->
     
       <!-- Copyright -->
+      <div class="copyright" style="font-family: 'Lora', serif;">
       <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
-        © 2023 Copyright:
-        <a class="text-white" href="#">yourlink.com</a>
+        © 2023 Copyright: 
+        <a href="https://rarch.in/" style="color: black; font-family: 'Lora', serif;">rarch.in</a>
+      </div>
       </div>
       <!-- Copyright -->
     </footer>

@@ -1,30 +1,35 @@
 .nav-item{
-    padding-top: 15px;
+    padding-top: 20px;
     padding-right: 50px;
-    padding-bottom: 15px;
+    padding-bottom: 20px;
     padding-left: 50px;
     font-family: 'Playfair Display SC', serif;
-    font-style: italic;
+    
     
     font-size: 20px;
-}
-
-.nav-item a:link{
+  }
+  
+  .nav-item a:link{
     color: #000;
     background-color: transparent;
     text-decoration: none;
-}
-
-#navbarmain{
+  }
+  
+  #navbarmain{
     
-    padding-right: 80px;
+    padding-right: 10px;
     padding-left: 80px;
-}
+  }
+  
+  .navbarlogo img{
+    width: 170px;
+    height: 85px;
+  }
 
-.navbarlogo img{
-    width: 165px;
-    height: 70px;
-}
+
+
+
+  
 
 
 .carousel .carousel-indicators button {
@@ -56,7 +61,7 @@
 
 .project {
     padding-top: 80px;
-    padding-left: 250px;
+    padding-left: 230px;
 }
 
 .project .card-title{
@@ -210,8 +215,13 @@ footer .companyicons i{
 }
 
 footer .companyicons{
-    padding-top: 50px;
+    padding-top: 40px;
     padding-left: 200px;
+}
+
+
+.bg-dark {
+    background-color: #5b5b5b30!important;
 }
 
 
@@ -220,8 +230,1309 @@ footer .companyicons{
 
 
 
-
 /* media queries */
+
+@media only screen and (max-width: 2560px) and (min-width: 2401px) {
+    .nav-item{
+        padding-top: 15px;
+        padding-right: 50px;
+        padding-bottom: 15px;
+        padding-left: 50px;
+        
+        font-size: 25px;
+    }
+    
+    .nav-item a:link{
+        color: #000;
+    }
+    
+    #navbarmain{
+        
+        padding-right: 10px;
+        padding-left: 80px;
+    }
+    
+    .navbar-nav{
+        padding-left: 40vw;
+    }
+    
+    
+    .carousel .carousel-indicators button {
+    
+       width: 15px;
+       height: 15px;
+       
+    }
+
+    .carousel {
+        width: 100%;
+    }
+    
+    
+    
+    
+    .project {
+        padding-top: 80px;
+        padding-left: 650px;
+    }
+    
+    .project .card-title{
+        font-size: 55px;
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+    
+    .project h3{
+        padding-bottom: 50px;
+    }
+    
+    
+    
+    
+    .projectfirst .projectwidth{
+        max-width: 1200px;
+    }
+    
+    .projectfirst h4 .card-text{
+        padding-right: 40px;
+        font-size: 25px;
+        line-height: 35px;
+    }
+
+    
+    
+    
+    
+    .projectsecond .projectwidth{
+        max-width: 1200px;
+    }
+    .projectsecond h4 .card-text{
+        padding-right: 40px;
+        font-size: 25px;
+        line-height: 35px;
+    }
+    
+    
+    .projectsecond {
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+
+    .projectsecond .topheading{
+        display: none;
+    }
+    
+    
+    
+    
+    
+    
+    .projectthird .projectwidth{
+        max-width: 1200px;
+    }
+    .projectthird h4 .card-text{
+        padding-right: 40px;
+        font-size: 25px;
+        line-height: 35px;
+    }
+    
+    
+    
+
+    
+    .project .viewallpro{
+        padding-top: 60px;
+        padding-left: 25px;
+    }
+    
+    .project .viewallpro a{
+        color: #000;
+        font-size: 20px;
+    }
+    
+    .companyimage{
+        background-size: 2570px 1600px;
+    }
+    
+    
+        .icons i{
+            padding: 20px;
+        }
+
+    .companyimage .breakimg{
+        display: inline;
+    }
+
+    .bg-dark {
+        background-color: #5b5b5b30!important;
+    }
+
+    footer .companyaddress p{
+        font-size: 21px;
+    }
+    
+    footer .companyicons i{
+        font-size: 25px;
+    }
+
+    footer .copyright{
+        font-size: 20px;
+    }
+    
+    
+}
+
+@media only screen and (max-width: 2400px) and (min-width: 2201px) {
+    .nav-item{
+        padding-top: 15px;
+        padding-right: 50px;
+        padding-bottom: 15px;
+        padding-left: 50px;
+        
+        font-size: 25px;
+    }
+  
+    .nav-item a:link{
+        color: #000;
+    }
+  
+    #navbarmain{
+        
+        padding-right: 10px;
+        padding-left: 80px;
+    }
+  
+    .navbar-nav{
+        padding-left: 40vw;
+    }
+    
+    
+    
+    .carousel .carousel-indicators button {
+    
+       width: 15px;
+       height: 15px;
+       
+    }
+    
+    
+    
+    
+    .project {
+        padding-top: 80px;
+        padding-left: 530px;
+    }
+    
+    .project .card-title{
+        font-size: 55px;
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+    
+    .project h3{
+        padding-bottom: 50px;
+    }
+    
+    
+    
+    
+    .projectfirst .projectwidth{
+        max-width: 1200px;
+    }
+    
+    .projectfirst h4 .card-text{
+        padding-right: 40px;
+        font-size: 25px;
+        line-height: 35px;
+    }
+
+    
+    
+    
+    
+    .projectsecond .projectwidth{
+        max-width: 1200px;
+    }
+    .projectsecond h4 .card-text{
+        padding-right: 40px;
+        font-size: 25px;
+        line-height: 35px;
+    }
+    
+    
+    .projectsecond {
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+
+    .projectsecond .topheading{
+        display: none;
+    }
+    
+    
+    
+    
+    
+    
+    .projectthird .projectwidth{
+        max-width: 1200px;
+    }
+    .projectthird h4 .card-text{
+        padding-right: 40px;
+        font-size: 25px;
+        line-height: 35px;
+    }
+    
+    
+    
+
+    
+    .project .viewallpro{
+        padding-top: 60px;
+        padding-left: 25px;
+    }
+    
+    .project .viewallpro a{
+        color: #000;
+        font-size: 20px;
+    }
+    
+    .companyimage{
+        background-size: 2570px 1600px;
+    }
+    
+    
+        .icons i{
+            padding: 20px;
+        }
+
+        .bg-dark {
+            background-color: #5b5b5b30!important;
+        }
+
+        footer .companyaddress p{
+            font-size: 21px;
+        }
+        
+        footer .companyicons i{
+            font-size: 25px;
+        }
+
+        footer .copyright{
+            font-size: 20px;
+        }
+    
+    
+    
+    
+}
+
+@media only screen and (max-width: 2200px) and (min-width: 2001px) {
+    .nav-item{
+        padding-top: 15px;
+        padding-right: 50px;
+        padding-bottom: 15px;
+        padding-left: 50px;
+        
+        font-size: 25px;
+    }
+  
+    .nav-item a:link{
+        color: #000;
+    }
+  
+    #navbarmain{
+        
+        padding-right: 10px;
+        padding-left: 80px;
+    }
+  
+    .navbar-nav{
+        padding-left: 40vw;
+    }
+
+    
+    
+    .carousel .carousel-indicators button {
+    
+       width: 15px;
+       height: 15px;
+       
+    }
+    
+    
+    
+    
+    .project {
+        padding-top: 80px;
+        padding-left: 580px;
+    }
+    
+    .project .card-title{
+        font-size: 52px;
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+    
+    .project h3{
+        padding-bottom: 50px;
+    }
+    
+    
+    
+    
+    .projectfirst .projectwidth{
+        max-width: 1000px;
+    }
+    
+    .projectfirst h4 .card-text{
+        padding-right: 40px;
+        font-size: 20px;
+        line-height: 30px;
+    }
+
+    
+    
+    
+    
+    .projectsecond .projectwidth{
+        max-width: 1000px;
+    }
+    .projectsecond h4 .card-text{
+        padding-right: 40px;
+        font-size: 20px;
+        line-height: 30px;
+    }
+    
+    
+    .projectsecond {
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+
+    .projectsecond .topheading{
+        display: none;
+    }
+    
+    
+    
+    
+    
+    
+    .projectthird .projectwidth{
+        max-width: 1000px;
+    }
+    .projectthird h4 .card-text{
+        padding-right: 40px;
+        font-size: 20px;
+        line-height: 30px;
+    }
+    
+    
+    
+
+    
+    .project .viewallpro{
+        padding-top: 60px;
+        padding-left: 25px;
+    }
+    
+    .project .viewallpro a{
+        color: #000;
+        font-size: 20px;
+    }
+    
+    .companyimage{
+        background-size: 2210px 1600px;
+    }
+    
+    
+    .icons i{
+        padding: 20px;
+    }
+    
+    .bg-dark {
+        background-color: #5b5b5b30!important;
+    }
+    
+    footer .companyaddress p{
+        font-size: 21px;
+    }
+    
+    footer .companyicons i{
+        font-size: 25px;
+    }
+
+    footer .copyright{
+        font-size: 20px;
+    }
+    
+    
+    
+}
+
+@media only screen and (max-width: 2000px) and (min-width: 1901px) {
+    .nav-item{
+        padding-top: 15px;
+        padding-right: 50px;
+        padding-bottom: 15px;
+        padding-left: 50px;
+        
+        font-size: 20px;
+    }
+    
+    .nav-item a:link{
+        color: #000;
+    }
+    
+    #navbarmain{
+        
+        padding-right: 80px;
+        padding-left: 80px;
+    }
+    
+
+    .navbar-nav{
+        padding-left: 40vw;
+    }
+    
+    
+    .carousel .carousel-indicators button {
+    
+       width: 15px;
+       height: 15px;
+       
+    }
+    
+    
+    
+    
+    .project {
+        padding-top: 80px;
+        padding-left: 530px;
+    }
+    
+    .project .card-title{
+        font-size: 52px;
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+    
+    .project h3{
+        padding-bottom: 50px;
+    }
+    
+    
+    
+    
+    .projectfirst .projectwidth{
+        max-width: 1000px;
+    }
+    
+    .projectfirst h4 .card-text{
+        padding-right: 40px;
+        font-size: 20px;
+        line-height: 30px;
+    }
+
+    
+    
+    
+    
+    .projectsecond .projectwidth{
+        max-width: 1000px;
+    }
+    .projectsecond h4 .card-text{
+        padding-right: 40px;
+        font-size: 20px;
+        line-height: 30px;
+    }
+    
+    
+    .projectsecond {
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+
+    .projectsecond .topheading{
+        display: none;
+    }
+    
+    
+    
+    
+    
+    
+    .projectthird .projectwidth{
+        max-width: 1000px;
+    }
+    .projectthird h4 .card-text{
+        padding-right: 40px;
+        font-size: 20px;
+        line-height: 30px;
+    }
+    
+    
+    
+
+    
+    .project .viewallpro{
+        padding-top: 60px;
+        padding-left: 25px;
+    }
+    
+    .project .viewallpro a{
+        color: #000;
+        font-size: 20px;
+    }
+    
+    .companyimage{
+        background-size: 2010px 1600px;
+    }
+    
+    
+    .icons i{
+        padding: 20px;
+    }
+    
+    .bg-dark {
+        background-color: #5b5b5b30!important;
+    }
+
+    footer .companyaddress p{
+        font-size: 21px;
+    }
+    
+    footer .companyicons i{
+        font-size: 25px;
+    }
+
+    footer .copyright{
+        font-size: 20px;
+    }
+    
+    
+}
+
+@media only screen and (max-width: 1900px) and (min-width: 1801px) {
+    .nav-item{
+        padding-top: 15px;
+        padding-right: 50px;
+        padding-bottom: 15px;
+        padding-left: 50px;
+        
+        font-size: 20px;
+    }
+    
+    .nav-item a:link{
+        color: #000;
+    }
+    
+    #navbarmain{
+        
+        padding-right: 80px;
+        padding-left: 80px;
+    }
+    
+
+    .navbar-nav{
+        padding-left: 40vw;
+    }
+    
+    
+    .carousel .carousel-indicators button {
+    
+       width: 15px;
+       height: 15px;
+       
+    }
+    
+    
+    
+    
+    .project {
+        padding-top: 80px;
+        padding-left: 450px;
+    }
+    
+    .project .card-title{
+        font-size: 52px;
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+    
+    .project h3{
+        padding-bottom: 50px;
+    }
+    
+    
+    
+    
+    .projectfirst .projectwidth{
+        max-width: 1000px;
+    }
+    
+    .projectfirst h4 .card-text{
+        padding-right: 40px;
+        font-size: 20px;
+        line-height: 30px;
+    }
+
+    
+    
+    
+    
+    .projectsecond .projectwidth{
+        max-width: 1000px;
+    }
+    .projectsecond h4 .card-text{
+        padding-right: 40px;
+        font-size: 20px;
+        line-height: 30px;
+    }
+    
+    
+    .projectsecond {
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+
+    .projectsecond .topheading{
+        display: none;
+    }
+    
+    
+    
+    
+    
+    
+    .projectthird .projectwidth{
+        max-width: 1000px;
+    }
+    .projectthird h4 .card-text{
+        padding-right: 40px;
+        font-size: 20px;
+        line-height: 30px;
+    }
+    
+    
+    
+
+    
+    .project .viewallpro{
+        padding-top: 60px;
+        padding-left: 25px;
+    }
+    
+    .project .viewallpro a{
+        color: #000;
+        font-size: 20px;
+    }
+    
+    .companyimage{
+        background-size: 1910px 1300px;
+    }
+    
+    
+    .icons i{
+        padding: 20px;
+    }
+
+    .bg-dark {
+        background-color: #5b5b5b30!important;
+    }
+
+    footer .companyaddress p{
+        font-size: 21px;
+    }
+    
+    footer .companyicons i{
+        font-size: 25px;
+    }
+
+    footer .copyright{
+        font-size: 20px;
+    }
+    
+    
+    
+    
+}
+
+@media only screen and (max-width: 1800px) and (min-width: 1701px) {
+    .nav-item{
+        padding-top: 15px;
+        padding-right: 40px;
+        padding-bottom: 15px;
+        padding-left: 40px;
+        
+        font-size: 20px;
+    }
+    
+    .nav-item a:link{
+        color: #000;
+    }
+    
+    #navbarmain{
+        
+        padding-right: 80px;
+        padding-left: 80px;
+    }
+    
+
+    .navbar-nav{
+        padding-left: 30vw;
+    }
+    
+    .carousel .carousel-indicators button {
+    
+        width: 15px;
+        height: 15px;
+        
+     }
+    
+    
+    .project {
+        padding-top: 80px;
+        padding-left: 400px;
+    }
+    
+    .project .card-title{
+        font-size: 52px;
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+    
+    .project h3{
+        padding-bottom: 50px;
+    }
+    
+    
+    
+    
+    .projectfirst .projectwidth{
+        max-width: 1000px;
+    }
+    
+    .projectfirst h4 .card-text{
+        padding-right: 40px;
+        font-size: 20px;
+        line-height: 30px;
+    }
+
+    
+    
+    
+    
+    .projectsecond .projectwidth{
+        max-width: 1000px;
+    }
+    .projectsecond h4 .card-text{
+        padding-right: 40px;
+        font-size: 20px;
+        line-height: 30px;
+    }
+    
+    
+    .projectsecond {
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+
+    .projectsecond .topheading{
+        display: none;
+    }
+    
+    
+    
+    
+    
+    
+    .projectthird .projectwidth{
+        max-width: 1000px;
+    }
+    .projectthird h4 .card-text{
+        padding-right: 40px;
+        font-size: 20px;
+        line-height: 30px;
+    }
+    
+    
+    
+
+    
+    .project .viewallpro{
+        padding-top: 60px;
+        padding-left: 25px;
+    }
+    
+    .project .viewallpro a{
+        color: #000;
+        font-size: 20px;
+    }
+    
+    .companyimage{
+        background-size: 1910px 1300px;
+    }
+    
+    
+    .icons i{
+        padding: 20px;
+    }
+
+    .bg-dark {
+        background-color: #5b5b5b30!important;
+    }
+
+    footer .companyaddress p{
+        font-size: 21px;
+    }
+    
+    footer .companyicons i{
+        font-size: 25px;
+    }
+
+    
+    footer .copyright{
+        font-size: 20px;
+    }
+    
+    
+}
+
+@media only screen and (max-width: 1700px) and (min-width: 1600px) {
+    .nav-item{
+        padding-top: 15px;
+        padding-right: 40px;
+        padding-bottom: 15px;
+        padding-left: 40px;
+        
+        font-size: 20px;
+    }
+    
+    .nav-item a:link{
+        color: #000;
+    }
+    
+    #navbarmain{
+        
+        padding-right: 80px;
+        padding-left: 80px;
+    }
+    
+
+    .navbar-nav{
+        padding-left: 30vw;
+    }
+    
+    
+    .carousel .carousel-indicators button {
+    
+       width: 15px;
+       height: 15px;
+       
+    }
+    
+    
+    
+    
+    .project {
+        padding-top: 80px;
+        padding-left: 340px;
+    }
+    
+    .project .card-title{
+        font-size: 52px;
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+    
+    .project h3{
+        padding-bottom: 50px;
+    }
+    
+    
+    
+    
+    .projectfirst .projectwidth{
+        max-width: 1000px;
+    }
+    
+    .projectfirst h4 .card-text{
+        padding-right: 40px;
+        font-size: 20px;
+        line-height: 30px;
+    }
+
+    
+    
+    
+    
+    .projectsecond .projectwidth{
+        max-width: 1000px;
+    }
+    .projectsecond h4 .card-text{
+        padding-right: 40px;
+        font-size: 20px;
+        line-height: 30px;
+    }
+    
+    
+    .projectsecond {
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+
+    .projectsecond .topheading{
+        display: none;
+    }
+    
+    
+    
+    
+    
+    
+    .projectthird .projectwidth{
+        max-width: 1000px;
+    }
+    .projectthird h4 .card-text{
+        padding-right: 40px;
+        font-size: 20px;
+        line-height: 30px;
+    }
+    
+    
+    
+
+    
+    .project .viewallpro{
+        padding-top: 60px;
+        padding-left: 25px;
+    }
+    
+    .project .viewallpro a{
+        color: #000;
+        font-size: 20px;
+    }
+    
+    .companyimage{
+        background-size: 1910px 1300px;
+    }
+    
+    
+    .icons i{
+        padding: 20px;
+    }
+    
+    .bg-dark {
+        background-color: #5b5b5b30!important;
+    }
+
+    footer .companyaddress p{
+        font-size: 21px;
+    }
+    
+    footer .companyicons i{
+        font-size: 25px;
+    }
+
+    footer .copyright{
+        font-size: 20px;
+    }
+    
+    
+}
+
+@media only screen and (max-width: 1599px) and (min-width: 1500px) {
+    .nav-item{
+        padding-top: 15px;
+        padding-right: 40px;
+        padding-bottom: 15px;
+        padding-left: 40px;
+        
+        font-size: 20px;
+    }
+    
+    .nav-item a:link{
+        color: #000;
+    }
+    
+    #navbarmain{
+        
+        padding-right: 80px;
+        padding-left: 80px;
+    }
+    
+
+    .navbar-nav{
+        padding-left: 30vw;
+    }
+    
+    
+    .carousel .carousel-indicators button {
+    
+       width: 15px;
+       height: 15px;
+       
+    }
+    
+    
+    
+    
+    .project {
+        padding-top: 80px;
+        padding-left: 300px;
+    }
+    
+    .project .card-title{
+        font-size: 52px;
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+    
+    .project h3{
+        padding-bottom: 50px;
+    }
+    
+    
+    
+    
+    .projectfirst .projectwidth{
+        max-width: 1000px;
+    }
+    
+    .projectfirst h4 .card-text{
+        padding-right: 40px;
+        font-size: 20px;
+        line-height: 30px;
+    }
+
+    
+    
+    
+    
+    .projectsecond .projectwidth{
+        max-width: 1000px;
+    }
+    .projectsecond h4 .card-text{
+        padding-right: 40px;
+        font-size: 20px;
+        line-height: 30px;
+    }
+    
+    
+    .projectsecond {
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+
+    .projectsecond .topheading{
+        display: none;
+    }
+    
+    
+    
+    
+    
+    
+    .projectthird .projectwidth{
+        max-width: 1000px;
+    }
+    .projectthird h4 .card-text{
+        padding-right: 40px;
+        font-size: 20px;
+        line-height: 30px;
+    }
+    
+    
+    
+
+    
+    .project .viewallpro{
+        padding-top: 60px;
+        padding-left: 25px;
+    }
+    
+    .project .viewallpro a{
+        color: #000;
+        font-size: 20px;
+    }
+    
+    .companyimage{
+        background-size: 1910px 1300px;
+    }
+    
+    
+    .icons i{
+        padding: 20px;
+    }
+
+    
+    .bg-dark {
+        background-color: #5b5b5b30!important;
+    }
+
+    footer .companyaddress p{
+        font-size: 21px;
+    }
+    
+    footer .companyicons i{
+        font-size: 25px;
+    }
+
+    footer .copyright{
+        font-size: 20px;
+    }
+    
+    
+    
+}
+
+@media only screen and (max-width: 1499px) and (min-width: 1351px) {
+    .nav-item{
+        padding-top: 15px;
+        padding-right: 40px;
+        padding-bottom: 15px;
+        padding-left: 40px;
+        
+        font-size: 20px;
+    }
+    
+    .nav-item a:link{
+        color: #000;
+    }
+    
+    #navbarmain{
+        
+        padding-right: 80px;
+        padding-left: 80px;
+    }
+    
+
+    .navbar-nav{
+        padding-left: 23vw;
+    }
+    
+    
+    .carousel .carousel-indicators button {
+    
+       width: 15px;
+       height: 15px;
+       
+    }
+    
+    
+    
+    
+    .project {
+        padding-top: 80px;
+        padding-left: 240px;
+    }
+    
+    .project .card-title{
+        font-size: 52px;
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+    
+    .project h3{
+        padding-bottom: 50px;
+    }
+    
+    
+    
+    
+    .projectfirst .projectwidth{
+        max-width: 1000px;
+    }
+    
+    .projectfirst h4 .card-text{
+        padding-right: 40px;
+        font-size: 20px;
+        line-height: 30px;
+    }
+
+    
+    
+    
+    
+    .projectsecond .projectwidth{
+        max-width: 1000px;
+    }
+    .projectsecond h4 .card-text{
+        padding-right: 40px;
+        font-size: 20px;
+        line-height: 30px;
+    }
+    
+    
+    .projectsecond {
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+
+    .projectsecond .topheading{
+        display: none;
+    }
+    
+    
+    
+    
+    
+    
+    .projectthird .projectwidth{
+        max-width: 1000px;
+    }
+    .projectthird h4 .card-text{
+        padding-right: 40px;
+        font-size: 20px;
+        line-height: 30px;
+    }
+    
+    
+    
+
+    
+    .project .viewallpro{
+        padding-top: 60px;
+        padding-left: 25px;
+    }
+    
+    .project .viewallpro a{
+        color: #000;
+        font-size: 20px;
+    }
+    
+    .companyimage{
+        background-size: 1910px 1300px;
+    }
+    
+    
+    .icons i{
+        padding: 5px;
+    }
+
+    .bg-dark {
+        background-color: #5b5b5b30!important;
+    }
+
+    footer .companyaddress p{
+        font-size: 21px;
+    }
+    
+    footer .companyicons i{
+        font-size: 20px;
+    }
+
+    footer .companyicons i{
+        padding-left: 20px;
+    }
+    footer .copyright{
+        font-size: 20px;
+    }
+
+}
+
 @media only screen and (max-width: 1350px) and (min-width: 1200px)  {
     .nav-item{
         padding-top: 15px;
@@ -237,16 +1548,169 @@ footer .companyicons{
         padding-right: 60px;
         padding-left: 60px;
     }
-    
-    .navbarlogo img{
-        width: 165px;
-        height: 70px;
+
+    .navbar-nav{
+        padding-left: 23vw;
     }
     
     
     .project {
         padding-top: 80px;
-        padding-left: 250px;
+        padding-left: 200px;
+    }
+    
+    .project .card-title{
+        font-size: 42px;
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+    
+    .project h3{
+        padding-bottom: 50px;
+        font-size: 25px;
+    }
+    
+    
+    
+    
+    .projectfirst .projectwidth{
+        max-width: 850px;
+    }
+    
+    .projectfirst h4 .card-text{
+        padding-right: 40px;
+        font-size: 18px;
+        line-height: 30px;
+    }
+    
+    
+    
+    
+    
+    
+    .projectsecond .projectwidth{
+        max-width: 850px;
+    }
+    .projectsecond h4 .card-text{
+        padding-right: 40px;
+        font-size: 18px;
+        line-height: 30px;
+    }
+
+    .projectsecond .topheading{
+        display: none;
+    }
+    
+    
+    
+    
+    
+    
+    .projectthird .projectwidth{
+        max-width: 850px;
+    }
+    .projectthird h4 .card-text{
+        padding-right: 40px;
+        font-size: 18px;
+        line-height: 30px;
+    }
+    
+    
+    
+    
+    
+    .project .viewallpro{
+        padding-top: 55px;
+        padding-left: 22px;
+    }
+    
+    .project .viewallpro a{
+        font-size: 18px;
+    }
+    
+
+
+
+    .companyimage{
+        background-size: 1600px 1200px;
+    }
+    
+        .icons i{
+            padding: 20px;
+        }
+    
+    
+    
+    
+    footer .companyname p{
+        font-size: 22px;
+    }
+    
+    
+    footer .companyname .companynameend{
+        font-size: 13px;
+    }
+    
+    
+    footer .footerheading h1 i{
+        font-size: 35px;
+    }
+    
+    footer .companyicons i{
+        padding-left: 30px;
+    }
+    
+    footer .companyicons{
+        padding-top: 50px;
+        padding-left: 200px;
+    }
+
+    .bg-dark {
+        background-color: #5b5b5b30!important;
+    }
+    
+    footer .companyaddress p{
+        font-size: 21px;
+    }
+    
+    footer .companyicons i{
+        font-size: 20px;
+    }
+
+    footer .companyicons i{
+        padding-left: 20px;
+    }
+
+    footer .copyright{
+        font-size: 20px;
+    }
+    
+}
+
+@media only screen and (max-width: 1199px) and (min-width: 1070px)  {
+    .nav-item{
+        padding-top: 15px;
+        padding-right: 30px;
+        padding-bottom: 15px;
+        padding-left: 30px;
+        
+        font-size: 20px;
+    }
+    
+    #navbarmain{
+        
+        padding-right: 60px;
+        padding-left: 60px;
+    }
+
+    .navbar-nav{
+        padding-left: 19vw;
+    }
+    
+    
+    .project {
+        padding-top: 80px;
+        padding-left: 125px;
     }
     
     .project .card-title{
@@ -287,6 +1751,9 @@ footer .companyicons{
         line-height: 30px;
     }
     
+    .projectsecond .topheading{
+        display: none;
+    }
     
     
     
@@ -318,7 +1785,7 @@ footer .companyicons{
 
 
     .companyimage{
-        background-size: 1810px 1250px;
+        background-size: 1600px 1150px;
     }
     
         .icons i{
@@ -328,33 +1795,61 @@ footer .companyicons{
     
     
     
-    footer .companyname p{
-        font-size: 22px;
-    }
+        footer .companyname p{
+            font-size: 22px;
+        }
+        
+        
+        footer .companyname .companynameend{
+            font-size: 13px;
+        }
     
+        footer .companyaddress p{
+            font-size: 13px;
+        }
+        
+        
+        footer .footerheading h1 i{
+            font-size: 30px;
+        }
+        
+        footer .companyicons i{
+            padding-left: 20px;
+        }
+        
+        footer .companyicons{
+            padding-top: 50px;
+            padding-left: 150px;
+        }
     
-    footer .companyname .companynameend{
-        font-size: 13px;
-    }
+        footer .copyright{
+            font-size: 13px;
+        }
+
+        .bg-dark {
+            background-color: #5b5b5b30!important;
+        }
+
+        footer .companyaddress p{
+            font-size: 18px;
+        }
+        
+        footer .companyicons i{
+            font-size: 20px;
+        }
     
-    
-    footer .footerheading h1 i{
-        font-size: 35px;
-    }
-    
-    footer .companyicons i{
-        padding-left: 30px;
-    }
-    
-    footer .companyicons{
-        padding-top: 50px;
-        padding-left: 200px;
-    }
+        footer .companyicons i{
+            padding-left: 20px;
+        }
+
+        footer .copyright{
+            font-size: 20px;
+        }
     
     
 }
 
-@media only screen and (max-width: 1199px) and (min-width: 1024px)  {
+@media only screen and (max-width: 1069px) and (min-width: 1024px)  {
     .nav-item{
         padding-top: 15px;
         padding-right: 25px;
@@ -369,16 +1864,15 @@ footer .companyicons{
         padding-right: 50px;
         padding-left: 50px;
     }
-    
-    .navbarlogo img{
-        width: 140px;
-        height: 60px;
+
+    .navbar-nav{
+        padding-left: 18vw;
     }
     
     
     .project {
         padding-top: 80px;
-        padding-left: 200px;
+        padding-left: 170px;
     }
     
     .project .card-title{
@@ -421,6 +1915,9 @@ footer .companyicons{
         line-height: 22px;
     }
     
+    .projectsecond .topheading{
+        display: none;
+    }
     
     
     
@@ -452,7 +1949,7 @@ footer .companyicons{
 
 
     .companyimage{
-        background-size: 1310px 950px;
+        background-size: 1310px 1150px;
     }
     
         .icons i{
@@ -492,11 +1989,36 @@ footer .companyicons{
     footer .copyright{
         font-size: 13px;
     }
+
+    .bg-dark {
+        background-color: #5b5b5b30!important;
+    }
+
+    footer .companyaddress p{
+        font-size: 18px;
+    }
+    
+    footer .companyicons i{
+        font-size: 20px;
+    }
+
+    footer .companyicons i{
+        padding-left: 20px;
+    }
+
+    footer .copyright{
+        font-size: 18px;
+    }
     
     
 }
 
 @media only screen and (max-width: 1023px) and (min-width: 896px)  {
+    .navbar-nav{
+        padding-left: 0vw;
+        align-items: center;
+    }
+    
     .nav-item{
         padding-top: 12px;
         padding-right: 20px;
@@ -512,15 +2034,9 @@ footer .companyicons{
         padding-left: 40px;
     }
     
-    .navbarlogo img{
-        width: 120px;
-        height: 50px;
-    }
-    
-    
     .project {
         padding-top: 80px;
-        padding-left: 100px;
+        padding-left: 95px;
     }
     
     .project .card-title{
@@ -560,6 +2076,10 @@ footer .companyicons{
         font-size: 15px;
         line-height: 22px;
     }
+
+    .projectsecond .topheading{
+        display: none;
+    }
     
     
     
@@ -592,7 +2112,7 @@ footer .companyicons{
 
 
     .companyimage{
-        background-size: 1010px 700px;
+        background-size: 1030px 1150px;
     }
     
         .icons i{
@@ -631,41 +2151,57 @@ footer .companyicons{
     }
     
     footer .companyicons{
-        padding-top: 0px;
+        padding-top: 10px;
         padding-right: 0px;
         text-align: left;
         padding-left: 250px;
         
     }
 
+    
     footer .copyright{
         font-size: 10px;
+    }
+
+    .bg-dark {
+        background-color: #5b5b5b30!important;
+    }
+
+    footer .footerheading h1{
+        display: none;
+    }
+
+    footer .companyaddress p{
+        font-size: 17px;
+    }
+
+    footer .copyright{
+        font-size: 16px;
     }
     
     
 }
 
 @media only screen and (max-width: 895px) and (min-width: 768px)  {
+    .navbar-nav{
+        padding-left: 0vw;
+        align-items: center;
+    }
+    
     .nav-item{
-        padding-top: 10px;
-        padding-right: 15px;
-        padding-bottom: 10px;
-        padding-left: 15px;
+        padding-top: 12px;
+        padding-right: 20px;
+        padding-bottom: 12px;
+        padding-left: 20px;
         
-        font-size: 15px;
+        font-size: 17px;
     }
     
     #navbarmain{
         
-        padding-right: 30px;
-        padding-left: 30px;
+        padding-right: 40px;
+        padding-left: 40px;
     }
-    
-    .navbarlogo img{
-        width: 120px;
-        height: 50px;
-    }
-    
     
     .project {
         padding-top: 50px;
@@ -714,6 +2250,10 @@ footer .companyicons{
         padding-top: 50px;
         padding-bottom: 50px;
     }
+
+    .projectsecond .topheading{
+        display: none;
+    }
     
     
     
@@ -746,7 +2286,7 @@ footer .companyicons{
 
 
     .companyimage{
-        background-size: 950px 670px;
+        display: none;
     }
     
         .icons i{
@@ -785,7 +2325,7 @@ footer .companyicons{
     }
     
     footer .companyicons{
-        padding-top: 0px;
+        padding-top: 10px;
         padding-right: 0px;
         text-align: left;
         padding-left: 250px;
@@ -795,6 +2335,1236 @@ footer .companyicons{
     footer .copyright{
         font-size: 10px;
     }
+
+    .bg-dark {
+        background-color: #5b5b5b30!important;
+    }
+
+    footer .footerheading h1{
+        display: none;
+    }
+
+    footer .companyaddress p{
+        font-size: 15px;
+    }
+
+    footer .copyright{
+        font-size: 14px;
+    }
+    
     
     
 }
+
+@media only screen and (max-width: 767px) and (min-width: 600px)  {
+    .nav-item{
+        padding-top: 1px;
+        padding-right: 10px;
+        padding-bottom: 1px;
+        padding-left: 10px;
+        
+        font-size: 16px;
+    }
+
+    .navbar-nav{
+        padding-left: 0vw;
+        align-items: center;
+    }
+    
+    #navbarmain{
+        
+        padding-right: 25px;
+        padding-left: 25px;
+    }
+    
+    .navbarlogo img{
+        width: 120px;
+        height: 65px;
+    }
+    
+    .carousel-control-prev, .carousel-control-next{
+        display: none;
+    }
+    
+    .project {
+        padding-top: 50px;
+        padding-left: 50px;
+    }
+    
+    .project .card-title{
+        font-size: 28px;
+        padding-left: 22px;
+        padding-right: 22px;
+    }
+    
+    .project h3{
+        padding-bottom: 40px;
+        font-size: 18px;
+    }
+    
+    
+    
+    
+    .projectfirst .projectwidth{
+        max-width: 700px;
+    }
+    
+    .projectfirst h4 .card-text{
+        font-size: 17px;
+        line-height: 25px;
+    }
+
+    .projectfirst .firstprojectimg{
+        padding: 10px 150px 40px 75px;
+    }
+    
+    
+    
+    
+    
+    
+    .projectsecond .projectwidth{
+        max-width: 700px;
+    }
+    .projectsecond h4 .card-text{
+        font-size: 17px;
+        line-height: 25px;
+    }
+
+    .projectsecond{
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    .projectsecond .card-title{
+        order: 1;
+    }
+
+    .projectsecond img{
+        order: 3;
+    }
+
+    .projectsecond .secondprojectimg{
+        padding: 10px 150px 40px 75px;
+    }
+
+    .projectsecond .hidetitle i{
+        display: none;
+    }
+    
+    
+    
+    
+    
+    
+    .projectthird .projectwidth{
+        max-width: 700px;
+    }
+    .projectthird h4 .card-text{
+        font-size: 17px;
+        line-height: 25px;
+    }
+    
+    .projectthird .thirdprojectimg{
+        padding: 10px 150px 40px 75px;
+    }
+    
+    
+    
+    
+    .project .viewallpro{
+        padding-top: 20px;
+        padding-left: 10px;
+    }
+    
+    .project .viewallpro a{
+        font-size: 16px;
+    }
+    
+
+
+
+    .companyimage{
+        display: none;
+    }
+    
+        .icons i{
+            padding: 20px;
+        }
+    
+    .companyimage .breakimg{
+        display: none;
+    }
+    
+    
+    footer .companyname p{
+        font-size: 20px;
+        text-align: center;
+    }
+    
+    
+    footer .companyname .companynameend{
+        font-size: 12px;
+        text-align: center;
+    }
+
+    footer .companyaddress p{
+        font-size: 11px;
+        text-align: center;
+    }
+    
+    
+    footer .footerheading h1 i{
+        font-size: 15px;
+        text-align: left;
+        display: none;
+    }
+    
+    footer .companyicons i{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    
+    footer .companyicons{
+        padding-top: 0px;
+        padding-right: 0px;
+        text-align: left;
+        padding-left: 160px;
+        
+    }
+
+    footer .copyright{
+        font-size: 10px;
+    }
+
+    .bg-dark {
+        background-color: #5b5b5b30!important;
+    }
+
+    footer .footerheading h1{
+        display: none;
+    }
+
+    footer .companyaddress p{
+        font-size: 15px;
+    }
+
+    footer .copyright{
+        font-size: 14px;
+    }
+    
+    
+}
+
+@media only screen and (max-width: 599px) and (min-width: 500px)  {
+    .nav-item{
+        padding-top: 1px;
+        padding-right: 3px;
+        padding-bottom: 1px;
+        padding-left: 3px;
+        
+        font-size: 16px;
+    }
+    
+
+    .navbar-nav{
+        padding-left: 0vw;
+        align-items: center;
+    }
+
+    #navbarmain{
+        
+        padding-right: 25px;
+        padding-left: 25px;
+    }
+    
+    .navbarlogo img{
+        width: 120px;
+        height: 65px;
+    }
+
+    .carousel-control-prev, .carousel-control-next, .carousel-indicators {
+        display: none;
+    }
+    
+    
+    .project {
+        padding-top: 50px;
+        padding-left: 30px;
+    }
+    
+    .project .card-title{
+        font-size: 28px;
+        padding-left: 22px;
+        padding-right: 22px;
+    }
+    
+    .project h3{
+        padding-bottom: 40px;
+        font-size: 18px;
+    }
+    
+    
+    
+    
+    .projectfirst .projectwidth{
+        max-width: 700px;
+    }
+    
+    .projectfirst h4 .card-text{
+        font-size: 17px;
+        line-height: 25px;
+    }
+
+    .projectfirst .firstprojectimg{
+        padding: 10px 90px 40px 45px;
+    }
+    
+    
+    
+    
+    
+    
+    .projectsecond .projectwidth{
+        max-width: 700px;
+    }
+    .projectsecond h4 .card-text{
+        font-size: 17px;
+        line-height: 25px;
+    }
+
+    .projectsecond{
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    .projectsecond .card-title{
+        order: 1;
+    }
+
+    .projectsecond img{
+        order: 3;
+    }
+
+    .projectsecond .secondprojectimg{
+        padding: 10px 90px 40px 45px;
+    }
+
+    .projectsecond .hidetitle i{
+        display: none;
+    }
+    
+    
+    
+    
+    
+    
+    .projectthird .projectwidth{
+        max-width: 700px;
+    }
+    .projectthird h4 .card-text{
+        font-size: 17px;
+        line-height: 25px;
+    }
+    
+    .projectthird .thirdprojectimg{
+        padding: 10px 90px 40px 45px;
+    }
+    
+    
+    
+    
+    .project .viewallpro{
+        padding-top: 20px;
+        padding-left: 10px;
+    }
+    
+    .project .viewallpro a{
+        font-size: 16px;
+    }
+    
+
+
+
+    .companyimage{
+        background-size: 550px 850px;
+        display: none;
+    }
+    
+        .icons i{
+            padding: 20px;
+        }
+    
+    .companyimage .breakimg{
+        display: none;
+    }
+    
+    footer .companyname p{
+        font-size: 20px;
+        text-align: center;
+    }
+    
+    
+    footer .companyname .companynameend{
+        font-size: 12px;
+        text-align: center;
+    }
+
+    footer .companyaddress p{
+        font-size: 11px;
+        text-align: center;
+    }
+    
+    
+    footer .footerheading h1 i{
+        font-size: 15px;
+        text-align: left;
+        display: none;
+    }
+    
+    footer .companyicons i{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    
+    footer .companyicons{
+        padding-top: 0px;
+        padding-right: 0px;
+        text-align: left;
+        padding-left: 150px;
+        
+    }
+
+    footer .copyright{
+        font-size: 10px;
+    }
+
+    .bg-dark {
+        background-color: #5b5b5b30!important;
+    }
+
+    footer .footerheading h1{
+        display: none;
+    }
+
+    footer .companyaddress p{
+        font-size: 15px;
+    }
+
+    footer .copyright{
+        font-size: 14px;
+    }
+    
+    
+    
+}
+
+@media only screen and (max-width: 499px) and (min-width: 459px)  {
+    .nav-item{
+        padding-top: 1px;
+        padding-right: 3px;
+        padding-bottom: 1px;
+        padding-left: 3px;
+        
+        font-size: 16px;
+    }
+    
+
+    .navbar-nav{
+        padding-left: 0vw;
+        align-items: center;
+    }
+
+    #navbarmain{
+        
+        padding-right: 25px;
+        padding-left: 25px;
+    }
+    
+    .navbarlogo img{
+        width: 120px;
+        height: 65px;
+    }
+    
+    .carousel-control-prev, .carousel-control-next, .carousel-indicators {
+        display: none;
+    }
+    
+    .project {
+        padding-top: 50px;
+        padding-left: 30px;
+    }
+    
+    .project .card-title{
+        font-size: 28px;
+        padding-left: 22px;
+        padding-right: 22px;
+    }
+    
+    .project h3{
+        padding-bottom: 40px;
+        font-size: 18px;
+    }
+    
+    
+    
+    
+    .projectfirst .projectwidth{
+        max-width: 650px;
+    }
+    
+    .projectfirst h4 .card-text{
+        font-size: 15px;
+        line-height: 23px;
+    }
+
+    .projectfirst .firstprojectimg{
+        padding: 10px 80px 40px 40px;
+    }
+    
+    
+    
+    
+    
+    
+    .projectsecond .projectwidth{
+        max-width: 650px;
+    }
+    .projectsecond h4 .card-text{
+        font-size: 15px;
+        line-height: 23px;
+    }
+
+    .projectsecond{
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    .projectsecond .card-title{
+        order: 1;
+    }
+
+    .projectsecond img{
+        order: 3;
+    }
+
+    .projectsecond .secondprojectimg{
+        padding: 10px 80px 40px 40px;
+    }
+
+    .projectsecond .hidetitle i{
+        display: none;
+    }
+    
+    
+    
+    
+    
+    
+    .projectthird .projectwidth{
+        max-width: 650px;
+    }
+    .projectthird h4 .card-text{
+        font-size: 15px;
+        line-height: 23px;
+    }
+    
+    .projectthird .thirdprojectimg{
+        padding: 10px 80px 40px 40px;
+    }
+    
+    
+    
+    
+    .project .viewallpro{
+        padding-top: 15px;
+        padding-left: 10px;
+    }
+    
+    .project .viewallpro a{
+        font-size: 16px;
+    }
+    
+
+
+
+    .companyimage{
+        background-size: 550px 850px;
+        display: none;
+    }
+    
+        .icons i{
+            padding: 20px;
+        }
+    
+    .companyimage .breakimg{
+        display: none;
+    }
+    
+    footer .companyname p{
+        font-size: 20px;
+        text-align: center;
+    }
+    
+    
+    footer .companyname .companynameend{
+        font-size: 12px;
+        text-align: center;
+    }
+
+    footer .companyaddress p{
+        font-size: 11px;
+        text-align: center;
+    }
+    
+    
+    footer .footerheading h1 i{
+        font-size: 15px;
+        text-align: left;
+        display: none;
+    }
+    
+    footer .companyicons i{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    
+    footer .companyicons{
+        padding-top: 0px;
+        padding-right: 0px;
+        text-align: left;
+        padding-left: 130px;
+        
+    }
+
+    footer .copyright{
+        font-size: 10px;
+    }
+
+    .bg-dark {
+        background-color: #5b5b5b30!important;
+    }
+
+    footer .footerheading h1{
+        display: none;
+    }
+
+    footer .companyaddress p{
+        font-size: 15px;
+    }
+
+    footer .copyright{
+        font-size: 14px;
+    }
+    
+    
+}
+
+@media only screen and (max-width: 458px) and (min-width: 425px)  {
+    .nav-item{
+        padding-top: 1px;
+        padding-right: 2px;
+        padding-bottom: 1px;
+        padding-left: 2px;
+        
+        font-size: 16px;
+    }
+    
+    #navbarmain{
+        
+        padding-right: 25px;
+        padding-left: 25px;
+    }
+    
+    .navbarlogo img{
+        width: 120px;
+        height: 65px;
+    }
+
+
+    .navbar-nav{
+        padding-left: 0vw;
+        align-items: center;
+    }
+
+    .carousel-control-prev, .carousel-control-next, .carousel-indicators {
+        display: none;
+    }
+
+    
+    
+    .project {
+        padding-top: 50px;
+        padding-left: 30px;
+    }
+    
+    .project .card-title{
+        font-size: 28px;
+        padding-left: 22px;
+        padding-right: 22px;
+    }
+    
+    .project h3{
+        padding-bottom: 40px;
+        font-size: 18px;
+    }
+    
+    
+    
+    
+    .projectfirst .projectwidth{
+        max-width: 650px;
+    }
+    
+    .projectfirst h4 .card-text{
+        font-size: 15px;
+        line-height: 23px;
+    }
+
+    .projectfirst .firstprojectimg{
+        padding: 10px 80px 40px 40px;
+    }
+    
+    
+    
+    
+    
+    
+    .projectsecond .projectwidth{
+        max-width: 650px;
+    }
+    .projectsecond h4 .card-text{
+        font-size: 15px;
+        line-height: 23px;
+    }
+
+    .projectsecond{
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    .projectsecond .card-title{
+        order: 1;
+    }
+
+    .projectsecond img{
+        order: 3;
+    }
+
+    .projectsecond .secondprojectimg{
+        padding: 10px 80px 40px 40px;
+    }
+
+    .projectsecond .hidetitle i{
+        display: none;
+    }
+    
+    
+    
+    
+    
+    
+    .projectthird .projectwidth{
+        max-width: 650px;
+    }
+    .projectthird h4 .card-text{
+        font-size: 15px;
+        line-height: 23px;
+    }
+    
+    .projectthird .thirdprojectimg{
+        padding: 10px 80px 40px 40px;
+    }
+    
+    
+    
+    
+    .project .viewallpro{
+        padding-top: 10px;
+        padding-left: 10px;
+    }
+    
+    .project .viewallpro a{
+        font-size: 16px;
+    }
+    
+
+
+
+    .companyimage{
+        background-size: 550px 850px;
+        display: none;
+    }
+    
+        .icons i{
+            padding: 20px;
+        }
+    
+    .companyimage .breakimg{
+        display: none;
+    }
+    
+    footer .companyname p{
+        font-size: 20px;
+        text-align: center;
+    }
+    
+    
+    footer .companyname .companynameend{
+        font-size: 12px;
+        text-align: center;
+    }
+
+    footer .companyaddress p{
+        font-size: 11px;
+        text-align: center;
+    }
+    
+    
+    footer .footerheading h1 i{
+        font-size: 15px;
+        text-align: left;
+        display: none;
+    }
+    
+    footer .companyicons i{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    
+    footer .companyicons{
+        padding-top: 0px;
+        padding-right: 0px;
+        text-align: left;
+        padding-left: 110px;
+        
+    }
+
+    footer .copyright{
+        font-size: 10px;
+    }
+
+    .bg-dark {
+        background-color: #5b5b5b30!important;
+    }
+
+    footer .footerheading h1{
+        display: none;
+    }
+
+    footer .companyaddress p{
+        font-size: 15px;
+    }
+
+    footer .copyright{
+        font-size: 14px;
+    }
+    
+}
+
+@media only screen and (max-width: 424px) and (min-width: 375px)  {
+    .nav-item{
+        padding-top: 1px;
+        padding-right: 2px;
+        padding-bottom: 1px;
+        padding-left: 2px;
+        
+        font-size: 16px;
+    }
+    
+    #navbarmain{
+        
+        padding-right: 25px;
+        padding-left: 25px;
+    }
+    
+    .navbarlogo img{
+        width: 105px;
+        height: 50px;
+    }
+
+
+    .navbar-nav{
+        padding-left: 0vw;
+        align-items: center;
+    }
+
+    .carousel-control-prev, .carousel-control-next, .carousel-indicators {
+        display: none;
+    }
+
+
+    
+    
+    .project {
+        padding-top: 50px;
+        padding-left: 30px;
+    }
+    
+    .project .card-title{
+        font-size: 28px;
+        padding-left: 22px;
+        padding-right: 22px;
+    }
+    
+    .project h3{
+        padding-bottom: 40px;
+        font-size: 18px;
+    }
+    
+    
+    
+    
+    .projectfirst .projectwidth{
+        max-width: 650px;
+    }
+    
+    .projectfirst h4 .card-text{
+        font-size: 15px;
+        line-height: 23px;
+    }
+
+    .projectfirst .firstprojectimg{
+        padding: 10px 60px 40px 20px;
+    }
+    
+    
+    
+    
+    
+    
+    .projectsecond .projectwidth{
+        max-width: 650px;
+    }
+    .projectsecond h4 .card-text{
+        font-size: 15px;
+        line-height: 23px;
+    }
+
+    .projectsecond{
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    .projectsecond .card-title{
+        order: 1;
+    }
+
+    .projectsecond img{
+        order: 3;
+    }
+
+    .projectsecond .secondprojectimg{
+        padding: 10px 60px 40px 20px;
+    }
+
+    .projectsecond .hidetitle i{
+        display: none;
+    }
+    
+    
+    
+    
+    
+    
+    .projectthird .projectwidth{
+        max-width: 650px;
+    }
+    .projectthird h4 .card-text{
+        font-size: 15px;
+        line-height: 23px;
+    }
+    
+    .projectthird .thirdprojectimg{
+        padding: 10px 60px 40px 20px;
+    }
+    
+    
+    
+    
+    .project .viewallpro{
+        padding-top: 10px;
+        padding-left: 10px;
+    }
+    
+    .project .viewallpro a{
+        font-size: 16px;
+    }
+    
+
+
+
+    .companyimage{
+        background-size: 550px 850px;
+        display: none;
+    }
+    
+        .icons i{
+            padding: 20px;
+        }
+    
+    .companyimage .breakimg{
+        display: none;
+    }
+    
+    footer .companyname p{
+        font-size: 20px;
+        text-align: center;
+    }
+    
+    
+    footer .companyname .companynameend{
+        font-size: 12px;
+        text-align: center;
+    }
+
+    footer .companyaddress p{
+        font-size: 11px;
+        text-align: center;
+    }
+    
+    
+    footer .footerheading h1 i{
+        font-size: 15px;
+        text-align: left;
+        display: none;
+    }
+    
+    footer .companyicons i{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    
+    footer .companyicons{
+        padding-top: 0px;
+        padding-right: 0px;
+        text-align: left;
+        padding-left: 80px;
+        
+    }
+
+    footer .copyright{
+        font-size: 10px;
+    }
+
+    .bg-dark {
+        background-color: #5b5b5b30!important;
+    }
+
+    footer .footerheading h1{
+        display: none;
+    }
+
+    footer .companyaddress p{
+        font-size: 15px;
+    }
+
+    footer .copyright{
+        font-size: 14px;
+    }
+    
+}
+
+@media only screen and (max-width: 374px) and (min-width: 320px)  {
+    .nav-item{
+        padding-top: 1px;
+        padding-right: 2px;
+        padding-bottom: 1px;
+        padding-left: 2px;
+        
+        font-size: 16px;
+    }
+    
+    #navbarmain{
+        
+        padding-right: 25px;
+        padding-left: 25px;
+    }
+    
+    .navbarlogo img{
+        width: 105px;
+        height: 50px;
+    }
+
+
+    .navbar-nav{
+        padding-left: 0vw;
+        align-items: center;
+    }
+
+    .carousel-control-prev, .carousel-control-next, .carousel-indicators {
+        display: none;
+    }
+
+
+    
+    
+    .project {
+        padding-top: 50px;
+        padding-left: 30px;
+    }
+    
+    .project .card-title{
+        font-size: 28px;
+        padding-left: 22px;
+        padding-right: 22px;
+    }
+    
+    .project h3{
+        padding-bottom: 40px;
+        font-size: 18px;
+    }
+    
+    
+    
+    
+    .projectfirst .projectwidth{
+        max-width: 650px;
+    }
+    
+    .projectfirst h4 .card-text{
+        font-size: 15px;
+        line-height: 23px;
+    }
+
+    .projectfirst .firstprojectimg{
+        padding: 10px 60px 40px 20px;
+    }
+    
+    
+    
+    
+    
+    
+    .projectsecond .projectwidth{
+        max-width: 650px;
+    }
+    .projectsecond h4 .card-text{
+        font-size: 15px;
+        line-height: 23px;
+    }
+
+    .projectsecond{
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    .projectsecond .card-title{
+        order: 1;
+    }
+
+    .projectsecond img{
+        order: 3;
+    }
+
+    .projectsecond .secondprojectimg{
+        padding: 10px 60px 40px 20px;
+    }
+
+    .projectsecond .hidetitle i{
+        display: none;
+    }
+    
+    
+    
+    
+    
+    
+    .projectthird .projectwidth{
+        max-width: 650px;
+    }
+    .projectthird h4 .card-text{
+        font-size: 15px;
+        line-height: 23px;
+    }
+    
+    .projectthird .thirdprojectimg{
+        padding: 10px 60px 40px 20px;
+    }
+    
+    
+    
+    
+    .project .viewallpro{
+        padding-top: 10px;
+        padding-left: 10px;
+    }
+    
+    .project .viewallpro a{
+        font-size: 16px;
+    }
+    
+
+
+
+    .companyimage{
+        background-size: 550px 850px;
+        display: none;
+    }
+    
+        .icons i{
+            padding: 20px;
+        }
+    
+    .companyimage .breakimg{
+        display: none;
+    }
+    
+    footer .companyname p{
+        font-size: 20px;
+        text-align: center;
+    }
+    
+    
+    footer .companyname .companynameend{
+        font-size: 12px;
+        text-align: center;
+    }
+
+    footer .companyaddress p{
+        font-size: 11px;
+        text-align: center;
+    }
+    
+    
+    footer .footerheading h1 i{
+        font-size: 15px;
+        text-align: left;
+        display: none;
+    }
+    
+    footer .companyicons i{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    
+    footer .companyicons{
+        padding-top: 0px;
+        padding-right: 0px;
+        text-align: left;
+        padding-left: 50px;
+        
+    }
+
+    footer .copyright{
+        font-size: 10px;
+    }
+
+    .bg-dark {
+        background-color: #5b5b5b30!important;
+    }
+
+    footer .footerheading h1{
+        display: none;
+    }
+
+    footer .companyaddress p{
+        font-size: 15px;
+    }
+
+    footer .copyright{
+        font-size: 14px;
+    }
+    
+}
+

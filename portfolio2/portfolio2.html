@@ -16,39 +16,64 @@
       @import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
       @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css");
       @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@600;700&display=swap');
+      @import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
     </style>
 </head>
 <body>
     
     <!-- Navbar -->
 
-    <nav class="navbar navbar-expand navbar-light sticky-top" style="background-color: #ffffff;">
+    <nav class="navbar navbar-expand-lg navbar-light sticky-top" style="background-color: #ffffff;">
       <div class="container-fluid" id="navbarmain">
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
         <a class="navbar-brand navbarlogo" href="#">
           <img src="../Images/logo.png" alt="">
         </a>
-        <div class="navbarcontent" id="navbarTogglerDemo">
-          <ul class="navbar-nav">
-            <li class="nav-item active">
-              <a class="nav-link" href="../index.html">Home</a>
-            </li>
-            <li class="nav-item active">
-              <a class="nav-link" href="../portfolio.html">Portfolio</a>
-            </li>
-            <li class="nav-item active">
-              <a class="nav-link" href="../about.html">About</a>
-            </li>
-            <li class="nav-item active">
-              <a class="nav-link" href="../contact.html">Contact</a>
-            </li>
-          </ul>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          
+          <div class="navbarcontent" id="navbarTogglerDemo">
+            <ul class="navbar-nav">
+              <li class="nav-item active">
+                <a class="nav-link" href="../index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../portfolio.html">Portfolio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../about.html">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../contact.html">Contact</a>
+              </li>
+            </ul>
+          </div>
         </div>
       </div>
     </nav>
     <!-- Navbar Ends -->
+
+
+    <br>
+
+    <div class="pagedirection">
+      <div class="row g-0">
+        <div class="col-sm-6 col-md-6">
+          <div class="p-3 previousdirection">
+            <a href="../portfolio1/portfolio1.html">PREVIOUS PROJECT</a>
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-6">
+          <div class="p-3 nextdirection">
+            <a href="../portfolio3/portfolio3.html">NEXT PROJECT</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <br>
 
 
     <!-- Carousel Starts -->
@@ -62,8 +87,9 @@
       <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-indicators" >
           <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 3"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 4"></button>
           <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
           <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4" aria-label="Slide 4"></button>
           <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="5" aria-label="Slide 4"></button>
@@ -72,17 +98,12 @@
           <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="8" aria-label="Slide 4"></button>
           <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="9" aria-label="Slide 4"></button>
           <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="10" aria-label="Slide 4"></button>
-          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="11" aria-label="Slide 4"></button>
-          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="12" aria-label="Slide 4"></button>
         </div>
         <div class="carousel-inner">
           <div class="carousel-item active photo1" data-bs-interval="2000">
-            <img src="../Images/portfolio2/portfolio2_THUMNAIL.jpg" class="d-block w-100" alt="...">
-          </div>
-          <div class="carousel-item photo2" data-bs-interval="2000">
             <img src="../Images/portfolio2/2.jpg" class="d-block w-100" alt="...">
           </div>
-          <div class="carousel-item photo3" data-bs-interval="2000">
+          <div class="carousel-item photo2" data-bs-interval="2000">
             <img src="../Images/portfolio2/3.jpg" class="d-block w-100" alt="...">
           </div>
           <div class="carousel-item" data-bs-interval="2000">
@@ -93,12 +114,6 @@
           </div>
           <div class="carousel-item photo5" data-bs-interval="2000">
               <img src="../Images/portfolio2/6.jpg" class="d-block w-100" alt="...">
-          </div>
-          <!-- <div class="carousel-item" data-bs-interval="2000">
-              <img src="../Images/portfolio1/portfolio1img6.jpg" class="d-block w-100" alt="...">
-          </div> -->
-          <div class="carousel-item" data-bs-interval="2000">
-              <img src="../Images/portfolio2/7.jpg" class="d-block w-100" alt="...">
           </div>
           <div class="carousel-item photo6" data-bs-interval="2000">
               <img src="../Images/portfolio2/8.jpg" class="d-block w-100" alt="...">
@@ -159,9 +174,27 @@
                 <div class="projectdetails">
                   <p>
                     
-                    The three-story penthouse, surrounded by its natural environment, serves as the inspiration for the theme of "Underlying Elegance" and the concept of bringing the outside in. The design focuses on preserving natural light while incorporating modern aesthetics that exude luxury and refinemen. 
+                    ‘Urban Oasis’ is a three-bedroom private residence that
+                    embodies the essence of bespoke luxury with versatile and
+                    contemporary aesthetics. The multi-functional layout and
+                    intrinsic space planning offers our clients the freedom and
+                    flexibility to customize spaces based on their preference,
+                    catering to their professional, recreational & social
+                    requirements.
                     <br>
-                    <br>The floor configuration is carefully planned to optimize the functionality and flow of the penthouse. The main floor houses the common areas, such as the informal living area, dining room, kitchen, prayer area, and guest bedrooms. This layout allows family members to engage in various activities individually while still fostering a sense of togetherness within the same space.
+                    <br>The home features a central social area that serves as the core
+                    of the layout. The warm and inviting space connects the dining
+                    area, open-kitchen & allied bedrooms, fostering a sense of
+                    togetherness and enabling user privacy and independence
+                    when required. The design incorporates the use of concealed
+                    sliding door systems that facilitate flexible space addition.
+                    Exquisite natural material finishes, sleek French windows,
+                    warm color schemes and custom-built furniture encompass a
+                    trademark and timeless design.
+                    <br>
+                    <br>Each space is meticulously designed to create a distinct
+                    atmosphere that reflects the personal styles and preferences
+                    of individual family members.
                   </p>
                 </div>
                 
@@ -172,18 +205,18 @@
             <div class="card" style="border: none;">
               <div class="card-body">
                 <div class="whatproject">
-                  <div class="boldtext" style="font-weight: 700;">WHAT</div>
-                  <p>CONDOMINIUM</p>
+                  <div class="boldtext" style="font-weight: 700;">PROFILE</div>
+                  <p>THREE-BEDROOM RESIDENCE</p>
                 </div>
                 <br>
                 <div class="whereproject">
-                  <div class="boldtext" style="font-weight: 700;">WHERE</div>
-                  <p>MUMBAI , INDIA </p>
+                  <div class="boldtext" style="font-weight: 700;">PLACE</div>
+                  <p>BELAPUR, NAVI MUMBAI</p>
                 </div>
                 <br>
                 <div class="whenproject">
-                  <div class="boldtext" style="font-weight: 700;">WHEN</div>
-                  <p>OCTOBER 2021</p>
+                  <div class="boldtext" style="font-weight: 700;">AREA</div>
+                  <p>2000 SQ.FT</p>
                 </div>
                 
               </div>
@@ -204,7 +237,7 @@
     
 
     <!-- footer -->
-    <footer class="bg-dark text-center text-lg-start text-white">
+    <footer class="bg-dark text-center text-lg-start text-black">
       <!-- Grid container -->
       <div class="container p-4">
         <!--Grid row-->
@@ -212,21 +245,21 @@
           <!--Grid column-->
           <div class="col-lg-4 col-md-12 mb-4 mb-md-0 footerheading">
             
-            <h1><i>BE IN</i></h1>
-            <h1><i>TOUCH</i></h1>
+            <h1 style="font-weight: 600;">GET IN</h1>
+            <h1 style="font-weight: 600;">TOUCH</h1>
           </div>
           <!--Grid column-->
     
           <!--Grid column-->
           <div class="col-lg-4 col-md-12 mb-4 mb-md-0">
     
-            <div class="companyname"><p>R arch</p></div>
             
-            <div class="companyaddress">
-              <p>135, Satra Plaza, Palm Beach Road,
-                Sector 19D, 
-                Vashi, Navi Mumbai 
-                -400703</p>
+            
+            <div class="companyaddress" style="font-family: 'Lora', serif; font-weight: 500;">
+              <p>135, Satra Plaza, <br>Palm Beach Road,
+                Sector 19 D, 
+                Vashi,<br> Navi Mumbai 
+                - 400 703</p>
             </div>
             
           </div>
@@ -254,9 +287,11 @@
       <!-- Grid container -->
     
       <!-- Copyright -->
+      <div class="copyright" style="font-family: 'Lora', serif;">
       <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
-        © 2023 Copyright:
-        <a class="text-white" href="#">yourlink.com</a>
+        © 2023 Copyright: 
+        <a href="https://rarch.in/" style="color: black; font-family: 'Lora', serif;">rarch.in</a>
+      </div>
       </div>
       <!-- Copyright -->
     </footer>

@@ -4,7 +4,6 @@
     padding-bottom: 20px;
     padding-left: 50px;
     font-family: 'Playfair Display SC', serif;
-    font-style: italic;
     
     font-size: 20px;
 }
@@ -43,39 +42,35 @@
     .carousel-control-next-icon, .carousel-control-prev-icon {
     width: 40px;
     height: 40px;
-    }
+}
 
-/* .carousel-item{
-    height: 595px;
-} */
 
 .project {
-    padding-top: 80px;
-    padding-left: 400px;
-    padding-right: 400px;
+    padding-top: 70px;
+    padding-left: 380px;
+    padding-right: 380px;
 }
 
-/*.project .card-title{
-    font-size: 70px;
+
+
+.pagedirection .previousdirection{
+    text-align: center;
+}
+
+.pagedirection .previousdirection a{
+    color: #000;
+    font-family: 'Playfair Display SC', serif;
+    display: none;
+}
+
+.pagedirection .nextdirection{
+    text-align: center;
+}
+
+.pagedirection .nextdirection a{
+    color: #000;
     font-family: 'Playfair Display SC', serif;
 }
-
-.project h3{
-    font-family: 'Krub', sans-serif;
-    padding-bottom: 50px;
-}
-
-
-.projectdetail .card-text{
-    font-family: 'Krub', sans-serif;
-    padding-right: 30px;
-}
-
-
-.projectdetail {
-    border: none;
-} */
-
 
 .carouselcard{
     padding-left: 500px;
@@ -94,39 +89,19 @@
 
 .project .projectdetails{
     font-family: 'Cormorant Garamond', serif;
-    font-size: 18px;
+    font-size: 19px;
     line-height: 28px;
 }
 
-.project .whatproject p{
-    font-family: 'Cormorant Garamond', serif;
-    font-size: 18px;
-}
-
-.project .whereproject p{
-    font-family: 'Cormorant Garamond', serif;
-    font-size: 18px;
-}
-
-.project .whenproject p{
-    font-family: 'Cormorant Garamond', serif;
-    font-size: 18px;
+.project .whatproject p, .project .whereproject p, .project .whenproject p{
+    font-family: 'Lora', serif;
+    font-size: 17px;
 }
 
 .project .boldtext{
     font-family: 'Cormorant Garamond', serif;
     font-size: 25px;
 }
-
-
-
-
-
-
-
-
-
-
 
 
 .icons i{
@@ -162,3 +137,1445 @@ padding-top: 50px;
 padding-left: 200px;
 }
 
+
+/* media queries */
+
+@media only screen and (max-width: 2560px) and (min-width: 2401px) {
+
+    .nav-item{
+        padding-top: 20px;
+        padding-right: 30px;
+        padding-bottom: 20px;
+        padding-left: 30px;
+        
+        font-size: 25px;
+    }
+
+    #navbarmain{
+    
+        padding-right: 130px;
+        padding-left: 60px;
+    }
+
+    .navbar-nav{
+        padding-left: 60vw;
+    }
+
+    .project {
+        padding-top: 70px;
+        padding-left: 350px;
+        padding-right: 350px;
+    }
+
+    .project .projecttitle{
+        font-size: 60px;
+    }
+
+    .project .projectdetails{
+        font-size: 22px;
+        line-height: 28px;
+    }
+
+    .carouselcard{
+        padding-left: 400px;
+        padding-right: 400px; 
+    }
+
+    .bg-dark {
+        background-color: #5b5b5b30!important;
+    }
+    
+    footer .companyaddress p{
+        font-size: 21px;
+    }
+    
+    footer .companyicons i{
+      font-size: 25px;
+    }
+    
+    footer .copyright{
+      font-size: 20px;
+    }
+
+
+    
+}
+
+@media only screen and (max-width: 2400px) and (min-width: 2201px) {
+    .nav-item{
+        padding-top: 20px;
+        padding-right: 30px;
+        padding-bottom: 20px;
+        padding-left: 30px;
+        
+        font-size: 25px;
+    }
+
+    #navbarmain{
+    
+        padding-right: 130px;
+        padding-left: 60px;
+    }
+
+    .navbar-nav{
+        padding-left: 55vw;
+    }
+
+    .project {
+        padding-top: 70px;
+        padding-left: 350px;
+        padding-right: 350px;
+    }
+
+    .project .projecttitle{
+        font-size: 60px;
+    }
+
+    .project .projectdetails{
+        font-size: 22px;
+        line-height: 28px;
+    }
+
+    .carouselcard{
+        padding-left: 400px;
+        padding-right: 400px; 
+    }
+
+    .bg-dark {
+        background-color: #5b5b5b30!important;
+    }
+    
+    footer .companyaddress p{
+        font-size: 21px;
+    }
+    
+    footer .companyicons i{
+      font-size: 25px;
+    }
+    
+    footer .copyright{
+      font-size: 20px;
+    }
+}
+
+@media only screen and (max-width: 2200px) and (min-width: 2001px) {
+    .nav-item{
+        padding-top: 20px;
+        padding-right: 30px;
+        padding-bottom: 20px;
+        padding-left: 30px;
+        
+        font-size: 25px;
+    }
+
+    #navbarmain{
+    
+        padding-right: 130px;
+        padding-left: 60px;
+    }
+
+    .navbar-nav{
+        padding-left: 50vw;
+    }
+
+    .project {
+        padding-top: 70px;
+        padding-left: 350px;
+        padding-right: 350px;
+    }
+
+    .project .projecttitle{
+        font-size: 60px;
+    }
+
+    .project .projectdetails{
+        font-size: 22px;
+        line-height: 28px;
+    }
+
+    .carouselcard{
+        padding-left: 350px;
+        padding-right: 350px; 
+    }
+
+    .bg-dark {
+        background-color: #5b5b5b30!important;
+    }
+    
+    footer .companyaddress p{
+        font-size: 21px;
+    }
+    
+    footer .companyicons i{
+      font-size: 25px;
+    }
+    
+    footer .copyright{
+      font-size: 20px;
+    }
+}
+
+@media only screen and (max-width: 2000px) and (min-width: 1901px) {
+    .nav-item{
+        padding-top: 20px;
+        padding-right: 30px;
+        padding-bottom: 20px;
+        padding-left: 30px;
+        
+        font-size: 25px;
+    }
+
+    #navbarmain{
+    
+        padding-right: 130px;
+        padding-left: 60px;
+    }
+
+    .navbar-nav{
+        padding-left: 45vw;
+    }
+
+    .project {
+        padding-top: 70px;
+        padding-left: 350px;
+        padding-right: 350px;
+    }
+
+    .project .projecttitle{
+        font-size: 50px;
+    }
+
+    .project .projectdetails{
+        font-size: 20px;
+        line-height: 28px;
+    }
+
+    .carouselcard{
+        padding-left: 350px;
+        padding-right: 350px; 
+    }
+
+    .bg-dark {
+        background-color: #5b5b5b30!important;
+    }
+    
+    footer .companyaddress p{
+        font-size: 21px;
+    }
+    
+    footer .companyicons i{
+      font-size: 25px;
+    }
+    
+    footer .copyright{
+      font-size: 20px;
+    }
+}
+
+@media only screen and (max-width: 1900px) and (min-width: 1801px) {
+    .nav-item{
+        padding-top: 20px;
+        padding-right: 30px;
+        padding-bottom: 20px;
+        padding-left: 30px;
+        
+        font-size: 25px;
+    }
+
+    #navbarmain{
+    
+        padding-right: 130px;
+        padding-left: 60px;
+    }
+
+    .navbar-nav{
+        padding-left: 40vw;
+    }
+
+    .project {
+        padding-top: 70px;
+        padding-left: 350px;
+        padding-right: 350px;
+    }
+
+    .project .projecttitle{
+        font-size: 45px;
+    }
+
+    .carouselcard{
+        padding-left: 350px;
+        padding-right: 350px;
+        
+    }
+    
+
+    .bg-dark {
+        background-color: #5b5b5b30!important;
+    }
+    
+    footer .companyaddress p{
+        font-size: 21px;
+    }
+    
+    footer .companyicons i{
+      font-size: 25px;
+    }
+    
+    footer .copyright{
+      font-size: 20px;
+    }
+}
+
+@media only screen and (max-width: 1800px) and (min-width: 1701px) {
+    .nav-item{
+        padding-top: 20px;
+        padding-right: 30px;
+        padding-bottom: 20px;
+        padding-left: 30px;
+        
+        font-size: 25px;
+    }
+
+    #navbarmain{
+    
+        padding-right: 130px;
+        padding-left: 60px;
+    }
+
+    .navbar-nav{
+        padding-left: 40vw;
+    }
+
+    .project {
+        padding-top: 70px;
+        padding-left: 300px;
+        padding-right: 300px;
+    }
+
+    .project .projecttitle{
+        font-size: 45px;
+    }
+
+    .carouselcard{
+        padding-left: 300px;
+        padding-right: 300px; 
+    }
+
+    .bg-dark {
+        background-color: #5b5b5b30!important;
+    }
+    
+    footer .companyaddress p{
+        font-size: 21px;
+    }
+    
+    footer .companyicons i{
+      font-size: 25px;
+    }
+    
+    footer .copyright{
+      font-size: 20px;
+    }
+}
+
+@media only screen and (max-width: 1700px) and (min-width: 1600px) {
+    .nav-item{
+        padding-top: 20px;
+        padding-right: 30px;
+        padding-bottom: 20px;
+        padding-left: 30px;
+        
+        font-size: 25px;
+    }
+
+    #navbarmain{
+    
+        padding-right: 130px;
+        padding-left: 60px;
+    }
+
+    .navbar-nav{
+        padding-left: 35vw;
+    }
+
+    .project {
+        padding-top: 70px;
+        padding-left: 270px;
+        padding-right: 270px;
+    }
+
+    .project .projecttitle{
+        font-size: 45px;
+    }
+
+    .carouselcard{
+        padding-left: 270px;
+        padding-right: 270px; 
+    }
+
+    .bg-dark {
+        background-color: #5b5b5b30!important;
+    }
+    
+    footer .companyaddress p{
+        font-size: 21px;
+    }
+    
+    footer .companyicons i{
+      font-size: 25px;
+    }
+    
+    footer .copyright{
+      font-size: 20px;
+    }
+} 
+
+@media only screen and (max-width: 1599px) and (min-width: 1500px) {
+    .nav-item{
+        padding-top: 20px;
+        padding-right: 30px;
+        padding-bottom: 20px;
+        padding-left: 30px;
+        
+        font-size: 20px;
+    }
+
+    #navbarmain{
+    
+        padding-right: 130px;
+        padding-left: 60px;
+    }
+
+    .navbar-nav{
+        padding-left: 35vw;
+    }
+
+    .project {
+        padding-top: 70px;
+        padding-left: 250px;
+        padding-right: 250px;
+    }
+
+    .project .projecttitle{
+        font-size: 45px;
+    }
+
+    .project .projectdetails{
+        font-size: 18px;
+        line-height: 28px;
+    }
+
+    .carouselcard{
+        padding-left: 250px;
+        padding-right: 250px; 
+    }
+
+    .bg-dark {
+        background-color: #5b5b5b30!important;
+    }
+    
+    footer .companyaddress p{
+        font-size: 21px;
+    }
+    
+    footer .companyicons i{
+      font-size: 25px;
+    }
+    
+    footer .copyright{
+      font-size: 20px;
+    }
+}
+
+
+@media only screen and (max-width: 1499px) and (min-width: 1351px) {
+    .nav-item{
+        padding-top: 20px;
+        padding-right: 30px;
+        padding-bottom: 20px;
+        padding-left: 30px;
+        
+        font-size: 20px;
+    }
+
+    #navbarmain{
+    
+        padding-right: 130px;
+        padding-left: 60px;
+    }
+
+    .navbar-nav{
+        padding-left: 32vw;
+    }
+
+    .project {
+        padding-top: 70px;
+        padding-left: 180px;
+        padding-right: 180px;
+    }
+
+    .project .projecttitle{
+        font-size: 40px;
+    }
+
+    .project .projectdetails{
+        font-size: 18px;
+        line-height: 28px;
+    }
+
+    .carouselcard{
+        padding-left: 180px;
+        padding-right: 180px; 
+    }
+
+    .bg-dark {
+        background-color: #5b5b5b30!important;
+    }
+    
+    footer .companyaddress p{
+        font-size: 21px;
+    }
+  
+    footer .companyicons i{
+        font-size: 20px;
+    }
+  
+    footer .companyicons i{
+        padding-left: 20px;
+    }
+  
+    footer .copyright{
+        font-size: 20px;
+    }
+}
+
+@media only screen and (max-width: 1350px) and (min-width: 1200px) {
+    .nav-item{
+        padding-top: 20px;
+        padding-right: 20px;
+        padding-bottom: 20px;
+        padding-left: 20px;
+        
+        font-size: 18px;
+    }
+
+    #navbarmain{
+    
+        padding-right: 130px;
+        padding-left: 60px;
+    }
+
+    .navbar-nav{
+        padding-left: 35vw;
+    }
+
+    .project {
+        padding-top: 70px;
+        padding-left: 150px;
+        padding-right: 150px;
+    }
+
+    .project .projecttitle{
+        font-size: 35px;
+    }
+
+    .project .projectdetails{
+        font-size: 16px;
+        line-height: 25px;
+    }
+
+    .carouselcard{
+        padding-left: 150px;
+        padding-right: 150px; 
+    }
+
+    .project .boldtext{
+        font-size: 22px;
+    }
+
+    .project .whatproject p, .project .whereproject p, .project .whenproject p{
+        font-size: 15px;
+    }
+
+    .bg-dark {
+        background-color: #5b5b5b30!important;
+    }
+    
+    footer .companyaddress p{
+        font-size: 21px;
+    }
+  
+    footer .companyicons i{
+        font-size: 20px;
+    }
+  
+    footer .companyicons i{
+        padding-left: 20px;
+    }
+  
+    footer .copyright{
+        font-size: 20px;
+    }
+}
+
+@media only screen and (max-width: 1199px) and (min-width: 1070px) {
+    .nav-item{
+        padding-top: 20px;
+        padding-right: 20px;
+        padding-bottom: 20px;
+        padding-left: 20px;
+        
+        font-size: 18px;
+    }
+
+    #navbarmain{
+    
+        padding-right: 130px;
+        padding-left: 60px;
+    }
+
+    .navbar-nav{
+        padding-left: 27vw;
+    }
+
+    .navbarlogo img{
+        width: 150px;
+        height: 70px;
+    }
+
+    .project {
+        padding-top: 70px;
+        padding-left: 120px;
+        padding-right: 120px;
+    }
+
+    .project .projecttitle{
+        font-size: 35px;
+    }
+
+    .project .projectdetails{
+        font-size: 16px;
+        line-height: 25px;
+    }
+
+    .carouselcard{
+        padding-left: 120px;
+        padding-right: 120px; 
+    }
+
+    .project .boldtext{
+        font-size: 20px;
+    }
+
+    .project .whatproject p, .project .whereproject p, .project .whenproject p{
+        font-size: 13px;
+    }
+
+    .bg-dark {
+        background-color: #5b5b5b30!important;
+    }
+    
+    footer .companyaddress p{
+        font-size: 18px;
+    }
+  
+    footer .companyicons i{
+        font-size: 16px;
+        padding-left: 10px;
+    }
+  
+    footer .copyright{
+        font-size: 20px;
+    }
+}
+
+@media only screen and (max-width: 1069px) and (min-width: 1024px) {
+    .nav-item{
+        padding-top: 20px;
+        padding-right: 20px;
+        padding-bottom: 20px;
+        padding-left: 20px;
+        
+        font-size: 18px;
+    }
+
+    #navbarmain{
+    
+        padding-right: 130px;
+        padding-left: 60px;
+    }
+
+    .navbar-nav{
+        padding-left: 27vw;
+    }
+
+    .navbarlogo img{
+        width: 150px;
+        height: 70px;
+    }
+
+    .project {
+        padding-top: 70px;
+        padding-left: 100px;
+        padding-right: 100px;
+    }
+
+    .project .projecttitle{
+        font-size: 35px;
+    }
+
+    .project .projectdetails{
+        font-size: 16px;
+        line-height: 25px;
+    }
+
+    .carouselcard{
+        padding-left: 100px;
+        padding-right: 100px; 
+    }
+
+    .project .boldtext{
+        font-size: 20px;
+    }
+
+    .project .whatproject p, .project .whereproject p, .project .whenproject p{
+        font-size: 13px;
+    }
+
+    .bg-dark {
+        background-color: #5b5b5b30!important;
+    }
+    
+    footer .companyaddress p{
+        font-size: 18px;
+    }
+  
+    footer .companyicons i{
+        font-size: 16px;
+        padding-left: 10px;
+    }
+  
+    footer .copyright{
+        font-size: 15px;
+    }
+}
+
+@media only screen and (max-width: 1023px) and (min-width: 992px) {
+    .nav-item{
+        padding-top: 20px;
+        padding-right: 20px;
+        padding-bottom: 20px;
+        padding-left: 20px;
+        
+        font-size: 18px;
+    }
+
+    #navbarmain{
+    
+        padding-right: 130px;
+        padding-left: 60px;
+    }
+
+    .navbar-nav{
+        padding-left: 25vw;
+    }
+
+    .navbarlogo img{
+        width: 150px;
+        height: 70px;
+    }
+
+    .project {
+        padding-top: 70px;
+        padding-left: 100px;
+        padding-right: 100px;
+    }
+
+    .project .projecttitle{
+        font-size: 35px;
+    }
+
+    .project .projectdetails{
+        font-size: 16px;
+        line-height: 25px;
+    }
+
+    .carouselcard{
+        padding-left: 100px;
+        padding-right: 100px; 
+    }
+
+    .project .boldtext{
+        font-size: 20px;
+    }
+
+    .project .whatproject p, .project .whereproject p, .project .whenproject p{
+        font-size: 13px;
+    }
+
+    .bg-dark {
+        background-color: #5b5b5b30!important;
+    }
+    
+    footer .companyaddress p{
+        font-size: 18px;
+    }
+  
+    footer .companyicons i{
+        font-size: 16px;
+        padding-left: 10px;
+    }
+  
+    footer .copyright{
+        font-size: 15px;
+    }
+}
+
+
+@media only screen and (max-width: 991px) and (min-width: 880px) {
+    .nav-item{
+        padding-top: 10px;
+        padding-right: 20px;
+        padding-bottom: 10px;
+        padding-left: 20px;
+        
+        font-size: 18px;
+    }
+
+    #navbarmain{
+    
+        padding-right: 50px;
+        padding-left: 60px;
+    }
+
+    .navbar-nav{
+        padding-left: 0vw;
+        align-items: center;
+    }
+
+    .navbarlogo img{
+        width: 100px;
+        height: 50px;
+    }
+
+    .navbar-light .navbar-toggler{
+        border: none;
+    }
+
+    .project {
+        padding-top: 70px;
+        padding-left: 80px;
+        padding-right: 80px;
+    }
+
+    .project .projecttitle{
+        font-size: 32px;
+    }
+
+    .project .projectdetails{
+        font-size: 15px;
+        line-height: 22px;
+    }
+
+    .carouselcard{
+        padding-left: 80px;
+        padding-right: 80px; 
+    }
+
+    .project .boldtext{
+        font-size: 15px;
+    }
+
+    .project .whatproject p, .project .whereproject p, .project .whenproject p{
+        font-size: 11px;
+    }
+
+    .bg-dark {
+        background-color: #5b5b5b30!important;
+    }
+    
+    footer .companyaddress p{
+        font-size: 18px;
+    }
+  
+    footer .companyicons i{
+        font-size: 16px;
+        padding-left: 10px;
+    }
+  
+    footer .copyright{
+        font-size: 15px;
+    }
+
+    footer .footerheading{
+        display: none;
+    }
+
+    footer .companyicons{
+        padding-top: 10px;
+        padding-left: 0px;
+    }
+}
+
+@media only screen and (max-width: 879px) and (min-width: 768px) {
+    .nav-item{
+        padding-top: 10px;
+        padding-right: 20px;
+        padding-bottom: 10px;
+        padding-left: 20px;
+        
+        font-size: 18px;
+    }
+
+    #navbarmain{
+    
+        padding-right: 50px;
+        padding-left: 60px;
+    }
+
+    .navbar-nav{
+        padding-left: 0vw;
+        align-items: center;
+    }
+
+    .navbarlogo img{
+        width: 100px;
+        height: 50px;
+    }
+
+    .navbar-light .navbar-toggler{
+        border: none;
+    }
+
+    .project {
+        padding-top: 70px;
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+
+    .project .projecttitle{
+        font-size: 28px;
+    }
+
+    .project .projectdetails{
+        font-size: 15px;
+        line-height: 22px;
+    }
+
+    .project .col-sm-2 {
+        padding-left: calc(var(--bs-gutter-x) * 0);
+    }
+
+    .carouselcard{
+        padding-left: 50px;
+        padding-right: 50px; 
+    }
+
+    .project .boldtext{
+        font-size: 15px;
+    }
+
+    .project .whatproject p, .project .whereproject p, .project .whenproject p{
+        font-size: 11px;
+    }
+
+    .bg-dark {
+        background-color: #5b5b5b30!important;
+    }
+    
+    footer .companyaddress p{
+        font-size: 18px;
+    }
+  
+    footer .companyicons i{
+        font-size: 16px;
+        padding-left: 10px;
+    }
+  
+    footer .copyright{
+        font-size: 15px;
+    }
+
+    footer .footerheading{
+        display: none;
+    }
+
+    footer .companyicons{
+        padding-top: 10px;
+        padding-left: 0px;
+    }
+}
+
+@media only screen and (max-width: 767px) and (min-width: 576px) {
+    .nav-item{
+        padding-top: 10px;
+        padding-right: 20px;
+        padding-bottom: 10px;
+        padding-left: 20px;
+        
+        font-size: 18px;
+    }
+
+    #navbarmain{
+    
+        padding-right: 50px;
+        padding-left: 60px;
+    }
+
+    .navbar-nav{
+        padding-left: 0vw;
+        align-items: center;
+    }
+
+    .navbarlogo img{
+        width: 100px;
+        height: 50px;
+    }
+
+    .navbar-light .navbar-toggler{
+        border: none;
+    }
+
+    .project {
+        padding-top: 70px;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    .project .projecttitle{
+        font-size: 22px;
+    }
+
+    .project .projectdetails{
+        font-size: 12px;
+        line-height: 18px;
+    }
+
+    .project .col-sm-2 {
+        padding-left: calc(var(--bs-gutter-x) * 0);
+    }
+
+    .project .col-sm-2 .card-body{
+        padding-left: 0;
+    }
+
+    .project .col-sm-4 {
+        padding-right: calc(var(--bs-gutter-x) * 0);
+    }
+
+    .project .col-sm-6 {
+        padding-right: calc(var(--bs-gutter-x) * 0);
+        padding-left: calc(var(--bs-gutter-x) * 0);
+    }
+
+    .carouselcard{
+        padding-left: 30px;
+        padding-right: 30px; 
+    }
+
+    .project .boldtext{
+        font-size: 15px;
+    }
+
+    .project .whatproject p, .project .whereproject p, .project .whenproject p{
+        font-size: 10px;
+    }
+
+    .bg-dark {
+        background-color: #5b5b5b30!important;
+    }
+    
+    footer .companyaddress p{
+        font-size: 18px;
+    }
+  
+    footer .companyicons i{
+        font-size: 16px;
+        padding-left: 10px;
+    }
+  
+    footer .copyright{
+        font-size: 15px;
+    }
+
+    footer .footerheading{
+        display: none;
+    }
+
+    footer .companyicons{
+        padding-top: 5px;
+        padding-left: 0px;
+    }
+}
+
+@media only screen and (max-width: 575px) and (min-width: 425px) {
+    .nav-item{
+        padding-top: 10px;
+        padding-right: 20px;
+        padding-bottom: 10px;
+        padding-left: 20px;
+        
+        font-size: 18px;
+    }
+
+    #navbarmain{
+    
+        padding-right: 30px;
+        padding-left: 30px;
+    }
+
+    .navbar-nav{
+        padding-left: 0vw;
+        align-items: center;
+    }
+
+    .navbarlogo img{
+        width: 100px;
+        height: 50px;
+    }
+
+    .navbar-light .navbar-toggler{
+        border: none;
+    }
+
+    .project {
+        padding-top: 70px;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    .project .projecttitle{
+        font-size: 22px;
+    }
+
+    .project .projectdetails{
+        font-size: 12px;
+        line-height: 18px;
+    }
+
+
+    .pagedirection .nextdirection{
+        text-align: right;
+    }
+
+    .project .col-sm-2 {
+        padding-left: calc(var(--bs-gutter-x) * 0);
+    }
+
+    .project .col-sm-2 .card-body{
+        padding-left: 20px;
+
+    }
+
+    .project .col-sm-4 {
+        padding-right: calc(var(--bs-gutter-x) * 0);
+    }
+
+    .project .col-sm-4 .card-body{
+        padding-left: 0;
+    }
+
+    .project .col-sm-6 {
+        padding-right: calc(var(--bs-gutter-x) * 0);
+        padding-left: calc(var(--bs-gutter-x) * 0);
+    }
+
+    .carouselcard{
+        padding-left: 10px;
+        padding-right: 10px; 
+    }
+
+
+    .carousel-control-prev, .carousel-control-next, .carousel-indicators{
+        display: none;
+    }
+
+    .project .boldtext{
+        font-size: 15px;
+    }
+
+    .project .whatproject p, .project .whereproject p, .project .whenproject p{
+        font-size: 10px;
+    }
+
+    .nextdirection{
+        padding-left: 50px;
+    }
+
+    .bg-dark {
+        background-color: #5b5b5b30!important;
+    }
+    
+    footer .companyaddress p{
+        font-size: 13px;
+    }
+  
+    footer .companyicons i{
+        font-size: 16px;
+        padding-left: 10px;
+    }
+  
+    footer .copyright{
+        font-size: 15px;
+    }
+
+    footer .footerheading{
+        display: none;
+    }
+
+    footer .companyicons{
+        padding-top: 5px;
+        padding-left: 0px;
+    }
+}
+
+@media only screen and (max-width: 424px) and (min-width: 375px) {
+    .nav-item{
+        padding-top: 10px;
+        padding-right: 20px;
+        padding-bottom: 10px;
+        padding-left: 20px;
+        
+        font-size: 18px;
+    }
+
+    #navbarmain{
+    
+        padding-right: 20px;
+        padding-left: 30px;
+    }
+
+    .navbar-nav{
+        padding-left: 0vw;
+        align-items: center;
+    }
+
+    .navbarlogo img{
+        width: 100px;
+        height: 50px;
+    }
+
+    .navbar-light .navbar-toggler{
+        border: none;
+    }
+
+    .project {
+        padding-top: 70px;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    .project .projecttitle{
+        font-size: 22px;
+    }
+
+    .project .projectdetails{
+        font-size: 12px;
+        line-height: 18px;
+    }
+
+    .pagedirection .nextdirection{
+        text-align: right;
+    }
+
+    .project .col-sm-2 {
+        padding-left: calc(var(--bs-gutter-x) * 0);
+    }
+
+    .project .col-sm-2 .card-body{
+        padding-left: 20px;
+
+    }
+
+    .project .col-sm-4 {
+        padding-right: calc(var(--bs-gutter-x) * 0);
+    }
+
+    .project .col-sm-4 .card-body{
+        padding-left: 0;
+    }
+
+    .project .col-sm-6 {
+        padding-right: calc(var(--bs-gutter-x) * 0);
+        padding-left: calc(var(--bs-gutter-x) * 0);
+    }
+
+    .carouselcard{
+        padding-left: 0px;
+        padding-right: 0px; 
+    }
+
+    .carouselcard .card-body{
+        padding-left: 0px;
+        padding-right: 0px; 
+    }
+
+
+    .carousel-control-prev, .carousel-control-next, .carousel-indicators{
+        display: none;
+    }
+
+    .project .boldtext{
+        font-size: 15px;
+    }
+
+    .project .whatproject p, .project .whereproject p, .project .whenproject p{
+        font-size: 10px;
+    }
+
+    .nextdirection{
+        padding-left: 50px;
+    }
+
+    .bg-dark {
+        background-color: #5b5b5b30!important;
+    }
+    
+    footer .companyaddress p{
+        font-size: 13px;
+    }
+  
+    footer .companyicons i{
+        font-size: 16px;
+        padding-left: 10px;
+    }
+  
+    footer .copyright{
+        font-size: 15px;
+    }
+
+    footer .footerheading{
+        display: none;
+    }
+
+    footer .companyicons{
+        padding-top: 5px;
+        padding-left: 0px;
+    }
+}
+
+
+@media only screen and (max-width: 374px) and (min-width: 320px) {
+    .nav-item{
+        padding-top: 10px;
+        padding-right: 20px;
+        padding-bottom: 10px;
+        padding-left: 20px;
+        
+        font-size: 18px;
+    }
+
+    #navbarmain{
+    
+        padding-right: 20px;
+        padding-left: 30px;
+    }
+
+    .navbar-nav{
+        padding-left: 0vw;
+        align-items: center;
+    }
+
+    .navbarlogo img{
+        width: 100px;
+        height: 50px;
+    }
+
+    .navbar-light .navbar-toggler{
+        border: none;
+    }
+
+    .project {
+        padding-top: 70px;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    .project .projecttitle{
+        font-size: 22px;
+    }
+
+    .project .projectdetails{
+        font-size: 12px;
+        line-height: 18px;
+    }
+
+    .pagedirection .nextdirection{
+        text-align: right;
+    }
+
+    .project .col-sm-2 {
+        padding-left: calc(var(--bs-gutter-x) * 0);
+    }
+
+    .project .col-sm-2 .card-body{
+        padding-left: 20px;
+
+    }
+
+    .project .col-sm-4 {
+        padding-right: calc(var(--bs-gutter-x) * 0);
+    }
+
+    .project .col-sm-4 .card-body{
+        padding-left: 0;
+    }
+
+    .project .col-sm-6 {
+        padding-right: calc(var(--bs-gutter-x) * 0);
+        padding-left: calc(var(--bs-gutter-x) * 0);
+    }
+
+    .carouselcard{
+        padding-left: 0px;
+        padding-right: 0px; 
+    }
+
+    .carouselcard .card-body{
+        padding-left: 0px;
+        padding-right: 0px; 
+    }
+
+
+    .carousel-control-prev, .carousel-control-next, .carousel-indicators{
+        display: none;
+    }
+
+    .project .boldtext{
+        font-size: 15px;
+    }
+
+    .project .whatproject p, .project .whereproject p, .project .whenproject p{
+        font-size: 10px;
+    }
+
+    .nextdirection{
+        padding-left: 50px;
+    }
+
+    .bg-dark {
+        background-color: #5b5b5b30!important;
+    }
+    
+    footer .companyaddress p{
+        font-size: 13px;
+    }
+  
+    footer .companyicons i{
+        font-size: 16px;
+        padding-left: 10px;
+    }
+  
+    footer .copyright{
+        font-size: 15px;
+    }
+
+    footer .footerheading{
+        display: none;
+    }
+
+    footer .companyicons{
+        padding-top: 5px;
+        padding-left: 0px;
+    }
+}

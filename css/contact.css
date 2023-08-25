@@ -4,31 +4,39 @@
     padding-bottom: 20px;
     padding-left: 50px;
     font-family: 'Playfair Display SC', serif;
-    font-style: italic;
     
     font-size: 20px;
-}
+  }
 
-#navbarmain{
+  .nav-item a:link{
+    color: #000;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+  #navbarmain{
     
     padding-right: 150px;
     padding-left: 80px;
-}
+  }
+  
+  .navbarlogo img{
+    width: 170px;
+    height: 85px;
+  }
 
+  .navbar-toggler{
+    border: none;
+  }
 
 
 
 .companycontact .card-title{
     font-size: 70px;
     font-family: 'Playfair Display SC', serif;
-    padding-left: 350px;
+    padding-left: 280px;
     padding-right: 30px;
 }
-
-/* .companycontact .row{
-    padding-left: 40px;
-    padding-right: 40px;
-} */
 
 .companycontact .row img{
     width: 40px;
@@ -41,11 +49,13 @@
 
 .companycontact .outlinecard{
     border: none;
+    width: 900px;
 }
 
 .companycontact .card-text{
-    font-size: 20px;
-    font-weight: 600;
+    font-size: 19px;
+    font-weight: 500;
+    font-family: 'Lora', serif;
 }
 
 .companycontact label{
@@ -53,12 +63,57 @@
     font-weight: 600;
 }
 
+#inputFirstName{
+    border: none;
+    border-bottom: 1px solid rgb(0, 0, 0);
+}
+
+#inputFirstName:hover{
+    border-top: 1px solid rgb(0, 0, 0);
+    border-bottom: 1px solid rgb(0, 0, 0);
+    border-left: 1px solid rgb(0, 0, 0);
+    border-right: 1px solid rgb(0, 0, 0);
+}
+
+#inputLastName{
+    border: none;
+    border-bottom: 1px solid rgb(0, 0, 0);
+}
+
+#inputLastName:hover{
+    border-top: 1px solid rgb(0, 0, 0);
+    border-bottom: 1px solid rgb(0, 0, 0);
+    border-left: 1px solid rgb(0, 0, 0);
+    border-right: 1px solid rgb(0, 0, 0);
+}
+
+#FormControlInput1{
+    border: none;
+    border-bottom: 1px solid rgb(0, 0, 0);
+}
+
+#FormControlInput1:hover{
+    border-top: 1px solid rgb(0, 0, 0);
+    border-bottom: 1px solid rgb(0, 0, 0);
+    border-left: 1px solid rgb(0, 0, 0);
+    border-right: 1px solid rgb(0, 0, 0);
+}
+
+#FormControlTextarea1{
+    border: none;
+    border-bottom: 1px solid rgb(0, 0, 0);
+}
+
+#FormControlTextarea1:hover{
+    border-top: 1px solid rgb(0, 0, 0);
+    border-bottom: 1px solid rgb(0, 0, 0);
+    border-left: 1px solid rgb(0, 0, 0);
+    border-right: 1px solid rgb(0, 0, 0);
+}
+
+
 
 .map{
-    /* filter: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg"><filter id="g"><feColorMatrix type="matrix" values="0.3 0.3 0.3 0 0 0.3 0.3 0.3 0 0 0.3 0.3 0.3 0 0 0 0 0 1 0"/></filter></svg>#g');
-    -webkit-filter: grayscale(100%);
-    filter: grayscale(100%);    
-    filter: progid:DXImageTransform.Microsoft.BasicImage(grayScale=1); */
     position: relative;
     padding-bottom: 40%; /* 4:3 ratio*/
     height: 0;
@@ -86,9 +141,18 @@ footer .companyname p{
     font-family: 'Playfair Display SC', serif;
 }
 
+
+footer .companyname .companynameend{
+    font-size: 13px;
+    text-align: center;
+    font-family: 'Playfair Display SC', serif;
+}
+
 footer .companyaddress p{
     text-align: center;
 }
+
+
 
 footer .footerheading h1 i{
     font-size: 45px;
@@ -99,8 +163,1535 @@ footer .companyicons i{
 }
 
 footer .companyicons{
-    padding-top: 50px;
+    padding-top: 40px;
     padding-left: 200px;
 }
 
 
+.bg-dark {
+    background-color: #5b5b5b30!important;
+}
+
+
+/* media queries */
+
+@media only screen and (max-width: 2560px) and (min-width: 2401px) {
+
+    .nav-item{
+        padding-top: 15px;
+        padding-right: 50px;
+        padding-bottom: 15px;
+        padding-left: 50px;
+        
+        font-size: 25px;
+    }
+    
+    .nav-item a:link{
+        color: #000;
+    }
+    
+    #navbarmain{
+        
+        padding-right: 10px;
+        padding-left: 80px;
+    }
+    
+    .navbar-nav{
+        padding-left: 40vw;
+    }
+
+
+    .companycontact .outlinecard, .outlinecard123{
+        width: 1050px;
+    }
+
+    .outlinecard123{
+        border: none;
+    }
+    
+    
+    footer .companyaddress p{
+        font-size: 21px;
+    }
+    
+    footer .companyicons i{
+      font-size: 25px;
+    }
+    
+    footer .copyright{
+      font-size: 20px;
+    }
+
+
+    
+}
+
+@media only screen and (max-width: 2400px) and (min-width: 2201px) {
+    .nav-item{
+        padding-top: 15px;
+        padding-right: 50px;
+        padding-bottom: 15px;
+        padding-left: 50px;
+        
+        font-size: 25px;
+    }
+  
+    .nav-item a:link{
+        color: #000;
+    }
+  
+    #navbarmain{
+        
+        padding-right: 10px;
+        padding-left: 80px;
+    }
+  
+    .navbar-nav{
+        padding-left: 40vw;
+    }
+
+    .companycontact .outlinecard, .outlinecard123{
+        width: 980px;
+    }
+
+    .outlinecard123{
+        border: none;
+    }
+
+    
+    footer .companyaddress p{
+        font-size: 21px;
+    }
+    
+    footer .companyicons i{
+      font-size: 25px;
+    }
+    
+    footer .copyright{
+      font-size: 20px;
+    }
+}
+
+@media only screen and (max-width: 2200px) and (min-width: 2001px) {
+    .nav-item{
+        padding-top: 15px;
+        padding-right: 50px;
+        padding-bottom: 15px;
+        padding-left: 50px;
+        
+        font-size: 25px;
+    }
+  
+    .nav-item a:link{
+        color: #000;
+    }
+  
+    #navbarmain{
+        
+        padding-right: 10px;
+        padding-left: 80px;
+    }
+  
+    .navbar-nav{
+        padding-left: 40vw;
+    }
+
+    .companycontact .outlinecard, .outlinecard123{
+        width: 860px;
+    }
+
+    .outlinecard123{
+        border: none;
+    }
+
+    .bg-dark {
+        background-color: #5b5b5b30!important;
+    }
+    
+    footer .companyaddress p{
+        font-size: 21px;
+    }
+    
+    footer .companyicons i{
+      font-size: 25px;
+    }
+    
+    footer .copyright{
+      font-size: 20px;
+    }
+}
+
+@media only screen and (max-width: 2000px) and (min-width: 1901px) {
+    .nav-item{
+        padding-top: 15px;
+        padding-right: 50px;
+        padding-bottom: 15px;
+        padding-left: 50px;
+        
+        font-size: 20px;
+    }
+    
+    .nav-item a:link{
+        color: #000;
+    }
+    
+    #navbarmain{
+        
+        padding-right: 80px;
+        padding-left: 80px;
+    }
+    
+
+    .navbar-nav{
+        padding-left: 40vw;
+    }
+
+    .companycontact .outlinecard, .outlinecard123{
+        width: 810px;
+    }
+
+    .outlinecard123{
+        border: none;
+    }
+
+    .bg-dark {
+        background-color: #5b5b5b30!important;
+    }
+    
+    footer .companyaddress p{
+        font-size: 21px;
+    }
+    
+    footer .companyicons i{
+      font-size: 25px;
+    }
+    
+    footer .copyright{
+      font-size: 20px;
+    }
+}
+
+@media only screen and (max-width: 1900px) and (min-width: 1801px) {
+    .nav-item{
+        padding-top: 15px;
+        padding-right: 50px;
+        padding-bottom: 15px;
+        padding-left: 50px;
+        
+        font-size: 20px;
+    }
+    
+    .nav-item a:link{
+        color: #000;
+    }
+    
+    #navbarmain{
+        
+        padding-right: 80px;
+        padding-left: 80px;
+    }
+    
+
+    .navbar-nav{
+        padding-left: 40vw;
+    }
+
+    .companycontact .outlinecard, .outlinecard123{
+        width: 760px;
+    }
+
+    .outlinecard123{
+        border: none;
+    }
+
+    .bg-dark {
+        background-color: #5b5b5b30!important;
+    }
+    
+    footer .companyaddress p{
+        font-size: 21px;
+    }
+    
+    footer .companyicons i{
+      font-size: 25px;
+    }
+    
+    footer .copyright{
+      font-size: 20px;
+    }
+}
+
+@media only screen and (max-width: 1800px) and (min-width: 1701px) {
+    .nav-item{
+        padding-top: 15px;
+        padding-right: 40px;
+        padding-bottom: 15px;
+        padding-left: 40px;
+        
+        font-size: 20px;
+    }
+    
+    .nav-item a:link{
+        color: #000;
+    }
+    
+    #navbarmain{
+        
+        padding-right: 80px;
+        padding-left: 80px;
+    }
+    
+
+    .navbar-nav{
+        padding-left: 30vw;
+    }
+
+
+    .companycontact .outlinecard, .outlinecard123{
+        width: 710px;
+    }
+
+    .outlinecard123{
+        border: none;
+    }
+
+    .contactform{
+        padding-left: 120px;
+    }
+
+    .bg-dark {
+        background-color: #5b5b5b30!important;
+    }
+    
+    footer .companyaddress p{
+        font-size: 21px;
+    }
+    
+    footer .companyicons i{
+      font-size: 25px;
+    }
+    
+    footer .copyright{
+      font-size: 20px;
+    }
+}
+
+@media only screen and (max-width: 1700px) and (min-width: 1600px) {
+    .nav-item{
+        padding-top: 15px;
+        padding-right: 40px;
+        padding-bottom: 15px;
+        padding-left: 40px;
+        
+        font-size: 20px;
+    }
+    
+    .nav-item a:link{
+        color: #000;
+    }
+    
+    #navbarmain{
+        
+        padding-right: 80px;
+        padding-left: 80px;
+    }
+    
+
+    .navbar-nav{
+        padding-left: 30vw;
+    }
+
+    .companycontact .outlinecard, .outlinecard123{
+        width: 685px;
+    }
+
+    .outlinecard123{
+        border: none;
+    }
+
+    .contactform{
+        padding-left: 120px;
+    }
+
+    .companycontact .info {
+        padding-left: 200px;
+    }
+
+    .companycontact .card-title {
+        padding-left: 230px;
+    }
+
+    .bg-dark {
+        background-color: #5b5b5b30!important;
+    }
+    
+    footer .companyaddress p{
+        font-size: 21px;
+    }
+    
+    footer .companyicons i{
+      font-size: 25px;
+    }
+    
+    footer .copyright{
+      font-size: 20px;
+    }
+}
+
+@media only screen and (max-width: 1599px) and (min-width: 1500px) {
+    .nav-item{
+        padding-top: 15px;
+        padding-right: 40px;
+        padding-bottom: 15px;
+        padding-left: 40px;
+        
+        font-size: 20px;
+    }
+    
+    .nav-item a:link{
+        color: #000;
+    }
+    
+    #navbarmain{
+        
+        padding-right: 80px;
+        padding-left: 80px;
+    }
+    
+
+    .navbar-nav{
+        padding-left: 30vw;
+    }
+
+    .companycontact .outlinecard, .outlinecard123{
+        width: 630px;
+    }
+
+    .outlinecard123{
+        border: none;
+    }
+
+    .contactform{
+        padding-left: 150px;
+    }
+
+    .companycontact .info {
+        padding-left: 200px;
+    }
+
+    .companycontact .card-title {
+        padding-left: 230px;
+    }
+
+    .bg-dark {
+        background-color: #5b5b5b30!important;
+    }
+    
+    footer .companyaddress p{
+        font-size: 21px;
+    }
+    
+    footer .companyicons i{
+      font-size: 25px;
+    }
+    
+    footer .copyright{
+      font-size: 20px;
+    }
+}
+
+@media only screen and (max-width: 1499px) and (min-width: 1351px) {
+    .nav-item{
+        padding-top: 15px;
+        padding-right: 40px;
+        padding-bottom: 15px;
+        padding-left: 40px;
+        
+        font-size: 20px;
+    }
+    
+    .nav-item a:link{
+        color: #000;
+    }
+    
+    #navbarmain{
+        
+        padding-right: 80px;
+        padding-left: 80px;
+    }
+    
+
+    .navbar-nav{
+        padding-left: 23vw;
+    }
+
+    .companycontact .outlinecard, .outlinecard123{
+        width: 585px;
+    }
+
+    .outlinecard123{
+        border: none;
+    }
+
+    .contactform{
+        padding-left: 120px;
+    }
+
+    .companycontact .info {
+        padding-left: 150px;
+    }
+
+    .companycontact .card-title {
+        padding-left: 170px;
+    }
+
+    .bg-dark {
+        background-color: #5b5b5b30!important;
+    }
+    
+    footer .companyaddress p{
+        font-size: 21px;
+    }
+  
+    footer .companyicons i{
+        font-size: 20px;
+    }
+  
+    footer .companyicons i{
+        padding-left: 20px;
+    }
+  
+    footer .copyright{
+        font-size: 20px;
+    }
+}
+
+@media only screen and (max-width: 1350px) and (min-width: 1200px) {
+    .nav-item{
+        padding-top: 15px;
+        padding-right: 30px;
+        padding-bottom: 15px;
+        padding-left: 30px;
+        
+        font-size: 20px;
+    }
+    
+    #navbarmain{
+        
+        padding-right: 60px;
+        padding-left: 60px;
+    }
+
+    .navbar-nav{
+        padding-left: 23vw;
+    }
+
+    .companycontact .outlinecard, .outlinecard123{
+        width: 530px;
+    }
+
+    .outlinecard123{
+        border: none;
+    }
+
+    .contactform{
+        padding-left: 80px;
+    }
+
+    .companycontact .info {
+        padding-left: 110px;
+    }
+
+    .companycontact .card-title {
+        padding-left: 130px;
+    }
+
+    .companycontact .card-text{
+        font-size: 17px;
+        font-weight: 500;
+    }
+
+    .bg-dark {
+        background-color: #5b5b5b30!important;
+    }
+    
+    footer .companyaddress p{
+        font-size: 21px;
+    }
+  
+    footer .companyicons i{
+        font-size: 20px;
+    }
+  
+    footer .companyicons i{
+        padding-left: 20px;
+    }
+  
+    footer .copyright{
+        font-size: 20px;
+    }
+}
+
+@media only screen and (max-width: 1199px) and (min-width: 1070px) {
+    .nav-item{
+        padding-top: 15px;
+        padding-right: 30px;
+        padding-bottom: 15px;
+        padding-left: 30px;
+        
+        font-size: 20px;
+    }
+    
+    #navbarmain{
+        
+        padding-right: 60px;
+        padding-left: 60px;
+    }
+
+    .navbar-nav{
+        padding-left: 19vw;
+    }
+
+    .companycontact .outlinecard, .outlinecard123{
+        width: 465px;
+    }
+
+    .outlinecard123{
+        border: none;
+    }
+
+    .contactform{
+        padding-left: 80px;
+    }
+
+    .companycontact .info {
+        padding-left: 110px;
+    }
+
+    .companycontact .card-title {
+        padding-left: 130px;
+    }
+
+    .companycontact .card-text{
+        font-size: 17px;
+        font-weight: 500;
+    }
+
+    .bg-dark {
+        background-color: #5b5b5b30!important;
+    }
+    
+    footer .companyaddress p{
+        font-size: 18px;
+    }
+  
+    footer .companyicons i{
+        font-size: 16px;
+        padding-left: 10px;
+    }
+  
+    footer .copyright{
+        font-size: 20px;
+    }
+}
+
+@media only screen and (max-width: 1069px) and (min-width: 1024px) {
+    .nav-item{
+        padding-top: 15px;
+        padding-right: 25px;
+        padding-bottom: 15px;
+        padding-left: 25px;
+        
+        font-size: 20px;
+    }
+    
+    #navbarmain{
+        
+        padding-right: 50px;
+        padding-left: 50px;
+    }
+
+    .navbar-nav{
+        padding-left: 18vw;
+    }
+
+    .companycontact .outlinecard, .outlinecard123{
+        width: 450px;
+    }
+
+    .outlinecard123{
+        border: none;
+    }
+
+    .contactform{
+        padding-left: 50px;
+    }
+
+    .companycontact .info {
+        padding-left: 90px;
+    }
+
+    .companycontact .card-text{
+        font-size: 15px;
+        font-weight: 500;
+    }
+
+    .companycontact .card-title{
+        font-size: 60px;
+        padding-left: 120px;
+    }
+
+    .bg-dark {
+        background-color: #5b5b5b30!important;
+    }
+    
+    footer .companyaddress p{
+        font-size: 18px;
+    }
+  
+    footer .companyicons i{
+        font-size: 16px;
+        padding-left: 10px;
+    }
+  
+    footer .copyright{
+        font-size: 17px;
+    }
+}
+
+@media only screen and (max-width: 1023px) and (min-width: 992px) {
+    .navbar-nav{
+        padding-left: 0vw;
+        align-items: center;
+    }
+    
+    .nav-item{
+        padding-top: 12px;
+        padding-right: 20px;
+        padding-bottom: 12px;
+        padding-left: 20px;
+        
+        font-size: 17px;
+    }
+    
+    #navbarmain{
+        
+        padding-right: 40px;
+        padding-left: 40px;
+    }
+
+    .companycontact .outlinecard, .outlinecard123{
+        width: 440px;
+    }
+
+    .outlinecard123{
+        border: none;
+    }
+
+    .contactform{
+        padding-left: 50px;
+    }
+
+    .companycontact .info {
+        padding-left: 90px;
+    }
+
+    .companycontact .card-text{
+        font-size: 15px;
+        font-weight: 500;
+    }
+
+    .companycontact .card-title{
+        font-size: 60px;
+        padding-left: 120px;
+    }
+
+    .bg-dark {
+        background-color: #5b5b5b30!important;
+    }
+    
+    footer .companyaddress p{
+        font-size: 18px;
+    }
+  
+    footer .companyicons i{
+        font-size: 16px;
+        padding-left: 10px;
+    }
+  
+    footer .copyright{
+        font-size: 17px;
+    }
+}
+
+@media only screen and (max-width: 991px) and (min-width: 880px) {
+    .navbar-nav{
+        padding-left: 0vw;
+        align-items: center;
+    }
+    
+    .nav-item{
+        padding-top: 12px;
+        padding-right: 20px;
+        padding-bottom: 12px;
+        padding-left: 20px;
+        
+        font-size: 17px;
+    }
+    
+    #navbarmain{
+        
+        padding-right: 40px;
+        padding-left: 40px;
+    }
+
+    .companycontact .outlinecard, .outlinecard123{
+        width: 380px;
+    }
+
+    .outlinecard123{
+        border: none;
+    }
+
+    .contactform{
+        padding-left: 50px;
+    }
+
+    .companycontact .info {
+        padding-left: 70px;
+    }
+
+    .companycontact .card-text{
+        font-size: 13px;
+        font-weight: 500;
+    }
+
+    .companycontact .card-title{
+        font-size: 60px;
+        padding-left: 100px;
+    }
+
+    .companycontact .row img{
+        width: 30px;
+        height: 30px;
+    }
+    
+
+    .bg-dark {
+        background-color: #5b5b5b30!important;
+    }
+    
+    footer .companyaddress p{
+        font-size: 18px;
+    }
+  
+    footer .companyicons i{
+        font-size: 16px;
+        padding-left: 10px;
+    }
+  
+    footer .copyright{
+        font-size: 15px;
+    }
+
+    footer .footerheading{
+        display: none;
+    }
+
+    footer .companyicons{
+        padding-top: 10px;
+        padding-left: 0px;
+    }
+}
+
+@media only screen and (max-width: 879px) and (min-width: 768px) {
+    .navbar-nav{
+        padding-left: 0vw;
+        align-items: center;
+    }
+    
+    .nav-item{
+        padding-top: 12px;
+        padding-right: 20px;
+        padding-bottom: 12px;
+        padding-left: 20px;
+        
+        font-size: 17px;
+    }
+    
+    #navbarmain{
+        
+        padding-right: 40px;
+        padding-left: 40px;
+    }
+
+    .companycontact .outlinecard, .outlinecard123{
+        width: 350px;
+    }
+
+    .outlinecard123{
+        border: none;
+    }
+
+    .contactform{
+        padding-left: 50px;
+    }
+
+    .companycontact .info {
+        padding-left: 40px;
+    }
+
+    .companycontact .card-text{
+        font-size: 13px;
+        font-weight: 500;
+    }
+
+    .companycontact .card-title{
+        font-size: 60px;
+        padding-left: 70px;
+    }
+
+    .companycontact .row img{
+        width: 30px;
+        height: 30px;
+    }
+
+    .bg-dark {
+        background-color: #5b5b5b30!important;
+    }
+    
+    footer .companyaddress p{
+        font-size: 18px;
+    }
+  
+    footer .companyicons i{
+        font-size: 16px;
+        padding-left: 10px;
+    }
+  
+    footer .copyright{
+        font-size: 15px;
+    }
+
+    footer .footerheading{
+        display: none;
+    }
+
+    footer .companyicons{
+        padding-top: 10px;
+        padding-left: 0px;
+    }
+}
+
+
+@media only screen and (max-width: 767px) and (min-width: 700px) {
+    .nav-item{
+        padding-top: 1px;
+        padding-right: 10px;
+        padding-bottom: 1px;
+        padding-left: 10px;
+        
+        font-size: 16px;
+    }
+
+    .navbar-nav{
+        padding-left: 0vw;
+        align-items: center;
+    }
+    
+    #navbarmain{
+        
+        padding-right: 25px;
+        padding-left: 25px;
+    }
+    
+    .navbarlogo img{
+        width: 120px;
+        height: 65px;
+    }
+
+    .companycontact .outlinecard, .outlinecard123{
+        width: 315px;
+    }
+
+    .outlinecard123{
+        border: none;
+    }
+
+    .contactform{
+        padding-left: 50px;
+    }
+
+    .companycontact .info {
+        padding-left: 40px;
+    }
+
+    .companycontact .card-text{
+        font-size: 13px;
+        font-weight: 500;
+    }
+
+    .companycontact .card-title{
+        font-size: 60px;
+        padding-left: 70px;
+    }
+
+    .companycontact .row img{
+        width: 30px;
+        height: 30px;
+    }
+
+    .bg-dark {
+        background-color: #5b5b5b30!important;
+    }
+    
+    footer .companyaddress p{
+        font-size: 18px;
+    }
+  
+    footer .companyicons i{
+        font-size: 16px;
+        padding-left: 10px;
+    }
+  
+    footer .copyright{
+        font-size: 15px;
+    }
+
+    footer .footerheading{
+        display: none;
+    }
+
+    footer .companyicons{
+        padding-top: 5px;
+        padding-left: 0px;
+    }
+}
+
+@media only screen and (max-width: 699px) and (min-width: 650px) {
+    .nav-item{
+        padding-top: 1px;
+        padding-right: 10px;
+        padding-bottom: 1px;
+        padding-left: 10px;
+        
+        font-size: 16px;
+    }
+
+    .navbar-nav{
+        padding-left: 0vw;
+        align-items: center;
+    }
+    
+    #navbarmain{
+        
+        padding-right: 25px;
+        padding-left: 25px;
+    }
+    
+    .navbarlogo img{
+        width: 120px;
+        height: 65px;
+    }
+
+    .companycontact .outlinecard, .outlinecard123{
+        width: 290px;
+    }
+
+    .outlinecard123{
+        border: none;
+    }
+
+    .contactform{
+        padding-left: 50px;
+    }
+
+    .companycontact .info {
+        padding-left: 40px;
+    }
+
+    .companycontact .card-text{
+        font-size: 13px;
+        font-weight: 500;
+    }
+
+    .companycontact .card-title{
+        font-size: 60px;
+        padding-left: 70px;
+    }
+
+    .companycontact .row img{
+        width: 30px;
+        height: 30px;
+    }
+
+    .bg-dark {
+        background-color: #5b5b5b30!important;
+    }
+    
+    footer .companyaddress p{
+        font-size: 18px;
+    }
+  
+    footer .companyicons i{
+        font-size: 16px;
+        padding-left: 10px;
+    }
+  
+    footer .copyright{
+        font-size: 15px;
+    }
+
+    footer .footerheading{
+        display: none;
+    }
+
+    footer .companyicons{
+        padding-top: 5px;
+        padding-left: 0px;
+    }
+}
+
+@media only screen and (max-width: 649px) and (min-width: 600px) {
+    .nav-item{
+        padding-top: 1px;
+        padding-right: 10px;
+        padding-bottom: 1px;
+        padding-left: 10px;
+        
+        font-size: 16px;
+    }
+
+    .navbar-nav{
+        padding-left: 0vw;
+        align-items: center;
+    }
+    
+    #navbarmain{
+        
+        padding-right: 25px;
+        padding-left: 25px;
+    }
+    
+    .navbarlogo img{
+        width: 120px;
+        height: 65px;
+    }
+
+    .companycontact .outlinecard{
+        width: 260px;
+    }
+
+    .contactform{
+        padding-left: 50px;
+    }
+
+    .companycontact .info {
+        padding-left: 40px;
+    }
+
+    .companycontact .card-text{
+        font-size: 13px;
+        font-weight: 500;
+    }
+
+    .companycontact .card-title{
+        font-size: 60px;
+        padding-left: 70px;
+    }
+
+    .companycontact .row img{
+        width: 25px;
+        height: 25px;
+    }
+
+    .bg-dark {
+        background-color: #5b5b5b30!important;
+    }
+    
+    footer .companyaddress p{
+        font-size: 18px;
+    }
+  
+    footer .companyicons i{
+        font-size: 16px;
+        padding-left: 10px;
+    }
+  
+    footer .copyright{
+        font-size: 15px;
+    }
+
+    footer .footerheading{
+        display: none;
+    }
+
+    footer .companyicons{
+        padding-top: 5px;
+        padding-left: 0px;
+    }
+}
+
+@media only screen and (max-width: 599px) and (min-width: 576px) {
+    .nav-item{
+        padding-top: 1px;
+        padding-right: 3px;
+        padding-bottom: 1px;
+        padding-left: 3px;
+        
+        font-size: 16px;
+    }
+    
+
+    .navbar-nav{
+        padding-left: 0vw;
+        align-items: center;
+    }
+
+    #navbarmain{
+        
+        padding-right: 25px;
+        padding-left: 25px;
+    }
+    
+    .navbarlogo img{
+        width: 120px;
+        height: 65px;
+    }
+
+    .companycontact .outlinecard{
+        width: 255px;
+    }
+
+    .contactform{
+        padding-left: 50px;
+    }
+
+    .companycontact .info {
+        padding-left: 40px;
+    }
+
+    .companycontact .card-text{
+        font-size: 13px;
+        font-weight: 500;
+    }
+
+    .companycontact .card-title{
+        font-size: 60px;
+        padding-left: 70px;
+    }
+
+    .companycontact .row img{
+        width: 25px;
+        height: 25px;
+    }
+
+    .bg-dark {
+        background-color: #5b5b5b30!important;
+    }
+    
+    footer .companyaddress p{
+        font-size: 18px;
+    }
+  
+    footer .companyicons i{
+        font-size: 16px;
+        padding-left: 10px;
+    }
+  
+    footer .copyright{
+        font-size: 15px;
+    }
+
+    footer .footerheading{
+        display: none;
+    }
+
+    footer .companyicons{
+        padding-top: 5px;
+        padding-left: 0px;
+    }
+}
+
+@media only screen and (max-width: 575px) and (min-width: 425px) {
+    .nav-item{
+        padding-top: 1px;
+        padding-right: 3px;
+        padding-bottom: 1px;
+        padding-left: 3px;
+        
+        font-size: 16px;
+    }
+    
+
+    .navbar-nav{
+        padding-left: 0vw;
+        align-items: center;
+    }
+
+    #navbarmain{
+        
+        padding-right: 25px;
+        padding-left: 25px;
+    }
+    
+    .navbarlogo img{
+        width: 120px;
+        height: 65px;
+    }
+
+    .companycontact .outlinecard{
+        width: 250px;
+    }
+
+    .companycontact .outlinecard123 .card-body{
+        width: 100px;
+    }
+
+    .companycontact .outlinecard123{
+        border: none;
+    }
+
+    .contactform{
+        padding-left: 50px;
+    }
+
+    .companycontact .info {
+        padding-left: 50px;
+    }
+
+    .companycontact .card-text{
+        font-size: 17px;
+        font-weight: 500;
+    }
+
+    .companycontact .card-title{
+        font-size: 60px;
+        padding-left: 70px;
+    }
+
+    .companycontact .row img{
+        width: 40px;
+        height: 40px;
+    }
+
+
+    #inputFirstName, #inputLastName, #FormControlInput1, #FormControlTextarea1{
+        width: 300px;
+    }
+
+    .bg-dark {
+        background-color: #5b5b5b30!important;
+    }
+    
+    footer .companyaddress p{
+        font-size: 18px;
+    }
+  
+    footer .companyicons i{
+        font-size: 16px;
+        padding-left: 10px;
+    }
+  
+    footer .copyright{
+        font-size: 15px;
+    }
+
+    footer .footerheading{
+        display: none;
+    }
+
+    footer .companyicons{
+        padding-top: 5px;
+        padding-left: 0px;
+    }
+}
+
+@media only screen and (max-width: 424px) and (min-width: 375px) {
+    .nav-item{
+        padding-top: 1px;
+        padding-right: 2px;
+        padding-bottom: 1px;
+        padding-left: 2px;
+        
+        font-size: 16px;
+    }
+    
+    #navbarmain{
+        
+        padding-right: 25px;
+        padding-left: 25px;
+    }
+    
+    .navbarlogo img{
+        width: 105px;
+        height: 50px;
+    }
+
+
+    .navbar-nav{
+        padding-left: 0vw;
+        align-items: center;
+    }
+
+    .companycontact .outlinecard{
+        width: 200px;
+    }
+
+    .companycontact .outlinecard123 .card-body{
+        width: 100px;
+    }
+
+    .companycontact .outlinecard123{
+        border: none;
+    }
+
+    .contactform{
+        padding-left: 20px;
+    }
+
+    .companycontact .info {
+        padding-left: 30px;
+    }
+
+    .companycontact .card-text{
+        font-size: 17px;
+        font-weight: 500;
+    }
+
+    .companycontact .card-title{
+        font-size: 50px;
+        padding-left: 40px;
+    }
+
+    .companycontact .row img{
+        width: 40px;
+        height: 40px;
+    }
+
+
+    #inputFirstName, #inputLastName, #FormControlInput1, #FormControlTextarea1{
+        width: 300px;
+    }
+
+    .bg-dark {
+        background-color: #5b5b5b30!important;
+    }
+    
+    footer .companyaddress p{
+        font-size: 18px;
+    }
+  
+    footer .companyicons i{
+        font-size: 16px;
+        padding-left: 10px;
+    }
+  
+    footer .copyright{
+        font-size: 15px;
+    }
+
+    footer .footerheading{
+        display: none;
+    }
+
+    footer .companyicons{
+        padding-top: 5px;
+        padding-left: 0px;
+    }
+}
+
+
+@media only screen and (max-width: 374px) and (min-width: 320px) {
+    .nav-item{
+        padding-top: 1px;
+        padding-right: 2px;
+        padding-bottom: 1px;
+        padding-left: 2px;
+        
+        font-size: 16px;
+    }
+    
+    #navbarmain{
+        
+        padding-right: 25px;
+        padding-left: 25px;
+    }
+    
+    .navbarlogo img{
+        width: 105px;
+        height: 50px;
+    }
+
+
+    .navbar-nav{
+        padding-left: 0vw;
+        align-items: center;
+    }
+
+    .companycontact .outlinecard{
+        width: 180px;
+    }
+
+    .companycontact .outlinecard123 .card-body{
+        width: 100px;
+    }
+
+    .companycontact .outlinecard123{
+        border: none;
+    }
+
+    .contactform{
+        padding-left: 20px;
+    }
+
+    .companycontact .info {
+        padding-left: 17px;
+    }
+
+    .companycontact .card-text{
+        font-size: 17px;
+        font-weight: 500;
+    }
+
+    .companycontact .card-title{
+        font-size: 50px;
+        padding-left: 40px;
+    }
+
+    .companycontact .row img{
+        width: 40px;
+        height: 40px;
+    }
+
+
+    #inputFirstName, #inputLastName, #FormControlInput1, #FormControlTextarea1{
+        width: 250px;
+    }
+
+    .bg-dark {
+        background-color: #5b5b5b30!important;
+    }
+    
+    footer .companyaddress p{
+        font-size: 18px;
+    }
+  
+    footer .companyicons i{
+        font-size: 16px;
+        padding-left: 10px;
+    }
+  
+    footer .copyright{
+        font-size: 15px;
+    }
+
+    footer .footerheading{
+        display: none;
+    }
+
+    footer .companyicons{
+        padding-top: 5px;
+        padding-left: 0px;
+    }
+}
